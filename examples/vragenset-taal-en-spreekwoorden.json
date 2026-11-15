@@ -1,0 +1,2560 @@
+{
+ "format": "puntquiz.bank.v1",
+ "questions": [
+  {
+   "text": "Maak het spreekwoord af: Een goed begin is …",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "de hele overwinning"
+    },
+    {
+     "id": "b",
+     "text": "het halve werk"
+    },
+    {
+     "id": "c",
+     "text": "al gewonnen"
+    },
+    {
+     "id": "d",
+     "text": "half verloren"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Wie goed begint, heeft al een groot deel gedaan.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "spreekwoorden"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Het gaat over werk."
+  },
+  {
+   "text": "Maak het spreekwoord af: Wie niet waagt, die …",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "niet wint"
+    },
+    {
+     "id": "b",
+     "text": "niet verliest"
+    },
+    {
+     "id": "c",
+     "text": "niet twijfelt"
+    },
+    {
+     "id": "d",
+     "text": "niet struikelt"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Je moet iets durven riskeren om iets te winnen.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "spreekwoorden"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Zonder risico geen winst."
+  },
+  {
+   "text": "Maak het spreekwoord af: Beter één vogel in de hand dan … in de lucht.",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "twee"
+    },
+    {
+     "id": "b",
+     "text": "honderd"
+    },
+    {
+     "id": "c",
+     "text": "een koppel"
+    },
+    {
+     "id": "d",
+     "text": "tien"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Liever een klein zeker voordeel dan een groot onzeker voordeel.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "spreekwoorden"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Een getal."
+  },
+  {
+   "text": "Maak het spreekwoord af: Waar rook is, is …",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "wind"
+    },
+    {
+     "id": "b",
+     "text": "as"
+    },
+    {
+     "id": "c",
+     "text": "vuur"
+    },
+    {
+     "id": "d",
+     "text": "vrees"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Een gerucht heeft meestal een kern van waarheid.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "spreekwoorden"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Het hoort bij hitte."
+  },
+  {
+   "text": "Maak het spreekwoord af: De appel valt niet ver van de …",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "tak"
+    },
+    {
+     "id": "b",
+     "text": "boom"
+    },
+    {
+     "id": "c",
+     "text": "grond"
+    },
+    {
+     "id": "d",
+     "text": "mand"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Kinderen lijken vaak op hun ouders.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "spreekwoorden"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Het gaat over familie."
+  },
+  {
+   "text": "Maak het spreekwoord af: Al te goed is …",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "buurmans gek"
+    },
+    {
+     "id": "b",
+     "text": "de buurman kwijt"
+    },
+    {
+     "id": "c",
+     "text": "dubbel zo duur"
+    },
+    {
+     "id": "d",
+     "text": "slecht voor je"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Wie te aardig is, wordt voor gek gezet of misbruikt.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "spreekwoorden"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Buurman."
+  },
+  {
+   "text": "Maak het spreekwoord af: Wie een kuil graaft voor een ander, valt er zelf …",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "uit"
+    },
+    {
+     "id": "b",
+     "text": "naast"
+    },
+    {
+     "id": "c",
+     "text": "achter"
+    },
+    {
+     "id": "d",
+     "text": "in"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Kwaad dat je een ander toewenst, treft vaak jezelf.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "spreekwoorden"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Het komt als een boemerang terug."
+  },
+  {
+   "text": "Maak het spreekwoord af: Oost, west, thuis …",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "niet"
+    },
+    {
+     "id": "b",
+     "text": "rust"
+    },
+    {
+     "id": "c",
+     "text": "best"
+    },
+    {
+     "id": "d",
+     "text": "veilig"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Het is nergens zo fijn als thuis.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "spreekwoorden"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Een thuiskomst."
+  },
+  {
+   "text": "Maak het spreekwoord af: Als de kat van huis is, dansen de … op tafel.",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "honden"
+    },
+    {
+     "id": "b",
+     "text": "muizen"
+    },
+    {
+     "id": "c",
+     "text": "vogels"
+    },
+    {
+     "id": "d",
+     "text": "kinderen"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Als de baas weg is, doen de anderen waar ze zin in hebben.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "spreekwoorden"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Kleine knaagdieren."
+  },
+  {
+   "text": "Maak het spreekwoord af: Een gegeven paard moet je niet in de … kijken.",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "bek"
+    },
+    {
+     "id": "b",
+     "text": "ogen"
+    },
+    {
+     "id": "c",
+     "text": "oren"
+    },
+    {
+     "id": "d",
+     "text": "stal"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Wees dankbaar voor een cadeau en kijk niet naar de waarde.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "spreekwoorden"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Een lichaamsdeel van het paard."
+  },
+  {
+   "text": "Maak het spreekwoord af: Spreken is zilver, zwijgen is …",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "brons"
+    },
+    {
+     "id": "b",
+     "text": "diamant"
+    },
+    {
+     "id": "c",
+     "text": "platina"
+    },
+    {
+     "id": "d",
+     "text": "goud"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Soms is het beter niets te zeggen.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "spreekwoorden"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Een edelmetaal."
+  },
+  {
+   "text": "Maak het spreekwoord af: De kost gaat voor de … uit.",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "straat"
+    },
+    {
+     "id": "b",
+     "text": "maat"
+    },
+    {
+     "id": "c",
+     "text": "baat"
+    },
+    {
+     "id": "d",
+     "text": "buurt"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Eerst moet je geld of moeite steken in iets voor je er voordeel van hebt.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "spreekwoorden"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Wie investeert, moet eerst uitgeven."
+  },
+  {
+   "text": "Maak het spreekwoord af: Het hemd is nader dan de …",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "broek"
+    },
+    {
+     "id": "b",
+     "text": "rok"
+    },
+    {
+     "id": "c",
+     "text": "jas"
+    },
+    {
+     "id": "d",
+     "text": "schoen"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Je eigen belang gaat voor dat van een ander.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "spreekwoorden"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Kleding."
+  },
+  {
+   "text": "Maak het spreekwoord af: Na regen komt …",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "zonneschijn"
+    },
+    {
+     "id": "b",
+     "text": "wind"
+    },
+    {
+     "id": "c",
+     "text": "vorst"
+    },
+    {
+     "id": "d",
+     "text": "mist"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Na moeilijke tijden komen weer betere.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "spreekwoorden"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Het weer wordt weer beter."
+  },
+  {
+   "text": "Maak het spreekwoord af: Elk huisje heeft zijn …",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "kamertje"
+    },
+    {
+     "id": "b",
+     "text": "dakje"
+    },
+    {
+     "id": "c",
+     "text": "tuintje"
+    },
+    {
+     "id": "d",
+     "text": "kruisje"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Iedereen heeft zijn eigen zorgen.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "spreekwoorden"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Een kleiner woord dan \"last\"."
+  },
+  {
+   "text": "Maak het spreekwoord af: Gedeelde smart is …",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "dubbele smart"
+    },
+    {
+     "id": "b",
+     "text": "geen smart"
+    },
+    {
+     "id": "c",
+     "text": "halve smart"
+    },
+    {
+     "id": "d",
+     "text": "ware smart"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Verdriet is draaglijker als je het met iemand deelt.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "spreekwoorden"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Je krijgt het van een ander."
+  },
+  {
+   "text": "Maak het spreekwoord af: Voorkomen is beter dan …",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "verhelpen"
+    },
+    {
+     "id": "b",
+     "text": "genezen"
+    },
+    {
+     "id": "c",
+     "text": "vergeten"
+    },
+    {
+     "id": "d",
+     "text": "vermijden"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Het is beter een probleem te voorkomen dan het achteraf op te lossen.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "spreekwoorden"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Het gaat over problemen."
+  },
+  {
+   "text": "Maak het spreekwoord af: Een ongeluk komt zelden …",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "alleen"
+    },
+    {
+     "id": "b",
+     "text": "op tijd"
+    },
+    {
+     "id": "c",
+     "text": "gelegen"
+    },
+    {
+     "id": "d",
+     "text": "snel"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Pech komt vaak in een reeks.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "spreekwoorden"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Het komt vaak met anderen."
+  },
+  {
+   "text": "Maak het spreekwoord af: De aanhouder …",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "verliest"
+    },
+    {
+     "id": "b",
+     "text": "wacht"
+    },
+    {
+     "id": "c",
+     "text": "zwijgt"
+    },
+    {
+     "id": "d",
+     "text": "wint"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Wie doorzet, bereikt uiteindelijk zijn doel.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "spreekwoorden"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Wie volhoudt."
+  },
+  {
+   "text": "Maak het spreekwoord af: Wie het kleine niet eert, is het … niet weert.",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "mooie"
+    },
+    {
+     "id": "b",
+     "text": "beste"
+    },
+    {
+     "id": "c",
+     "text": "grote"
+    },
+    {
+     "id": "d",
+     "text": "hoge"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Wie kleine dingen niet waardeert, verdient grote dingen niet.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "spreekwoorden"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Het tegengestelde van klein."
+  },
+  {
+   "text": "Wat betekent \"een appeltje voor de dorst bewaren\"?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Iets lekkers eten na de maaltijd"
+    },
+    {
+     "id": "b",
+     "text": "Geld of voorraad bewaren voor slechtere tijden"
+    },
+    {
+     "id": "c",
+     "text": "Een gezonde snack meenemen"
+    },
+    {
+     "id": "d",
+     "text": "Fruit cadeau doen"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Een appeltje voor de dorst is een reserve voor als het tegenzit.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "uitdrukkingen"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Het gaat over later."
+  },
+  {
+   "text": "Wat betekent \"voor Jan met de korte achternaam\"?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Vergeefs, voor niets"
+    },
+    {
+     "id": "b",
+     "text": "Heel snel"
+    },
+    {
+     "id": "c",
+     "text": "Op een grappige manier"
+    },
+    {
+     "id": "d",
+     "text": "Voor iemand die je goed kent"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Wie iets \"voor Jan met de korte achternaam\" doet, heeft er niets aan.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "uitdrukkingen"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Zonder resultaat."
+  },
+  {
+   "text": "Wat betekent \"een kat in de zak kopen\"?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Een huisdier adopteren"
+    },
+    {
+     "id": "b",
+     "text": "Iets duurs kopen"
+    },
+    {
+     "id": "c",
+     "text": "Een slechte deal sluiten"
+    },
+    {
+     "id": "d",
+     "text": "Iets kopen zonder het goed te kunnen controleren"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Je weet pas wat je hebt als de zak open is.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "uitdrukkingen"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Je ziet het niet vooraf."
+  },
+  {
+   "text": "Wat betekent \"spijkers met koppen slaan\"?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Hard werken zonder resultaat"
+    },
+    {
+     "id": "b",
+     "text": "Iets kapotmaken"
+    },
+    {
+     "id": "c",
+     "text": "Doelgericht en goed werk leveren"
+    },
+    {
+     "id": "d",
+     "text": "Zonder plan beginnen"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Wie spijkers met koppen slaat, pakt iets degelijk aan.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "uitdrukkingen"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Doortastend zijn."
+  },
+  {
+   "text": "Wat betekent \"het gras voor iemands voeten wegmaaien\"?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Iemand helpen"
+    },
+    {
+     "id": "b",
+     "text": "Iemand een kans of voordeel afpakken"
+    },
+    {
+     "id": "c",
+     "text": "Iemand achtervolgen"
+    },
+    {
+     "id": "d",
+     "text": "Iemand voorgaan"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Je neemt iemands mogelijkheden weg voordat hij ze kan benutten.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "uitdrukkingen"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Iemand de pas afsnijden."
+  },
+  {
+   "text": "Wat betekent \"door het oog van de naald kruipen\"?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Ternauwernood ontsnappen aan iets vervelends"
+    },
+    {
+     "id": "b",
+     "text": "Heel handig knutselen"
+    },
+    {
+     "id": "c",
+     "text": "Door een gat kruipen"
+    },
+    {
+     "id": "d",
+     "text": "Zich verstoppen"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Het scheelde maar heel weinig of het was misgegaan.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "uitdrukkingen"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Een nipte ontsnapping."
+  },
+  {
+   "text": "Wat betekent \"iemand een hak zetten\"?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Iemand helpen"
+    },
+    {
+     "id": "b",
+     "text": "Een schoen repareren"
+    },
+    {
+     "id": "c",
+     "text": "Iemand uitlachen"
+    },
+    {
+     "id": "d",
+     "text": "Iemand benadelen of dwarsbomen"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Je bezorgt iemand bewust een nadeel.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "uitdrukkingen"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Het is niet aardig."
+  },
+  {
+   "text": "Wat betekent \"bij de pinken zijn\"?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Hard kunnen rennen"
+    },
+    {
+     "id": "b",
+     "text": "Ziek zijn"
+    },
+    {
+     "id": "c",
+     "text": "Slim en alert zijn"
+    },
+    {
+     "id": "d",
+     "text": "Heel kleurrijk zijn"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Wie bij de pinken is, ziet snel wat er speelt.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "uitdrukkingen"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Het gaat om geest."
+  },
+  {
+   "text": "Wat betekent \"uit een ander vaatje tappen\"?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Iets anders drinken"
+    },
+    {
+     "id": "b",
+     "text": "Een andere toon of aanpak kiezen"
+    },
+    {
+     "id": "c",
+     "text": "Zich zorgen maken"
+    },
+    {
+     "id": "d",
+     "text": "Meer verdienen"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Je stapt over op een strengere of andere manier van doen.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "uitdrukkingen"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Een andere toon."
+  },
+  {
+   "text": "Wat betekent \"in de wolken zijn\"?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Erg blij en tevreden zijn"
+    },
+    {
+     "id": "b",
+     "text": "Hoog vliegen"
+    },
+    {
+     "id": "c",
+     "text": "Boos zijn"
+    },
+    {
+     "id": "d",
+     "text": "Moe zijn"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Wie in de wolken is, is dolgelukkig.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "uitdrukkingen"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Een gevoel."
+  },
+  {
+   "text": "Wat betekent \"het schip ingaan\"?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Op reis gaan"
+    },
+    {
+     "id": "b",
+     "text": "Beginnen aan iets nieuws"
+    },
+    {
+     "id": "c",
+     "text": "Gered worden"
+    },
+    {
+     "id": "d",
+     "text": "Mislukken"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Een plan dat het schip ingaat, loopt op niets uit.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "uitdrukkingen"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Een mislukking."
+  },
+  {
+   "text": "Wat betekent \"de kogel is door de kerk\"?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Er is een ramp gebeurd"
+    },
+    {
+     "id": "b",
+     "text": "Iemand is gewond"
+    },
+    {
+     "id": "c",
+     "text": "De beslissing is genomen"
+    },
+    {
+     "id": "d",
+     "text": "Het is te laat"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Er valt niets meer aan te veranderen.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "uitdrukkingen"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Er is iets besloten."
+  },
+  {
+   "text": "Wat betekent \"met de deur in huis vallen\"?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Binnenvallen"
+    },
+    {
+     "id": "b",
+     "text": "Direct ter zake komen, zonder inleiding"
+    },
+    {
+     "id": "c",
+     "text": "Een ruzie beginnen"
+    },
+    {
+     "id": "d",
+     "text": "Binnenkomen zonder te kloppen"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Je begint meteen over wat je wilt zeggen, zonder inleiding.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "uitdrukkingen"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Je begint abrupt."
+  },
+  {
+   "text": "Wat betekent \"een storm in een glas water\"?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Veel ophef om niets"
+    },
+    {
+     "id": "b",
+     "text": "Een kleine overstroming"
+    },
+    {
+     "id": "c",
+     "text": "Een rustige dag"
+    },
+    {
+     "id": "d",
+     "text": "Een zware bui"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Een kleine zaak wordt veel groter gemaakt dan nodig.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "uitdrukkingen"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Het is weinig."
+  },
+  {
+   "text": "Wat betekent \"roeien met de riemen die je hebt\"?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Slecht kunnen roeien"
+    },
+    {
+     "id": "b",
+     "text": "Samen werken"
+    },
+    {
+     "id": "c",
+     "text": "Een nieuwe boot kopen"
+    },
+    {
+     "id": "d",
+     "text": "Het doen met de middelen die beschikbaar zijn"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Je maakt er het beste van met wat je hebt.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "uitdrukkingen"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Je hebt weinig."
+  },
+  {
+   "text": "Wat betekent \"water naar de zee dragen\"?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Heel hard werken"
+    },
+    {
+     "id": "b",
+     "text": "Veel geld uitgeven"
+    },
+    {
+     "id": "c",
+     "text": "Iets nutteloos doen"
+    },
+    {
+     "id": "d",
+     "text": "Een boot laden"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "In de zee is al genoeg water, dus extra water brengen helpt niet.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "uitdrukkingen"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Het heeft geen zin."
+  },
+  {
+   "text": "Wat betekent \"op zijn lauweren rusten\"?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Zich verstoppen"
+    },
+    {
+     "id": "b",
+     "text": "Tevreden achteroverleunen na een succes"
+    },
+    {
+     "id": "c",
+     "text": "Hard werken voor het volgende doel"
+    },
+    {
+     "id": "d",
+     "text": "Ziek zijn"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Je rust uit op eerdere successen, in plaats van door te gaan.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "uitdrukkingen"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Je ligt achterover."
+  },
+  {
+   "text": "Wat betekent \"het ei van Columbus\"?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Een verrassend eenvoudige oplossing"
+    },
+    {
+     "id": "b",
+     "text": "Een moeilijk probleem"
+    },
+    {
+     "id": "c",
+     "text": "Een kapotte vondst"
+    },
+    {
+     "id": "d",
+     "text": "Een oude uitvinding"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Pas als iemand het voordoet, lijkt de oplossing vanzelfsprekend.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "uitdrukkingen"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Een slimme vondst."
+  },
+  {
+   "text": "Wat betekent \"zijn hart ophalen\"?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Heimwee hebben"
+    },
+    {
+     "id": "b",
+     "text": "Een operatie ondergaan"
+    },
+    {
+     "id": "c",
+     "text": "Verdrietig zijn"
+    },
+    {
+     "id": "d",
+     "text": "Naar hartenlust genieten van iets"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Je krijgt ruim de kans om te doen wat je leuk vindt.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "uitdrukkingen"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Het is genieten."
+  },
+  {
+   "text": "Wat betekent \"iemand de hand boven het hoofd houden\"?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Iemand slaan"
+    },
+    {
+     "id": "b",
+     "text": "Iemand begroeten"
+    },
+    {
+     "id": "c",
+     "text": "Iemand beschermen"
+    },
+    {
+     "id": "d",
+     "text": "Iemand helpen met schrijven"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Je beschermt iemand tegen straf of gevaar.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "uitdrukkingen"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Bescherming."
+  },
+  {
+   "text": "Hoe heet een woord dat van voren naar achteren dezelfde letters heeft als van achteren naar voren?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Anagram"
+    },
+    {
+     "id": "b",
+     "text": "Palindroom"
+    },
+    {
+     "id": "c",
+     "text": "Acroniem"
+    },
+    {
+     "id": "d",
+     "text": "Homoniem"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Een palindroom leest van beide kanten hetzelfde, zoals lepel of parterretrap.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "taalkunde"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Denk aan \"lepel\"."
+  },
+  {
+   "text": "Welk van deze woorden is een palindroom?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "lepel"
+    },
+    {
+     "id": "b",
+     "text": "regen"
+    },
+    {
+     "id": "c",
+     "text": "tafel"
+    },
+    {
+     "id": "d",
+     "text": "water"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Lepel geeft van achteren naar voren weer lepel.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "taalkunde"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Lees van achteren naar voren."
+  },
+  {
+   "text": "Hoe heet een woord dat klinkt als wat het betekent, zoals \"boem\" of \"mauw\"?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Pleonasme"
+    },
+    {
+     "id": "b",
+     "text": "Metafoor"
+    },
+    {
+     "id": "c",
+     "text": "Eufemisme"
+    },
+    {
+     "id": "d",
+     "text": "Onomatopee"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Een onomatopee bootst een geluid na.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "taalkunde"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Klanknabootsing."
+  },
+  {
+   "text": "Hoe heet het wanneer je iets sterk overdrijft, zoals \"ik sta al uren te wachten\"?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Metafoor"
+    },
+    {
+     "id": "b",
+     "text": "Eufemisme"
+    },
+    {
+     "id": "c",
+     "text": "Hyperbool"
+    },
+    {
+     "id": "d",
+     "text": "Ironie"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Een hyperbool is een bewuste overdrijving.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "taalkunde"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Veel groter dan het is."
+  },
+  {
+   "text": "Wat is een eufemisme?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Een overdrijving"
+    },
+    {
+     "id": "b",
+     "text": "Een mooiere of zachtere uitdrukking voor iets onaangenaams"
+    },
+    {
+     "id": "c",
+     "text": "Een herhaling"
+    },
+    {
+     "id": "d",
+     "text": "Een vergelijking"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Bijvoorbeeld \"heengaan\" voor sterven.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "taalkunde"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Een verzachte uitdrukking."
+  },
+  {
+   "text": "Wat is een metafoor?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Een beeldspraak zonder \"als\", zoals \"hij is een leeuw\""
+    },
+    {
+     "id": "b",
+     "text": "Een woord met twee betekenissen"
+    },
+    {
+     "id": "c",
+     "text": "Een woord dat klinkt als zijn betekenis"
+    },
+    {
+     "id": "d",
+     "text": "Een afkorting"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Je noemt iets wat het niet letterlijk is, om een eigenschap te benadrukken.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "taalkunde"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Beeldspraak."
+  },
+  {
+   "text": "Wat is een pleonasme?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Een overdrijving"
+    },
+    {
+     "id": "b",
+     "text": "Een tegenstelling"
+    },
+    {
+     "id": "c",
+     "text": "Een citaat"
+    },
+    {
+     "id": "d",
+     "text": "Een overbodige toevoeging, zoals \"witte sneeuw\""
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "In \"witte sneeuw\" zit \"wit\" al in het woord sneeuw.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "taalkunde"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Een overbodig woord."
+  },
+  {
+   "text": "Welk woord heeft twee betekenissen: een zitmeubel en een geldinstelling?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Kast"
+    },
+    {
+     "id": "b",
+     "text": "Kassa"
+    },
+    {
+     "id": "c",
+     "text": "Bank"
+    },
+    {
+     "id": "d",
+     "text": "Stoel"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Dit noemen we een homoniem: hetzelfde woord, verschillende betekenissen.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "taalkunde"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Daar kun je op zitten of geld zetten."
+  },
+  {
+   "text": "Welke woordsoort is \"snelle\" in \"een snelle auto\"?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Werkwoord"
+    },
+    {
+     "id": "b",
+     "text": "Bijvoeglijk naamwoord"
+    },
+    {
+     "id": "c",
+     "text": "Zelfstandig naamwoord"
+    },
+    {
+     "id": "d",
+     "text": "Bijwoord"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Een bijvoeglijk naamwoord zegt iets over een zelfstandig naamwoord.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "taalkunde"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Het zegt iets over de auto."
+  },
+  {
+   "text": "Hoe heet het lidwoord in \"een huis\"?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Onbepaald lidwoord"
+    },
+    {
+     "id": "b",
+     "text": "Bepaald lidwoord"
+    },
+    {
+     "id": "c",
+     "text": "Voornaamwoord"
+    },
+    {
+     "id": "d",
+     "text": "Telwoord"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "\"Een\" is het onbepaalde lidwoord; \"de\" en \"het\" zijn bepaald.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "taalkunde"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Het is niet \"het\" of \"de\"."
+  },
+  {
+   "text": "Wat betekent de afkorting \"d.w.z.\"?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Dat wordt zeker"
+    },
+    {
+     "id": "b",
+     "text": "De wereldzaak"
+    },
+    {
+     "id": "c",
+     "text": "Door wederzijds zijn"
+    },
+    {
+     "id": "d",
+     "text": "Dat wil zeggen"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "\"D.w.z.\" leidt een uitleg of toelichting in.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "taalkunde"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Een uitleg."
+  },
+  {
+   "text": "Wat betekent de afkorting \"a.u.b.\"?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Altijd uw beste"
+    },
+    {
+     "id": "b",
+     "text": "Als u bevestigt"
+    },
+    {
+     "id": "c",
+     "text": "Alstublieft"
+    },
+    {
+     "id": "d",
+     "text": "Allemaal ultiem beleefd"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "\"A.u.b.\" staat voor \"alstublieft\".",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "taalkunde"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Een beleefde vraag."
+  },
+  {
+   "text": "Wat is het meervoud van \"stad\"?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "stads"
+    },
+    {
+     "id": "b",
+     "text": "steden"
+    },
+    {
+     "id": "c",
+     "text": "stadden"
+    },
+    {
+     "id": "d",
+     "text": "stadjes"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Het meervoud van stad is steden.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "spelling"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Er komt een andere klinker."
+  },
+  {
+   "text": "Wat is het meervoud van \"ei\"?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "eieren"
+    },
+    {
+     "id": "b",
+     "text": "eien"
+    },
+    {
+     "id": "c",
+     "text": "eis"
+    },
+    {
+     "id": "d",
+     "text": "eiers"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Het meervoud van ei is eieren.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "spelling"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Een bijzonder meervoud."
+  },
+  {
+   "text": "Wat is het meervoud van \"datum\"?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "datumen"
+    },
+    {
+     "id": "b",
+     "text": "datae"
+    },
+    {
+     "id": "c",
+     "text": "datuma"
+    },
+    {
+     "id": "d",
+     "text": "data"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Data is het meervoud van datum (datums kan ook, maar data is gebruikelijker).",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "spelling"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Een Latijns woord."
+  },
+  {
+   "text": "Wat is het verkleinwoord van \"tafel\"?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "tafelke"
+    },
+    {
+     "id": "b",
+     "text": "tafeltjes"
+    },
+    {
+     "id": "c",
+     "text": "tafeltje"
+    },
+    {
+     "id": "d",
+     "text": "tafelje"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Verkleinwoorden krijgen -tje, -je, -etje, -pje of -kje.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "spelling"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Eindigt op -tje."
+  },
+  {
+   "text": "Wat is de verleden tijd van \"zwemmen\" (ik …)?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "zwemde"
+    },
+    {
+     "id": "b",
+     "text": "zwom"
+    },
+    {
+     "id": "c",
+     "text": "zwam"
+    },
+    {
+     "id": "d",
+     "text": "zwomde"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Zwemmen is een sterk werkwoord: ik zwom, ik heb gezwommen.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "spelling"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Er verandert een klinker."
+  },
+  {
+   "text": "Hoe luidt het voltooid deelwoord van \"fietsen\"?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "gefietst"
+    },
+    {
+     "id": "b",
+     "text": "gefiets"
+    },
+    {
+     "id": "c",
+     "text": "gefietsd"
+    },
+    {
+     "id": "d",
+     "text": "gefietste"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De stam fiets eindigt op een s; volgens de regel van ’t kofschip krijgt het deelwoord dan -t.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "spelling"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Hij heeft …"
+  },
+  {
+   "text": "Welke spelling is juist: \"Hij ... het huis.\"",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "word"
+    },
+    {
+     "id": "b",
+     "text": "wort"
+    },
+    {
+     "id": "c",
+     "text": "wordd"
+    },
+    {
+     "id": "d",
+     "text": "wordt"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Bij hij/zij/het krijgt het werkwoord worden de -t: hij wordt.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "spelling"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Denk aan wordt/word."
+  },
+  {
+   "text": "Hoeveel letters heeft het Nederlandse alfabet?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "24"
+    },
+    {
+     "id": "b",
+     "text": "28"
+    },
+    {
+     "id": "c",
+     "text": "26"
+    },
+    {
+     "id": "d",
+     "text": "30"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Het alfabet telt 26 letters.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "spelling"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Net als het Engelse."
+  },
+  {
+   "text": "Welke letter komt het meest voor in geschreven Nederlands?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "a"
+    },
+    {
+     "id": "b",
+     "text": "e"
+    },
+    {
+     "id": "c",
+     "text": "n"
+    },
+    {
+     "id": "d",
+     "text": "t"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De e is de meest voorkomende letter in het Nederlands.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "spelling"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Een klinker."
+  },
+  {
+   "text": "Hoeveel lettergrepen heeft \"bibliotheek\"?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Vier"
+    },
+    {
+     "id": "b",
+     "text": "Drie"
+    },
+    {
+     "id": "c",
+     "text": "Vijf"
+    },
+    {
+     "id": "d",
+     "text": "Zes"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Bi-bli-o-theek heeft vier lettergrepen.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "spelling"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Splits het woord in stukken."
+  },
+  {
+   "text": "Welke kleur heeft het boekje waarin de officiële Nederlandse spelling staat?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Rood"
+    },
+    {
+     "id": "b",
+     "text": "Blauw"
+    },
+    {
+     "id": "c",
+     "text": "Geel"
+    },
+    {
+     "id": "d",
+     "text": "Groen"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Het \"Groene Boekje\" is de officiële woordenlijst van de Nederlandse taal.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "taalfeiten"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Natuurkleur."
+  },
+  {
+   "text": "Hoe heet het grote Nederlandse woordenboek, bekend als \"de dikke ...\"?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Koenen"
+    },
+    {
+     "id": "b",
+     "text": "Winkler Prins"
+    },
+    {
+     "id": "c",
+     "text": "Van Dale"
+    },
+    {
+     "id": "d",
+     "text": "Prisma"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De dikke Van Dale is het Groot woordenboek der Nederlandse taal.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "taalfeiten"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Naam van een uitgeverij."
+  },
+  {
+   "text": "Welke taal wordt in Zuid-Afrika gesproken en lijkt sterk op het Nederlands?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Zoeloe"
+    },
+    {
+     "id": "b",
+     "text": "Afrikaans"
+    },
+    {
+     "id": "c",
+     "text": "Engels"
+    },
+    {
+     "id": "d",
+     "text": "Swahili"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Het Afrikaans is voortgekomen uit het zeventiende-eeuwse Nederlands.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "taalfeiten"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Het is een jonge taal."
+  },
+  {
+   "text": "In welke provincie is naast Nederlands ook Fries een officiële taal?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Fryslân"
+    },
+    {
+     "id": "b",
+     "text": "Groningen"
+    },
+    {
+     "id": "c",
+     "text": "Drenthe"
+    },
+    {
+     "id": "d",
+     "text": "Zeeland"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "In Fryslân is het Fries naast het Nederlands officieel.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "taalfeiten"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Leeuwarden is de hoofdstad."
+  },
+  {
+   "text": "In welke landen is Nederlands (mede) officiële taal?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Alleen Nederland en België"
+    },
+    {
+     "id": "b",
+     "text": "Nederland, Duitsland en België"
+    },
+    {
+     "id": "c",
+     "text": "Nederland, Zuid-Afrika en Namibië"
+    },
+    {
+     "id": "d",
+     "text": "Nederland, België en Suriname"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Nederlandse Taalunie omvat Nederland, Vlaanderen en Suriname.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "taalfeiten"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Meer dan twee."
+  },
+  {
+   "text": "Wat betekent \"goesting\" in Vlaanderen?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Geluk"
+    },
+    {
+     "id": "b",
+     "text": "Ruzie"
+    },
+    {
+     "id": "c",
+     "text": "Zin of trek in iets"
+    },
+    {
+     "id": "d",
+     "text": "Weinig geld"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "\"Goesting hebben in iets\" is zin hebben in iets.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "taalfeiten"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Een zin om iets te doen."
+  },
+  {
+   "text": "Wat betekent \"allez\" in Vlaanderen?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Alsjeblieft"
+    },
+    {
+     "id": "b",
+     "text": "Vooruit, kom op"
+    },
+    {
+     "id": "c",
+     "text": "Tot ziens"
+    },
+    {
+     "id": "d",
+     "text": "Goedemorgen"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "\"Allez\" komt uit het Frans (allons) en betekent zoiets als \"vooruit\".",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "taalfeiten"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Een uitroep."
+  },
+  {
+   "text": "Wat is het Nederlandse woord voor \"trottoir\"?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Stoep"
+    },
+    {
+     "id": "b",
+     "text": "Plein"
+    },
+    {
+     "id": "c",
+     "text": "Straat"
+    },
+    {
+     "id": "d",
+     "text": "Pad"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Stoep is het Nederlandse woord, naast het Franse leenwoord trottoir.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "taalfeiten"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Het ligt langs de weg."
+  },
+  {
+   "text": "Uit welke taal komt het woord \"koffie\" oorspronkelijk?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Frans"
+    },
+    {
+     "id": "b",
+     "text": "Perzisch"
+    },
+    {
+     "id": "c",
+     "text": "Spaans"
+    },
+    {
+     "id": "d",
+     "text": "Arabisch"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Koffie komt van het Arabische \"qahwa\".",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "taalfeiten"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Het is via het Turks en Italiaans naar ons gekomen."
+  },
+  {
+   "text": "Wat is een synoniem van \"snel\"?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "traag"
+    },
+    {
+     "id": "b",
+     "text": "laat"
+    },
+    {
+     "id": "c",
+     "text": "vlug"
+    },
+    {
+     "id": "d",
+     "text": "zwaar"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Snel en vlug betekenen hetzelfde.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "taalfeiten"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Een ander woord voor hetzelfde."
+  },
+  {
+   "text": "Wat is het tegenovergestelde van \"zuinig\"?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "spaarzaam"
+    },
+    {
+     "id": "b",
+     "text": "verkwistend"
+    },
+    {
+     "id": "c",
+     "text": "netjes"
+    },
+    {
+     "id": "d",
+     "text": "gierig"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Een zuinig iemand spaart; een verkwistend iemand geeft veel uit.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "taal",
+    "taalfeiten"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Een andere houding tegenover geld."
+  }
+ ]
+}

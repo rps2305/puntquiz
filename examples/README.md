@@ -26,3 +26,7 @@ De vragen zijn zelf geschreven en vrij te gebruiken (MIT, zoals de rest van de r
 ## Vragenset muziek
 
 `vragenset-muziek.json` heeft 48 muziekvragen: 22 echte muziekvragen met een YouTube-fragment (artiest, titel en jaar scoren los; de video is voor de presentator en niet voor de spelers zichtbaar) en 26 meerkeuzevragen over muziek. Alle video-ID's zijn gecontroleerd op bestaan en insluitbaarheid. De fragmenten beginnen aan het begin van de video; de presentator stopt de muziek zelf.
+
+## Vragenset taal en spreekwoorden
+
+`vragenset-taal-en-spreekwoorden.json` heeft 73 meerkeuzevragen: 20 spreekwoorden om af te maken, 20 uitdrukkingen met hun betekenis, 12 over taalkundige begrippen (palindroom, metafoor, pleonasme), 10 over spelling en grammatica en 11 taalfeiten (Groene Boekje, Afrikaans, Vlaamse woorden). Filter in de vragenbank op de tags `spreekwoorden`, `uitdrukkingen`, `taalkunde`, `spelling` of `taalfeiten`.
