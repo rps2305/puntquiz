@@ -1,0 +1,1674 @@
+{
+ "format": "puntquiz.bank.v1",
+ "questions": [
+  {
+   "text": "Welk nummer hoor je? (fragment 1)",
+   "type": "MUSIC",
+   "options": [],
+   "correct": [],
+   "points": 10,
+   "seconds": 60,
+   "explanation": "Queen — Bohemian Rhapsody (1975).",
+   "category": "Muziek",
+   "tags": [
+    "muziek",
+    "fragment"
+   ],
+   "source": "YouTube (officiële video of kanaal van de artiest)",
+   "hint": "Rockballade met een operagedeelte.",
+   "media": [
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/watch?v=fJ9rUzIMcZQ",
+     "players": false
+    }
+   ],
+   "config": {
+    "artist": [
+     "Queen"
+    ],
+    "title": [
+     "Bohemian Rhapsody"
+    ],
+    "year": 1975,
+    "artistPoints": 3,
+    "titlePoints": 3,
+    "yearPoints": 4
+   }
+  },
+  {
+   "text": "Welk nummer hoor je? (fragment 2)",
+   "type": "MUSIC",
+   "options": [],
+   "correct": [],
+   "points": 10,
+   "seconds": 60,
+   "explanation": "Rick Astley — Never Gonna Give You Up (1987).",
+   "category": "Muziek",
+   "tags": [
+    "muziek",
+    "fragment"
+   ],
+   "source": "YouTube (officiële video of kanaal van de artiest)",
+   "hint": "Internetklassieker waarmee je mensen \"rickrolt\".",
+   "media": [
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+     "players": false
+    }
+   ],
+   "config": {
+    "artist": [
+     "Rick Astley"
+    ],
+    "title": [
+     "Never Gonna Give You Up"
+    ],
+    "year": 1987,
+    "artistPoints": 3,
+    "titlePoints": 3,
+    "yearPoints": 4
+   }
+  },
+  {
+   "text": "Welk nummer hoor je? (fragment 3)",
+   "type": "MUSIC",
+   "options": [],
+   "correct": [],
+   "points": 10,
+   "seconds": 60,
+   "explanation": "Michael Jackson — Billie Jean (1983).",
+   "category": "Muziek",
+   "tags": [
+    "muziek",
+    "fragment"
+   ],
+   "source": "YouTube (officiële video of kanaal van de artiest)",
+   "hint": "Beroemd om de moonwalk.",
+   "media": [
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/watch?v=Zi_XLOBDo_Y",
+     "players": false
+    }
+   ],
+   "config": {
+    "artist": [
+     "Michael Jackson"
+    ],
+    "title": [
+     "Billie Jean"
+    ],
+    "year": 1983,
+    "artistPoints": 3,
+    "titlePoints": 3,
+    "yearPoints": 4
+   }
+  },
+  {
+   "text": "Welk nummer hoor je? (fragment 4)",
+   "type": "MUSIC",
+   "options": [],
+   "correct": [],
+   "points": 10,
+   "seconds": 60,
+   "explanation": "Nirvana — Smells Like Teen Spirit (1991).",
+   "category": "Muziek",
+   "tags": [
+    "muziek",
+    "fragment"
+   ],
+   "source": "YouTube (officiële video of kanaal van de artiest)",
+   "hint": "Grunge-hymne uit Seattle.",
+   "media": [
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/watch?v=hTWKbfoikeg",
+     "players": false
+    }
+   ],
+   "config": {
+    "artist": [
+     "Nirvana"
+    ],
+    "title": [
+     "Smells Like Teen Spirit"
+    ],
+    "year": 1991,
+    "artistPoints": 3,
+    "titlePoints": 3,
+    "yearPoints": 4
+   }
+  },
+  {
+   "text": "Welk nummer hoor je? (fragment 5)",
+   "type": "MUSIC",
+   "options": [],
+   "correct": [],
+   "points": 10,
+   "seconds": 60,
+   "explanation": "John Lennon — Imagine (1971).",
+   "category": "Muziek",
+   "tags": [
+    "muziek",
+    "fragment"
+   ],
+   "source": "YouTube (officiële video of kanaal van de artiest)",
+   "hint": "Een pianoballade over een wereld zonder grenzen.",
+   "media": [
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/watch?v=YkgkThdzX-8",
+     "players": false
+    }
+   ],
+   "config": {
+    "artist": [
+     "John Lennon",
+     "Lennon"
+    ],
+    "title": [
+     "Imagine"
+    ],
+    "year": 1971,
+    "artistPoints": 3,
+    "titlePoints": 3,
+    "yearPoints": 4
+   }
+  },
+  {
+   "text": "Welk nummer hoor je? (fragment 6)",
+   "type": "MUSIC",
+   "options": [],
+   "correct": [],
+   "points": 10,
+   "seconds": 60,
+   "explanation": "a-ha — Take On Me (1985).",
+   "category": "Muziek",
+   "tags": [
+    "muziek",
+    "fragment"
+   ],
+   "source": "YouTube (officiële video of kanaal van de artiest)",
+   "hint": "Video waarin een tekenfilm tot leven komt.",
+   "media": [
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/watch?v=djV11Xbc914",
+     "players": false
+    }
+   ],
+   "config": {
+    "artist": [
+     "a-ha",
+     "aha"
+    ],
+    "title": [
+     "Take On Me"
+    ],
+    "year": 1985,
+    "artistPoints": 3,
+    "titlePoints": 3,
+    "yearPoints": 4
+   }
+  },
+  {
+   "text": "Welk nummer hoor je? (fragment 7)",
+   "type": "MUSIC",
+   "options": [],
+   "correct": [],
+   "points": 10,
+   "seconds": 60,
+   "explanation": "Oasis — Wonderwall (1995).",
+   "category": "Muziek",
+   "tags": [
+    "muziek",
+    "fragment"
+   ],
+   "source": "YouTube (officiële video of kanaal van de artiest)",
+   "hint": "Britpop van de gebroeders Gallagher.",
+   "media": [
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/watch?v=6hzrDeceEKc",
+     "players": false
+    }
+   ],
+   "config": {
+    "artist": [
+     "Oasis"
+    ],
+    "title": [
+     "Wonderwall"
+    ],
+    "year": 1995,
+    "artistPoints": 3,
+    "titlePoints": 3,
+    "yearPoints": 4
+   }
+  },
+  {
+   "text": "Welk nummer hoor je? (fragment 8)",
+   "type": "MUSIC",
+   "options": [],
+   "correct": [],
+   "points": 10,
+   "seconds": 60,
+   "explanation": "Guns N' Roses — Sweet Child O' Mine (1987).",
+   "category": "Muziek",
+   "tags": [
+    "muziek",
+    "fragment"
+   ],
+   "source": "YouTube (officiële video of kanaal van de artiest)",
+   "hint": "Beroemd gitaarriff, zangeres noemt een \"child\".",
+   "media": [
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/watch?v=1w7OgIMMRc4",
+     "players": false
+    }
+   ],
+   "config": {
+    "artist": [
+     "Guns N' Roses",
+     "Guns N Roses",
+     "Guns and Roses"
+    ],
+    "title": [
+     "Sweet Child O' Mine",
+     "Sweet Child of Mine"
+    ],
+    "year": 1987,
+    "artistPoints": 3,
+    "titlePoints": 3,
+    "yearPoints": 4
+   }
+  },
+  {
+   "text": "Welk nummer hoor je? (fragment 9)",
+   "type": "MUSIC",
+   "options": [],
+   "correct": [],
+   "points": 10,
+   "seconds": 60,
+   "explanation": "Adele — Rolling in the Deep (2010).",
+   "category": "Muziek",
+   "tags": [
+    "muziek",
+    "fragment"
+   ],
+   "source": "YouTube (officiële video of kanaal van de artiest)",
+   "hint": "Britse soulstem, titel over diep water.",
+   "media": [
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/watch?v=rYEDA3JcQqw",
+     "players": false
+    }
+   ],
+   "config": {
+    "artist": [
+     "Adele"
+    ],
+    "title": [
+     "Rolling in the Deep"
+    ],
+    "year": 2010,
+    "artistPoints": 3,
+    "titlePoints": 3,
+    "yearPoints": 4
+   }
+  },
+  {
+   "text": "Welk nummer hoor je? (fragment 10)",
+   "type": "MUSIC",
+   "options": [],
+   "correct": [],
+   "points": 10,
+   "seconds": 60,
+   "explanation": "Ed Sheeran — Shape of You (2017).",
+   "category": "Muziek",
+   "tags": [
+    "muziek",
+    "fragment"
+   ],
+   "source": "YouTube (officiële video of kanaal van de artiest)",
+   "hint": "Hit met loop-pedaal en marimba-achtig geluid.",
+   "media": [
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8",
+     "players": false
+    }
+   ],
+   "config": {
+    "artist": [
+     "Ed Sheeran"
+    ],
+    "title": [
+     "Shape of You"
+    ],
+    "year": 2017,
+    "artistPoints": 3,
+    "titlePoints": 3,
+    "yearPoints": 4
+   }
+  },
+  {
+   "text": "Welk nummer hoor je? (fragment 11)",
+   "type": "MUSIC",
+   "options": [],
+   "correct": [],
+   "points": 10,
+   "seconds": 60,
+   "explanation": "Mark Ronson — Uptown Funk (2014).",
+   "category": "Muziek",
+   "tags": [
+    "muziek",
+    "fragment"
+   ],
+   "source": "YouTube (officiële video of kanaal van de artiest)",
+   "hint": "Funk-feestnummer met trompetten.",
+   "media": [
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/watch?v=OPf0YbXqDm0",
+     "players": false
+    }
+   ],
+   "config": {
+    "artist": [
+     "Mark Ronson",
+     "Bruno Mars"
+    ],
+    "title": [
+     "Uptown Funk"
+    ],
+    "year": 2014,
+    "artistPoints": 3,
+    "titlePoints": 3,
+    "yearPoints": 4
+   }
+  },
+  {
+   "text": "Welk nummer hoor je? (fragment 12)",
+   "type": "MUSIC",
+   "options": [],
+   "correct": [],
+   "points": 10,
+   "seconds": 60,
+   "explanation": "Psy — Gangnam Style (2012).",
+   "category": "Muziek",
+   "tags": [
+    "muziek",
+    "fragment"
+   ],
+   "source": "YouTube (officiële video of kanaal van de artiest)",
+   "hint": "Zuid-Koreaanse hit met een paardendans.",
+   "media": [
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/watch?v=9bZkp7q19f0",
+     "players": false
+    }
+   ],
+   "config": {
+    "artist": [
+     "Psy"
+    ],
+    "title": [
+     "Gangnam Style"
+    ],
+    "year": 2012,
+    "artistPoints": 3,
+    "titlePoints": 3,
+    "yearPoints": 4
+   }
+  },
+  {
+   "text": "Welk nummer hoor je? (fragment 13)",
+   "type": "MUSIC",
+   "options": [],
+   "correct": [],
+   "points": 10,
+   "seconds": 60,
+   "explanation": "Toto — Africa (1982).",
+   "category": "Muziek",
+   "tags": [
+    "muziek",
+    "fragment"
+   ],
+   "source": "YouTube (officiële video of kanaal van de artiest)",
+   "hint": "Soft rock met een bekend refrein over een continent.",
+   "media": [
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/watch?v=FTQbiNvZqaY",
+     "players": false
+    }
+   ],
+   "config": {
+    "artist": [
+     "Toto"
+    ],
+    "title": [
+     "Africa"
+    ],
+    "year": 1982,
+    "artistPoints": 3,
+    "titlePoints": 3,
+    "yearPoints": 4
+   }
+  },
+  {
+   "text": "Welk nummer hoor je? (fragment 14)",
+   "type": "MUSIC",
+   "options": [],
+   "correct": [],
+   "points": 10,
+   "seconds": 60,
+   "explanation": "Bon Jovi — Livin' on a Prayer (1986).",
+   "category": "Muziek",
+   "tags": [
+    "muziek",
+    "fragment"
+   ],
+   "source": "YouTube (officiële video of kanaal van de artiest)",
+   "hint": "Tommy en Gina als hoofdpersonen.",
+   "media": [
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/watch?v=lDK9QqIzhwk",
+     "players": false
+    }
+   ],
+   "config": {
+    "artist": [
+     "Bon Jovi"
+    ],
+    "title": [
+     "Livin' on a Prayer",
+     "Living on a Prayer"
+    ],
+    "year": 1986,
+    "artistPoints": 3,
+    "titlePoints": 3,
+    "yearPoints": 4
+   }
+  },
+  {
+   "text": "Welk nummer hoor je? (fragment 15)",
+   "type": "MUSIC",
+   "options": [],
+   "correct": [],
+   "points": 10,
+   "seconds": 60,
+   "explanation": "Journey — Don't Stop Believin' (1981).",
+   "category": "Muziek",
+   "tags": [
+    "muziek",
+    "fragment"
+   ],
+   "source": "YouTube (officiële video of kanaal van de artiest)",
+   "hint": "Mee te zingen refrein over een \"small town girl\".",
+   "media": [
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/watch?v=1k8craCGpgs",
+     "players": false
+    }
+   ],
+   "config": {
+    "artist": [
+     "Journey"
+    ],
+    "title": [
+     "Don't Stop Believin'",
+     "Dont Stop Believing",
+     "Don't Stop Believing"
+    ],
+    "year": 1981,
+    "artistPoints": 3,
+    "titlePoints": 3,
+    "yearPoints": 4
+   }
+  },
+  {
+   "text": "Welk nummer hoor je? (fragment 16)",
+   "type": "MUSIC",
+   "options": [],
+   "correct": [],
+   "points": 10,
+   "seconds": 60,
+   "explanation": "Led Zeppelin — Stairway to Heaven (1971).",
+   "category": "Muziek",
+   "tags": [
+    "muziek",
+    "fragment"
+   ],
+   "source": "YouTube (officiële video of kanaal van de artiest)",
+   "hint": "Begint met een fluitje en akoestische gitaar, eindigt als rocknummer.",
+   "media": [
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/watch?v=QkF3oxziUI4",
+     "players": false
+    }
+   ],
+   "config": {
+    "artist": [
+     "Led Zeppelin"
+    ],
+    "title": [
+     "Stairway to Heaven"
+    ],
+    "year": 1971,
+    "artistPoints": 3,
+    "titlePoints": 3,
+    "yearPoints": 4
+   }
+  },
+  {
+   "text": "Welk nummer hoor je? (fragment 17)",
+   "type": "MUSIC",
+   "options": [],
+   "correct": [],
+   "points": 10,
+   "seconds": 60,
+   "explanation": "The Beatles — Hey Jude (1968).",
+   "category": "Muziek",
+   "tags": [
+    "muziek",
+    "fragment"
+   ],
+   "source": "YouTube (officiële video of kanaal van de artiest)",
+   "hint": "\"Na na na naa\" aan het eind, meer dan zeven minuten lang.",
+   "media": [
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/watch?v=A_MjCqQoLLA",
+     "players": false
+    }
+   ],
+   "config": {
+    "artist": [
+     "The Beatles",
+     "Beatles"
+    ],
+    "title": [
+     "Hey Jude"
+    ],
+    "year": 1968,
+    "artistPoints": 3,
+    "titlePoints": 3,
+    "yearPoints": 4
+   }
+  },
+  {
+   "text": "Welk nummer hoor je? (fragment 18)",
+   "type": "MUSIC",
+   "options": [],
+   "correct": [],
+   "points": 10,
+   "seconds": 60,
+   "explanation": "Luis Fonsi — Despacito (2017).",
+   "category": "Muziek",
+   "tags": [
+    "muziek",
+    "fragment"
+   ],
+   "source": "YouTube (officiële video of kanaal van de artiest)",
+   "hint": "Spaanstalige zomerhit.",
+   "media": [
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/watch?v=kJQP7kiw5Fk",
+     "players": false
+    }
+   ],
+   "config": {
+    "artist": [
+     "Luis Fonsi",
+     "Fonsi",
+     "Daddy Yankee"
+    ],
+    "title": [
+     "Despacito"
+    ],
+    "year": 2017,
+    "artistPoints": 3,
+    "titlePoints": 3,
+    "yearPoints": 4
+   }
+  },
+  {
+   "text": "Welk nummer hoor je? (fragment 19)",
+   "type": "MUSIC",
+   "options": [],
+   "correct": [],
+   "points": 10,
+   "seconds": 60,
+   "explanation": "Katy Perry — Roar (2013).",
+   "category": "Muziek",
+   "tags": [
+    "muziek",
+    "fragment"
+   ],
+   "source": "YouTube (officiële video of kanaal van de artiest)",
+   "hint": "Krachtig poplied over zelfvertrouwen.",
+   "media": [
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/watch?v=CevxZvSJLk8",
+     "players": false
+    }
+   ],
+   "config": {
+    "artist": [
+     "Katy Perry"
+    ],
+    "title": [
+     "Roar"
+    ],
+    "year": 2013,
+    "artistPoints": 3,
+    "titlePoints": 3,
+    "yearPoints": 4
+   }
+  },
+  {
+   "text": "Welk nummer hoor je? (fragment 20)",
+   "type": "MUSIC",
+   "options": [],
+   "correct": [],
+   "points": 10,
+   "seconds": 60,
+   "explanation": "AC/DC — Thunderstruck (1990).",
+   "category": "Muziek",
+   "tags": [
+    "muziek",
+    "fragment"
+   ],
+   "source": "YouTube (officiële video of kanaal van de artiest)",
+   "hint": "Begint met een gitaarriff en een \"Thunder!\" in het koor.",
+   "media": [
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/watch?v=v2AC41dglnM",
+     "players": false
+    }
+   ],
+   "config": {
+    "artist": [
+     "AC/DC",
+     "ACDC",
+     "AC DC"
+    ],
+    "title": [
+     "Thunderstruck"
+    ],
+    "year": 1990,
+    "artistPoints": 3,
+    "titlePoints": 3,
+    "yearPoints": 4
+   }
+  },
+  {
+   "text": "Welk nummer hoor je? (fragment 21)",
+   "type": "MUSIC",
+   "options": [],
+   "correct": [],
+   "points": 10,
+   "seconds": 60,
+   "explanation": "Taylor Swift — Shake It Off (2014).",
+   "category": "Muziek",
+   "tags": [
+    "muziek",
+    "fragment"
+   ],
+   "source": "YouTube (officiële video of kanaal van de artiest)",
+   "hint": "Poplied over haters negeren.",
+   "media": [
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/watch?v=nfWlot6h_JM",
+     "players": false
+    }
+   ],
+   "config": {
+    "artist": [
+     "Taylor Swift"
+    ],
+    "title": [
+     "Shake It Off"
+    ],
+    "year": 2014,
+    "artistPoints": 3,
+    "titlePoints": 3,
+    "yearPoints": 4
+   }
+  },
+  {
+   "text": "Welk nummer hoor je? (fragment 22)",
+   "type": "MUSIC",
+   "options": [],
+   "correct": [],
+   "points": 6,
+   "seconds": 60,
+   "explanation": "Eagles — Hotel California.",
+   "category": "Muziek",
+   "tags": [
+    "muziek",
+    "fragment"
+   ],
+   "source": "YouTube (officiële video of kanaal van de artiest)",
+   "hint": "Een hotel waar je nooit weg kunt.",
+   "media": [
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/watch?v=09839DpTctU",
+     "players": false
+    }
+   ],
+   "config": {
+    "artist": [
+     "Eagles",
+     "The Eagles"
+    ],
+    "title": [
+     "Hotel California"
+    ],
+    "year": null,
+    "artistPoints": 3,
+    "titlePoints": 3,
+    "yearPoints": 0
+   }
+  },
+  {
+   "text": "Welke Zweedse groep won in 1974 het Eurovisiesongfestival met Waterloo?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Roxette"
+    },
+    {
+     "id": "b",
+     "text": "ABBA"
+    },
+    {
+     "id": "c",
+     "text": "Europe"
+    },
+    {
+     "id": "d",
+     "text": "The Cardigans"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "ABBA won in Brighton en werd daarna wereldberoemd.",
+   "category": "Muziek",
+   "tags": [
+    "muziek"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Hun naam is een palindroom."
+  },
+  {
+   "text": "Welke groep won in 1975 voor Nederland het Eurovisiesongfestival met Ding-a-dong?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Teach-In"
+    },
+    {
+     "id": "b",
+     "text": "Mouth & MacNeal"
+    },
+    {
+     "id": "c",
+     "text": "Sandra & Andres"
+    },
+    {
+     "id": "d",
+     "text": "Pussycat"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Teach-In won in Stockholm met Ding-a-dong.",
+   "category": "Muziek",
+   "tags": [
+    "muziek"
+   ],
+   "source": "Eigen kennis",
+   "hint": "De band had een zangeres en vier muzikanten."
+  },
+  {
+   "text": "Welke zanger won in 2019 voor Nederland het Eurovisiesongfestival met Arcade?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Waylon"
+    },
+    {
+     "id": "b",
+     "text": "Anouk"
+    },
+    {
+     "id": "c",
+     "text": "Ilse DeLange"
+    },
+    {
+     "id": "d",
+     "text": "Duncan Laurence"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Duncan Laurence won in Tel Aviv; het was de eerste Nederlandse winst sinds 1975.",
+   "category": "Muziek",
+   "tags": [
+    "muziek"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Hij is geboren in Spijkenisse."
+  },
+  {
+   "text": "Hoe heette de Oostenrijkse zangeres met een baard die in 2014 won met Rise Like a Phoenix?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Dana International"
+    },
+    {
+     "id": "b",
+     "text": "Lena Meyer-Landrut"
+    },
+    {
+     "id": "c",
+     "text": "Conchita Wurst"
+    },
+    {
+     "id": "d",
+     "text": "Loreen"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Conchita Wurst won in Kopenhagen voor Oostenrijk.",
+   "category": "Muziek",
+   "tags": [
+    "muziek"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Een bekend personage van Tom Neuwirth."
+  },
+  {
+   "text": "Welke Nederlandse dj won vijf keer de DJ Mag Top 100?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Tiësto"
+    },
+    {
+     "id": "b",
+     "text": "Armin van Buuren"
+    },
+    {
+     "id": "c",
+     "text": "Hardwell"
+    },
+    {
+     "id": "d",
+     "text": "Martin Garrix"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Armin van Buuren won in 2007, 2008, 2009, 2010 en 2012.",
+   "category": "Muziek",
+   "tags": [
+    "muziek"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Hij presenteert A State of Trance."
+  },
+  {
+   "text": "Welke band bracht in 1973 het album The Dark Side of the Moon uit?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Pink Floyd"
+    },
+    {
+     "id": "b",
+     "text": "Led Zeppelin"
+    },
+    {
+     "id": "c",
+     "text": "Genesis"
+    },
+    {
+     "id": "d",
+     "text": "Deep Purple"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Het album stond meer dan 900 weken in de Amerikaanse hitlijsten.",
+   "category": "Muziek",
+   "tags": [
+    "muziek"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Met een prisma op de hoes."
+  },
+  {
+   "text": "Welke Britse zangeres bracht in 2015 het nummer Hello uit?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Dua Lipa"
+    },
+    {
+     "id": "b",
+     "text": "Duffy"
+    },
+    {
+     "id": "c",
+     "text": "Amy Winehouse"
+    },
+    {
+     "id": "d",
+     "text": "Adele"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Hello brak in 2015 allerlei kijk- en luisterrecords.",
+   "category": "Muziek",
+   "tags": [
+    "muziek"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Haar album heet 25."
+  },
+  {
+   "text": "Wie bracht in 1984 het album Purple Rain uit?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Michael Jackson"
+    },
+    {
+     "id": "b",
+     "text": "David Bowie"
+    },
+    {
+     "id": "c",
+     "text": "Prince"
+    },
+    {
+     "id": "d",
+     "text": "Lionel Richie"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Prince en zijn band The Revolution scoorden hits met Purple Rain en When Doves Cry.",
+   "category": "Muziek",
+   "tags": [
+    "muziek"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Hij speelde ook in de film met dezelfde naam."
+  },
+  {
+   "text": "Welke zangeres wordt de Queen of Pop genoemd?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Whitney Houston"
+    },
+    {
+     "id": "b",
+     "text": "Madonna"
+    },
+    {
+     "id": "c",
+     "text": "Cher"
+    },
+    {
+     "id": "d",
+     "text": "Kylie Minogue"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Madonna won de titel met hits als Vogue, Like a Virgin en Like a Prayer.",
+   "category": "Muziek",
+   "tags": [
+    "muziek"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Ze zong Like a Prayer."
+  },
+  {
+   "text": "Welk muzikaal duo bestond uit Paul Simon en Art Garfunkel?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Simon & Garfunkel"
+    },
+    {
+     "id": "b",
+     "text": "Hall & Oates"
+    },
+    {
+     "id": "c",
+     "text": "Sonny & Cher"
+    },
+    {
+     "id": "d",
+     "text": "Wham!"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Simon & Garfunkel zongen onder meer Mrs. Robinson en Bridge Over Troubled Water.",
+   "category": "Muziek",
+   "tags": [
+    "muziek"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Ze zongen The Sound of Silence."
+  },
+  {
+   "text": "Hoeveel snaren heeft een standaard (akoestische) gitaar?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Vier"
+    },
+    {
+     "id": "b",
+     "text": "Vijf"
+    },
+    {
+     "id": "c",
+     "text": "Acht"
+    },
+    {
+     "id": "d",
+     "text": "Zes"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De snaren zijn E, A, D, G, B en E. Een basgitaar heeft meestal vier, een ukelele vier.",
+   "category": "Muziek",
+   "tags": [
+    "muziek"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Meer dan vier, minder dan zeven."
+  },
+  {
+   "text": "Welk instrument heeft 88 toetsen?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Het orgel"
+    },
+    {
+     "id": "b",
+     "text": "De accordeon"
+    },
+    {
+     "id": "c",
+     "text": "De piano"
+    },
+    {
+     "id": "d",
+     "text": "De klavecimbel"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Een moderne piano heeft 52 witte en 36 zwarte toetsen.",
+   "category": "Muziek",
+   "tags": [
+    "muziek"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Je speelt het met tien vingers."
+  },
+  {
+   "text": "Welke componist schreef zijn negende symfonie terwijl hij bijna doof was?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Wolfgang Amadeus Mozart"
+    },
+    {
+     "id": "b",
+     "text": "Ludwig van Beethoven"
+    },
+    {
+     "id": "c",
+     "text": "Johann Sebastian Bach"
+    },
+    {
+     "id": "d",
+     "text": "Joseph Haydn"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Beethoven werd langzaam doof, maar schreef zijn Negende in 1824 toch.",
+   "category": "Muziek",
+   "tags": [
+    "muziek"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Zijn Ode aan de vreugde is het Europese volkslied."
+  },
+  {
+   "text": "Welke band bracht in 1991 het album Nevermind uit?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Nirvana"
+    },
+    {
+     "id": "b",
+     "text": "Pearl Jam"
+    },
+    {
+     "id": "c",
+     "text": "Soundgarden"
+    },
+    {
+     "id": "d",
+     "text": "Alice in Chains"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Smells Like Teen Spirit stond op Nevermind.",
+   "category": "Muziek",
+   "tags": [
+    "muziek"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Met een baby onder water op de hoes."
+  },
+  {
+   "text": "Wie is de zanger van de Ierse band U2?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "The Edge"
+    },
+    {
+     "id": "b",
+     "text": "Sting"
+    },
+    {
+     "id": "c",
+     "text": "Bob Geldof"
+    },
+    {
+     "id": "d",
+     "text": "Bono"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Bono zingt bij U2, dat in 1976 in Dublin werd opgericht.",
+   "category": "Muziek",
+   "tags": [
+    "muziek"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Hij draagt vaak een zonnebril."
+  },
+  {
+   "text": "Welke Nederlandse band had in 1973 een wereldhit met Radar Love?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Shocking Blue"
+    },
+    {
+     "id": "b",
+     "text": "Focus"
+    },
+    {
+     "id": "c",
+     "text": "Golden Earring"
+    },
+    {
+     "id": "d",
+     "text": "Doe Maar"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Radar Love werd een internationale hit voor Golden Earring uit Den Haag.",
+   "category": "Muziek",
+   "tags": [
+    "muziek"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Het heeft een bekend gitaarriff."
+  },
+  {
+   "text": "Welke zanger zong Zij gelooft in mij?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Frans Bauer"
+    },
+    {
+     "id": "b",
+     "text": "André Hazes"
+    },
+    {
+     "id": "c",
+     "text": "Marco Borsato"
+    },
+    {
+     "id": "d",
+     "text": "Henk Wijngaard"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Het lied uit 1982 werd een Nederlands levenslied.",
+   "category": "Muziek",
+   "tags": [
+    "muziek"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Zijn bijnaam was \"De Zanger zonder Naam\"."
+  },
+  {
+   "text": "Welke band speelde de rockopera Tommy?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "The Who"
+    },
+    {
+     "id": "b",
+     "text": "The Kinks"
+    },
+    {
+     "id": "c",
+     "text": "The Rolling Stones"
+    },
+    {
+     "id": "d",
+     "text": "Queen"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Tommy van The Who verscheen in 1969.",
+   "category": "Muziek",
+   "tags": [
+    "muziek"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Hun gitarist smeet vaak zijn gitaar kapot."
+  },
+  {
+   "text": "Welke stad staat bekend als de geboortestad van The Beatles?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Manchester"
+    },
+    {
+     "id": "b",
+     "text": "Londen"
+    },
+    {
+     "id": "c",
+     "text": "Bristol"
+    },
+    {
+     "id": "d",
+     "text": "Liverpool"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "The Beatles begonnen in Liverpool, onder meer in The Cavern Club.",
+   "category": "Muziek",
+   "tags": [
+    "muziek"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Een havenstad in Engeland."
+  },
+  {
+   "text": "Welke rapper heet in het echt Marshall Mathers?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Dr. Dre"
+    },
+    {
+     "id": "b",
+     "text": "Snoop Dogg"
+    },
+    {
+     "id": "c",
+     "text": "Eminem"
+    },
+    {
+     "id": "d",
+     "text": "50 Cent"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Eminem is vernoemd naar zijn initialen M&M.",
+   "category": "Muziek",
+   "tags": [
+    "muziek"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Hij maakte de film 8 Mile."
+  },
+  {
+   "text": "Welke zangeres bracht in 2016 het album Lemonade uit?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Rihanna"
+    },
+    {
+     "id": "b",
+     "text": "Beyoncé"
+    },
+    {
+     "id": "c",
+     "text": "Alicia Keys"
+    },
+    {
+     "id": "d",
+     "text": "Lady Gaga"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Lemonade is een visueel album met de hit Formation.",
+   "category": "Muziek",
+   "tags": [
+    "muziek"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Ze is getrouwd met Jay-Z."
+  },
+  {
+   "text": "In welke plaats wordt het festival Pinkpop gehouden?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Landgraaf"
+    },
+    {
+     "id": "b",
+     "text": "Arnhem"
+    },
+    {
+     "id": "c",
+     "text": "Zwolle"
+    },
+    {
+     "id": "d",
+     "text": "Eindhoven"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Pinkpop wordt sinds 1970 gehouden, bijna altijd met Pinksteren.",
+   "category": "Muziek",
+   "tags": [
+    "muziek"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Een plaats in Limburg."
+  },
+  {
+   "text": "Welke zangeres zong Shake It Off in 2014?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Katy Perry"
+    },
+    {
+     "id": "b",
+     "text": "Ariana Grande"
+    },
+    {
+     "id": "c",
+     "text": "Selena Gomez"
+    },
+    {
+     "id": "d",
+     "text": "Taylor Swift"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Shake It Off verscheen op het album 1989.",
+   "category": "Muziek",
+   "tags": [
+    "muziek"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Haar album heet 1989."
+  },
+  {
+   "text": "Welke band had in 1975 een hit met Bohemian Rhapsody?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "The Rolling Stones"
+    },
+    {
+     "id": "b",
+     "text": "Led Zeppelin"
+    },
+    {
+     "id": "c",
+     "text": "Queen"
+    },
+    {
+     "id": "d",
+     "text": "Pink Floyd"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Bohemian Rhapsody staat op het album A Night at the Opera.",
+   "category": "Muziek",
+   "tags": [
+    "muziek"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Hun zanger heette Freddie Mercury."
+  },
+  {
+   "text": "Welke Amerikaanse zanger werd \"The Boss\" genoemd?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Bob Dylan"
+    },
+    {
+     "id": "b",
+     "text": "Bruce Springsteen"
+    },
+    {
+     "id": "c",
+     "text": "Billy Joel"
+    },
+    {
+     "id": "d",
+     "text": "Neil Diamond"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Springsteen speelt met de E Street Band.",
+   "category": "Muziek",
+   "tags": [
+    "muziek"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Hij zong Born in the U.S.A."
+  },
+  {
+   "text": "Welke toonsoort heeft geen kruisen of mollen?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "C-groot"
+    },
+    {
+     "id": "b",
+     "text": "G-groot"
+    },
+    {
+     "id": "c",
+     "text": "D-groot"
+    },
+    {
+     "id": "d",
+     "text": "F-groot"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Een C-groot toonladder gebruikt alleen de witte toetsen van de piano.",
+   "category": "Muziek",
+   "tags": [
+    "muziek"
+   ],
+   "source": "Eigen kennis",
+   "hint": "De eerste toon is een c."
+  }
+ ]
+}

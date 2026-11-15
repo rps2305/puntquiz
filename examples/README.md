@@ -22,3 +22,7 @@ De vragen zijn zelf geschreven en vrij te gebruiken (MIT, zoals de rest van de r
 ## Vragenset rivieren
 
 `vragenset-rivieren.json` heeft 39 meerkeuzevragen over rivieren per werelddeel (langste, grensrivieren, landen, bekende bouwwerken en natuurverschijnselen). De lengtes komen uit de CIA World Factbook en zijn bij benadering; bij de Nijl en de Amazone hangt de "langste" af van hoe je meet, dus daar noemt de uitleg dat.
+
+## Vragenset muziek
+
+`vragenset-muziek.json` heeft 48 muziekvragen: 22 echte muziekvragen met een YouTube-fragment (artiest, titel en jaar scoren los; de video is voor de presentator en niet voor de spelers zichtbaar) en 26 meerkeuzevragen over muziek. Alle video-ID's zijn gecontroleerd op bestaan en insluitbaarheid. De fragmenten beginnen aan het begin van de video; de presentator stopt de muziek zelf.
