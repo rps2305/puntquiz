@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Manrope:wght@500;600;700&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  :root{--cream:#FBF6EF;--ink:#241512;--ink-muted:#7A695F;--border:#E6D9C7;--surface:#FFFFFF;--surface2:#F4ECE0;}
+  *{box-sizing:border-box;}
+  body{margin:0;}
+  .card{width:300px;height:540px;background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:28px;display:flex;flex-direction:column;gap:14px;font-family:'Manrope',sans-serif;color:var(--ink);}
+  .card[data-theme="dark"]{--surface:#241813;--surface2:#2E1F18;--ink:#FAF3EA;--ink-muted:#C9B6A9;--border:#41291E;background:#1B120E;}
+  .hero{align-self:center;width:180px;height:180px;border-radius:50%;overflow:hidden;box-shadow:0 16px 28px -14px rgba(0,0,0,.45);}
+  h2{font-family:'Fredoka',sans-serif;font-weight:600;font-size:1.4rem;margin:0;text-align:center;}
+  .en{font-size:.78rem;color:var(--ink-muted);text-align:center;margin-top:-8px;}
+  .blurb{font-size:.85rem;color:var(--ink-muted);text-align:center;line-height:1.4;padding:0 4px;}
+  .rule{height:1px;background:var(--border);margin:2px 0;}
+  .lbl{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--ink-muted);}
+  .sizes{display:flex;justify-content:center;gap:24px;}
+  .sizewrap{display:flex;flex-direction:column;align-items:center;gap:6px;}
+  .cap{font-size:.66rem;color:var(--ink-muted);font-weight:600;}
+  .hexchip{align-self:center;font-family:'IBM Plex Mono',monospace;font-size:.75rem;background:var(--surface2);border:1px solid var(--border);border-radius:999px;padding:6px 14px;color:var(--ink-muted);}
+</style>
+</helmet>
+<div class="card" data-theme="{{theme}}">
+  <div class="hero">
+    <svg viewBox="0 0 100 100" width="180" height="180">
+      <rect width="100" height="100" fill="{{badgeColor}}"/>
+      <ellipse cx="50" cy="64" rx="34" ry="26" fill="#FBF6EF"/>
+      <circle cx="34" cy="34" r="14" fill="#FBF6EF"/>
+      <circle cx="66" cy="34" r="14" fill="#FBF6EF"/>
+      <circle cx="34" cy="35" r="7" fill="#241512"/>
+      <circle cx="66" cy="35" r="7" fill="#241512"/>
+      <circle cx="31.5" cy="32.5" r="1.6" fill="#FBF6EF"/>
+      <circle cx="63.5" cy="32.5" r="1.6" fill="#FBF6EF"/>
+      <circle cx="45" cy="50" r="1.8" fill="#241512"/>
+      <circle cx="55" cy="50" r="1.8" fill="#241512"/>
+      <path d="M27,74 Q50,86 73,74" stroke="#241512" stroke-width="4" fill="none" stroke-linecap="round"/>
+    </svg>
+  </div>
+  <h2>Kikker</h2>
+  <div class="en">Frog</div>
+  <div class="blurb">Springt op elke kans, vooral als het muziekrondje begint.</div>
+  <div class="rule"></div>
+  <div class="lbl" style="text-align:center;">Op ware grootte</div>
+  <div class="sizes">
+    <div class="sizewrap">
+      <div style="width:64px;height:64px;border-radius:50%;border:3px solid #FFC93C;display:flex;align-items:center;justify-content:center;">
+        <div style="width:56px;height:56px;border-radius:50%;overflow:hidden;">
+          <svg viewBox="0 0 100 100" width="56" height="56">
+            <rect width="100" height="100" fill="{{badgeColor}}"/>
+            <ellipse cx="50" cy="64" rx="34" ry="26" fill="#FBF6EF"/>
+            <circle cx="34" cy="34" r="14" fill="#FBF6EF"/>
+            <circle cx="66" cy="34" r="14" fill="#FBF6EF"/>
+            <circle cx="34" cy="35" r="7" fill="#241512"/>
+            <circle cx="66" cy="35" r="7" fill="#241512"/>
+            <circle cx="31.5" cy="32.5" r="1.6" fill="#FBF6EF"/>
+            <circle cx="63.5" cy="32.5" r="1.6" fill="#FBF6EF"/>
+            <circle cx="45" cy="50" r="1.8" fill="#241512"/>
+            <circle cx="55" cy="50" r="1.8" fill="#241512"/>
+            <path d="M27,74 Q50,86 73,74" stroke="#241512" stroke-width="4" fill="none" stroke-linecap="round"/>
+          </svg>
+        </div>
+      </div>
+      <span class="cap">Picker · 56px</span>
+    </div>
+    <div class="sizewrap">
+      <div style="width:40px;height:40px;border-radius:50%;overflow:hidden;">
+        <svg viewBox="0 0 100 100" width="40" height="40">
+          <rect width="100" height="100" fill="{{badgeColor}}"/>
+          <ellipse cx="50" cy="64" rx="34" ry="26" fill="#FBF6EF"/>
+          <circle cx="34" cy="34" r="14" fill="#FBF6EF"/>
+          <circle cx="66" cy="34" r="14" fill="#FBF6EF"/>
+          <circle cx="34" cy="35" r="7" fill="#241512"/>
+          <circle cx="66" cy="35" r="7" fill="#241512"/>
+          <circle cx="31.5" cy="32.5" r="1.6" fill="#FBF6EF"/>
+          <circle cx="63.5" cy="32.5" r="1.6" fill="#FBF6EF"/>
+          <circle cx="45" cy="50" r="1.8" fill="#241512"/>
+          <circle cx="55" cy="50" r="1.8" fill="#241512"/>
+          <path d="M27,74 Q50,86 73,74" stroke="#241512" stroke-width="4" fill="none" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <span class="cap">Ranglijst · 40px</span>
+    </div>
+  </div>
+  <div class="hexchip">Badge · #2E9E86</div>
+</div>
+</x-dc>
+<script data-dc-script data-props='{"badgeColor":{"editor":"color","default":"#2E9E86"},"dark":{"editor":"boolean","default":false}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return {
+      badgeColor: this.props.badgeColor ?? '#2E9E86',
+      theme: this.props.dark ? 'dark' : 'light'
+    };
+  }
+}
+</script>
+</body>
+</html>

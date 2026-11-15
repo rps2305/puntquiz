@@ -1,0 +1,16 @@
+node_modules
+dist
+.nuxt
+.output
+.env
+*.log
+
+# local tooling / OS
+.claude/
+.DS_Store
+.env.*
+!.env.example
+coverage
+*.tsbuildinfo
+scripts/deploy.local.env
+CLAUDE.local.md

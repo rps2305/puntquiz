@@ -1,0 +1,19 @@
+{
+  "detector": {
+    "ignoreRules": [
+      "cream-palette"
+    ],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "arial",
+        "files": [
+          "apps/web/app/pages/print/**"
+        ],
+        "createdAt": "2026-11-14T18:04:54.679Z",
+        "reason": "Paper answer forms use Arial on purpose: printer-safe and identical on every device"
+      }
+    ]
+  }
+}

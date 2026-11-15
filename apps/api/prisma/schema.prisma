@@ -1,0 +1,264 @@
+generator client {
+  provider      = "prisma-client-js"
+  binaryTargets = ["native", "debian-openssl-3.0.x", "linux-arm64-openssl-3.0.x"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// IDs are UUIDs (decision recorded in Reference §18/§25 #5).
+
+model User {
+  id           String          @id @default(uuid())
+  email        String?         @unique
+  name         String
+  passwordHash String?
+  isGuest      Boolean         @default(false)
+  isAdmin      Boolean         @default(false)
+  /// Subject claim from the identity provider (Authentik, spec §16).
+  oidcSub      String?         @unique
+  avatar       String?
+  createdAt    DateTime        @default(now())
+  quizzes      Quiz[]
+  participations Participation[]
+  bank         BankQuestion[]
+}
+
+enum QuizMode {
+  INDIVIDUAL
+  TEAM
+}
+
+enum QuizStatus {
+  DRAFT
+  SCHEDULED
+  LIVE
+  FINISHED
+  ARCHIVED
+}
+
+enum RevealMode {
+  ROUND
+  QUESTION
+}
+
+enum RoundKind {
+  STANDARD
+  PICTURE
+}
+
+enum QuestionType {
+  MC
+  MULTI
+  /// Free text; `correct` holds the accepted answers, graded by peers (spec §7).
+  OPEN
+  /// Artist / title / optional year, each scored independently (spec §7).
+  MUSIC
+}
+
+model Quiz {
+  id            String          @id @default(uuid())
+  title         String
+  description   String?
+  joinCode      String          @unique
+  mode          QuizMode        @default(INDIVIDUAL)
+  status        QuizStatus      @default(DRAFT)
+  /// Set when the quiz ends; player data is deleted RETENTION_DAYS (default 90) after this.
+  finishedAt    DateTime?
+  revealMode    RevealMode      @default(ROUND)
+  minTeamSize   Int             @default(3)
+  maxTeamSize   Int             @default(5)
+  hostId        String
+  host          User            @relation(fields: [hostId], references: [id])
+  /// {types: PowerUpType[], uses: number} or null = no power-ups (spec §8).
+  powerUps      Json?
+  createdAt     DateTime        @default(now())
+  rounds        Round[]
+  teams         Team[]
+  participations Participation[]
+  audit         AuditLog[]
+}
+
+model Round {
+  id        String     @id @default(uuid())
+  quizId    String
+  quiz      Quiz       @relation(fields: [quizId], references: [id], onDelete: Cascade)
+  number    Int
+  title     String
+  category  String?
+  /// PICTURE: all questions open at once and stay answerable during the next `openRounds` rounds (spec §6).
+  kind      RoundKind  @default(STANDARD)
+  openRounds Int       @default(0)
+  questions Question[]
+
+  @@unique([quizId, number])
+}
+
+model Question {
+  id          String       @id @default(uuid())
+  roundId     String
+  round       Round        @relation(fields: [roundId], references: [id], onDelete: Cascade)
+  number      Int
+  text        String
+  type        QuestionType @default(MC)
+  options     Json
+  correct     Json
+  points      Float        @default(10)
+  seconds     Int          @default(30)
+  explanation String?
+  answers     Answer[]
+  grades      Grade[]
+  /// Attached media: images, audio, YouTube (validated, see media.ts).
+  media       Json?
+  /// MUSIC: accepted artist/title answers, year and per-part points.
+  config      Json?
+  /// Clue unlocked by the Hint power-up.
+  hint        String?
+  /// Snapshot copy of a question-bank item; the link only powers reuse tracking (spec §18).
+  bankQuestionId String?
+  bankQuestion   BankQuestion? @relation(fields: [bankQuestionId], references: [id], onDelete: SetNull)
+
+  @@unique([roundId, number])
+  @@index([bankQuestionId])
+}
+
+model Team {
+  id             String          @id @default(uuid())
+  quizId         String
+  quiz           Quiz            @relation(fields: [quizId], references: [id], onDelete: Cascade)
+  name           String
+  createdAt      DateTime        @default(now())
+  participations Participation[]
+
+  @@unique([quizId, name])
+}
+
+// One active participation per user per quiz (spec §15).
+model Participation {
+  id        String   @id @default(uuid())
+  quizId    String
+  quiz      Quiz     @relation(fields: [quizId], references: [id], onDelete: Cascade)
+  userId    String
+  user      User     @relation(fields: [userId], references: [id])
+  teamId    String?
+  team      Team?    @relation(fields: [teamId], references: [id])
+  createdAt DateTime @default(now())
+  answers   Answer[]
+  /// Opt-in: e-mail me round results and the final standings (never default-on, spec §16 GDPR).
+  emailResults Boolean @default(false)
+
+  @@unique([quizId, userId])
+}
+
+model Answer {
+  id              String        @id @default(uuid())
+  participationId String
+  participation   Participation @relation(fields: [participationId], references: [id], onDelete: Cascade)
+  questionId      String
+  question        Question      @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  selected        Json
+  /// Server timestamp of the FINAL answer change (used for the Majority Vote tie-break, spec §5).
+  submittedAt     DateTime      @default(now())
+
+  @@unique([participationId, questionId])
+}
+
+model AuditLog {
+  id        String   @id @default(uuid())
+  quizId    String
+  quiz      Quiz     @relation(fields: [quizId], references: [id], onDelete: Cascade)
+  actorId   String?
+  action    String
+  data      Json?
+  createdAt DateTime @default(now())
+
+  @@index([quizId, createdAt])
+}
+
+/// The quizmaster's persistent question arsenal (spec §4, §18). Quizzes use snapshot copies.
+model BankQuestion {
+  id          String       @id @default(uuid())
+  ownerId     String
+  owner       User         @relation(fields: [ownerId], references: [id])
+  text        String
+  type        QuestionType @default(MC)
+  options     Json
+  correct     Json
+  points      Float        @default(10)
+  seconds     Int          @default(30)
+  explanation String?
+  category    String?
+  difficulty  Int?
+  tags        String[]
+  source      String?
+  media       Json?
+  config      Json?
+  hint        String?
+  createdAt   DateTime     @default(now())
+  updatedAt   DateTime     @updatedAt
+  uses        Question[]
+
+  @@index([ownerId])
+}
+
+/// One row per e-mail sent: dedupes (re-reveals never re-send) and powers the daily send cap.
+model MailLog {
+  id        String   @id @default(uuid())
+  userId    String
+  kind      String
+  key       String
+  createdAt DateTime @default(now())
+
+  @@unique([userId, kind, key])
+  @@index([createdAt])
+}
+
+/// Peer-review grade of one open answer (spec §7). gradeeKey = teamId when the player is in a team, else participationId.
+model Grade {
+  id         String    @id @default(uuid())
+  questionId String
+  question   Question  @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  quizId     String
+  gradeeKey  String
+  /// Snapshot of the (team-resolved) answer that is being judged.
+  answer     String
+  /// Team or participation that must grade this (null = nobody available, the host grades).
+  graderKey  String?
+  /// null = still pending.
+  verdict    Boolean?
+  /// AUTO (matches an accepted answer) | PEER | HOST | DEFAULT (host closed grading with it pending => wrong).
+  source     String    @default("PEER")
+  gradedAt   DateTime?
+  createdAt  DateTime  @default(now())
+
+  @@unique([questionId, gradeeKey])
+  @@index([quizId])
+}
+
+/// Uploaded image/audio file; bytes live on the media volume as <id>, never executed or served as HTML.
+model MediaAsset {
+  id        String   @id @default(uuid())
+  ownerId   String
+  mime      String
+  size      Int
+  name      String?
+  createdAt DateTime @default(now())
+
+  @@index([ownerId])
+}
+
+/// A power-up activation. ownerKey = teamId in team quizzes (pooled) else participationId (spec §8).
+model PowerUpUse {
+  id         String   @id @default(uuid())
+  quizId     String
+  ownerKey   String
+  actorId    String
+  questionId String
+  type       String
+  createdAt  DateTime @default(now())
+
+  @@unique([ownerKey, questionId, type])
+  @@index([quizId])
+}

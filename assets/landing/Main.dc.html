@@ -1,0 +1,375 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#FBF6EF; --surface:#FFFFFF; --surface-2:#F4ECE0; --border:#E6D9C7;
+    --ink:#241512; --ink-muted:#7A695F; --ink-faint:#A6988D;
+    --coral:#FF5A38; --coral-strong:#E8471F; --coral-ink:#FFFFFF;
+    --gold:#FFC93C; --gold-ink:#241512;
+    --success:#1C8F63; --success-bg:#E1F3EA;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#1B120E; --surface:#241813; --surface-2:#2E1F18; --border:#41291E;
+      --ink:#FAF3EA; --ink-muted:#C9B6A9; --ink-faint:#8C7A6E;
+      --coral:#FF6B4A; --coral-strong:#FF8464; --coral-ink:#241209;
+      --success:#3FC98C; --success-bg:#173328;
+    }
+  }
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:'Manrope',ui-sans-serif,system-ui,sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased;}
+  a{color:inherit;text-decoration:none;}
+  a:hover{color:var(--coral-strong);}
+  img{max-width:100%;display:block;}
+  :focus-visible{outline:2.5px solid var(--coral);outline-offset:2px;border-radius:4px;}
+  h1,h2,h3{font-family:'Fredoka',ui-rounded,'Segoe UI',sans-serif;font-weight:600;margin:0;text-wrap:balance;letter-spacing:-0.01em;}
+  .wrap{max-width:1160px;margin:0 auto;padding:0 28px;}
+  .eyebrow{font-size:.78rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--coral-strong);}
+  .icon{width:24px;height:24px;flex:none;}
+  .btn{font-family:'Manrope',sans-serif;font-weight:800;font-size:.98rem;border-radius:999px;padding:15px 28px;min-height:50px;border:2px solid transparent;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:8px;}
+  .btn-primary{background:var(--coral);color:var(--coral-ink);box-shadow:0 14px 24px -12px rgba(255,90,56,.55);}
+  .btn-ghost{background:transparent;color:var(--ink);border-color:var(--border);}
+  .btn-sm{padding:10px 20px;min-height:38px;font-size:.85rem;}
+
+  /* NAV */
+  nav.top{position:sticky;top:0;z-index:20;background:color-mix(in srgb, var(--bg) 88%, transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--border);}
+  nav.top .row{display:flex;align-items:center;justify-content:space-between;padding:16px 0;gap:20px;}
+  .brand{display:flex;align-items:center;gap:10px;font-family:'Fredoka',sans-serif;font-weight:600;font-size:1.15rem;}
+  .brand img{width:30px;height:30px;border-radius:8px;}
+  .navlinks{display:flex;gap:28px;font-weight:700;font-size:.92rem;color:var(--ink-muted);}
+  @media (max-width:760px){ .navlinks{display:none;} }
+
+  /* HERO */
+  .hero{padding:64px 0 40px;display:grid;grid-template-columns:1.05fr 0.95fr;gap:48px;align-items:center;}
+  @media (max-width:900px){ .hero{grid-template-columns:1fr;padding-top:40px;} }
+  .hero h1{font-size:clamp(2.4rem,4.6vw,3.4rem);margin-top:14px;}
+  .hero .lede{font-size:1.15rem;color:var(--ink-muted);max-width:52ch;margin:18px 0 0;}
+  .hero .ctas{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px;}
+  .hero .microproof{display:flex;gap:18px;flex-wrap:wrap;margin-top:20px;font-size:.85rem;color:var(--ink-faint);font-weight:700;}
+  .hero .microproof span{display:flex;align-items:center;gap:6px;}
+  .hero .microproof .dot{width:5px;height:5px;border-radius:50%;background:var(--ink-faint);}
+
+  .hero-visual{position:relative;display:flex;justify-content:center;}
+  .phone{width:280px;border-radius:34px;background:var(--ink);padding:10px;box-shadow:0 40px 70px -30px rgba(0,0,0,.5);}
+  .phone .screen{background:var(--bg);border-radius:26px;overflow:hidden;padding:18px 16px 20px;}
+  .phone .topline{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;}
+  .phone .topline .b{display:flex;align-items:center;gap:6px;font-family:'Fredoka',sans-serif;font-weight:600;font-size:.8rem;}
+  .phone .topline img{width:18px;height:18px;border-radius:5px;}
+  .livechip{display:inline-flex;align-items:center;gap:5px;background:var(--coral);color:var(--coral-ink);font-size:.65rem;font-weight:800;padding:4px 9px;border-radius:999px;}
+  .livechip .p{width:6px;height:6px;border-radius:50%;background:var(--coral-ink);}
+  .qcard{background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:15px;}
+  .qcard .qtext{font-family:'Fredoka',sans-serif;font-weight:600;font-size:.95rem;margin-bottom:12px;}
+  .qopt{display:flex;align-items:center;gap:9px;padding:11px 13px;margin-bottom:8px;border-radius:11px;border:1.5px solid var(--border);font-weight:700;font-size:.82rem;}
+  .qopt .k{width:19px;height:19px;border-radius:5px;background:var(--surface-2);display:flex;align-items:center;justify-content:center;font-size:.62rem;flex:none;}
+  .qopt.sel{border-color:var(--coral);background:color-mix(in srgb, var(--coral) 10%, var(--surface));}
+  .float-avatar{position:absolute;display:flex;align-items:center;gap:8px;background:var(--surface);border:1px solid var(--border);border-radius:999px;padding:6px 12px 6px 6px;box-shadow:0 16px 26px -14px rgba(0,0,0,.35);}
+  .float-avatar .av{width:34px;height:34px;border-radius:50%;overflow:hidden;flex:none;}
+  .float-avatar .score{font-family:'Manrope',sans-serif;font-weight:800;font-size:.85rem;}
+  .float-avatar .score small{display:block;font-weight:700;font-size:.6rem;color:var(--ink-faint);}
+  .fa1{top:6%;left:-6%;}
+  .fa2{bottom:10%;right:-8%;}
+  @media (max-width:520px){ .float-avatar{display:none;} }
+
+  /* SECTIONS */
+  section{padding:56px 0;}
+  .section-head{max-width:640px;margin:0 auto 36px;text-align:center;}
+  .section-head h2{font-size:clamp(1.6rem,3vw,2.1rem);margin-top:8px;}
+  .section-head p{color:var(--ink-muted);margin:12px 0 0;font-size:1.02rem;}
+
+  /* SEGMENTS */
+  .seg-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;}
+  @media (max-width:900px){ .seg-grid{grid-template-columns:repeat(2,1fr);} }
+  .seg-card{background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:22px;display:flex;flex-direction:column;gap:10px;}
+  .seg-card .icon{color:var(--coral-strong);}
+  .seg-card h3{font-size:1.02rem;}
+  .seg-card p{color:var(--ink-muted);font-size:.88rem;margin:0;line-height:1.45;}
+
+  /* STEPS */
+  .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;counter-reset:step;}
+  @media (max-width:900px){ .steps{grid-template-columns:1fr 1fr;} }
+  @media (max-width:560px){ .steps{grid-template-columns:1fr;} }
+  .step{position:relative;}
+  .step .num{width:40px;height:40px;border-radius:12px;background:var(--gold);color:var(--gold-ink);font-family:'Fredoka',sans-serif;font-weight:700;font-size:1.1rem;display:flex;align-items:center;justify-content:center;margin-bottom:14px;}
+  .step h3{font-size:1rem;margin-bottom:6px;}
+  .step p{color:var(--ink-muted);font-size:.88rem;margin:0;line-height:1.5;}
+
+  /* USP GRID */
+  .usp-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;}
+  @media (max-width:900px){ .usp-grid{grid-template-columns:repeat(2,1fr);} }
+  @media (max-width:560px){ .usp-grid{grid-template-columns:1fr;} }
+  .usp-card{background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:24px;}
+  .usp-card .icon-wrap{width:46px;height:46px;border-radius:13px;background:var(--success-bg);color:var(--success);display:flex;align-items:center;justify-content:center;margin-bottom:16px;}
+  .usp-card h3{font-size:1.02rem;margin-bottom:8px;}
+  .usp-card p{color:var(--ink-muted);font-size:.88rem;margin:0;line-height:1.5;}
+
+  /* REASSURANCE */
+  .reassure-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;}
+  @media (max-width:760px){ .reassure-grid{grid-template-columns:1fr;} }
+  .reassure-card{background:var(--surface-2);border-radius:22px;padding:30px;display:flex;gap:18px;}
+  .reassure-card .icon-wrap{width:52px;height:52px;border-radius:14px;background:var(--surface);border:1px solid var(--border);color:var(--coral-strong);display:flex;align-items:center;justify-content:center;flex:none;}
+  .reassure-card h3{font-size:1.05rem;margin-bottom:8px;}
+  .reassure-card p{color:var(--ink-muted);font-size:.9rem;margin:0;line-height:1.55;}
+
+  /* PRICING */
+  .price-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;align-items:stretch;}
+  @media (max-width:860px){ .price-grid{grid-template-columns:1fr;max-width:420px;margin:0 auto;} }
+  .price-card{background:var(--surface);border:1.5px solid var(--border);border-radius:22px;padding:30px;display:flex;flex-direction:column;gap:16px;}
+  .price-card.featured{border-color:var(--coral);box-shadow:0 20px 40px -22px rgba(255,90,56,.4);position:relative;}
+  .price-card .badge{position:absolute;top:-13px;left:50%;transform:translateX(-50%);background:var(--coral);color:var(--coral-ink);font-size:.68rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase;padding:5px 14px;border-radius:999px;}
+  .price-card h3{font-size:1.1rem;}
+  .price-card .amount{font-family:'Fredoka',sans-serif;font-weight:600;font-size:1.8rem;}
+  .price-card .amount small{font-family:'Manrope',sans-serif;font-weight:700;font-size:.75rem;color:var(--ink-faint);}
+  .price-card .desc{color:var(--ink-muted);font-size:.88rem;line-height:1.5;flex:1;}
+  .price-card .btn{width:100%;}
+
+  /* FINAL CTA */
+  .cta-band{background:var(--ink);border-radius:32px;padding:56px 40px;text-align:center;color:var(--bg);}
+  .cta-band h2{color:var(--bg);font-size:clamp(1.7rem,3.4vw,2.4rem);}
+  .cta-band p{color:color-mix(in srgb, var(--bg) 70%, transparent);margin:14px 0 28px;font-size:1.02rem;}
+  @media (max-width:600px){ .cta-band{padding:40px 24px;border-radius:24px;} }
+
+  /* FOOTER */
+  footer{border-top:1px solid var(--border);padding:48px 0 32px;}
+  .foot-top{display:grid;grid-template-columns:1.4fr repeat(3,1fr);gap:32px;}
+  @media (max-width:760px){ .foot-top{grid-template-columns:1fr 1fr;} }
+  .foot-brand p{color:var(--ink-muted);font-size:.85rem;max-width:32ch;margin:12px 0 0;}
+  .foot-col h4{font-size:.75rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--ink-faint);margin:0 0 12px;}
+  .foot-col a{display:block;font-size:.88rem;color:var(--ink-muted);font-weight:600;padding:5px 0;}
+  .foot-bottom{margin-top:36px;padding-top:20px;border-top:1px solid var(--border);font-size:.8rem;color:var(--ink-faint);}
+</style>
+</helmet>
+
+<nav class="top">
+  <div class="wrap row">
+    <div class="brand"><img src="icon-192.png" alt="PuntQuiz">PuntQuiz</div>
+    <div class="navlinks">
+      <a href="#hoe-het-werkt">Hoe het werkt</a>
+      <a href="#voor-wie">Voor wie</a>
+      <a href="#prijzen">Prijzen</a>
+    </div>
+    <button class="btn btn-primary btn-sm">Start gratis</button>
+  </div>
+</nav>
+
+<div class="wrap">
+  <div class="hero">
+    <div>
+      <div class="eyebrow">Live pubquiz platform</div>
+      <h1>Elke speler telt,<br>ook in een team.</h1>
+      <p class="lede">PuntQuiz maakt live quizzen socialer, eerlijker en interactiever: iedereen logt individueel in en beantwoordt individueel mee — ook binnen een team.</p>
+      <div class="ctas">
+        <button class="btn btn-primary">Maak gratis een quiz</button>
+        <a href="#hoe-het-werkt" class="btn btn-ghost">Bekijk hoe het werkt</a>
+      </div>
+      <div class="microproof">
+        <span><svg class="icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Gratis tot 25 spelers</span>
+        <span><svg class="icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Geen installatie, direct in de browser</span>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="float-avatar fa1">
+        <div class="av"><svg viewBox="0 0 100 100" width="34" height="34"><rect width="100" height="100" fill="#2E9E86"/><ellipse cx="50" cy="64" rx="34" ry="26" fill="#FBF6EF"/><circle cx="34" cy="34" r="14" fill="#FBF6EF"/><circle cx="66" cy="34" r="14" fill="#FBF6EF"/><circle cx="34" cy="35" r="7" fill="#241512"/><circle cx="66" cy="35" r="7" fill="#241512"/><circle cx="45" cy="50" r="1.8" fill="#241512"/><circle cx="55" cy="50" r="1.8" fill="#241512"/><path d="M27,74 Q50,86 73,74" stroke="#241512" stroke-width="4" fill="none" stroke-linecap="round"/></svg></div>
+        <div class="score">142 <small>Kikker</small></div>
+      </div>
+      <div class="float-avatar fa2">
+        <div class="av"><svg viewBox="0 0 100 100" width="34" height="34"><rect width="100" height="100" fill="#FF5A38"/><circle cx="40" cy="26" r="7" fill="#E8471F"/><circle cx="50" cy="20" r="7" fill="#E8471F"/><circle cx="60" cy="26" r="7" fill="#E8471F"/><circle cx="50" cy="58" r="30" fill="#FBF6EF"/><circle cx="40" cy="54" r="3" fill="#241512"/><circle cx="60" cy="54" r="3" fill="#241512"/><path d="M42,62 L58,62 L50,74 Z" fill="#FFC93C"/><ellipse cx="50" cy="80" rx="5" ry="7" fill="#E8471F"/></svg></div>
+        <div class="score">128 <small>Kip</small></div>
+      </div>
+      <div class="phone">
+        <div class="screen">
+          <div class="topline"><div class="b"><img src="icon-192.png">PuntQuiz</div><span class="livechip"><span class="p"></span>LIVE</span></div>
+          <div class="qcard">
+            <div class="qtext">Wie schreef de muziek voor "Vier Vrienden"?</div>
+            <div class="qopt sel"><span class="k">A</span> Guus Meeuwis</div>
+            <div class="qopt"><span class="k">B</span> Marco Borsato</div>
+            <div class="qopt"><span class="k">C</span> Frans Bauer</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section id="voor-wie">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Voor wie</div>
+      <h2>Gebouwd voor elke live avond</h2>
+    </div>
+    <div class="seg-grid">
+      <div class="seg-card">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3v18M5 8h11l-2 3 2 3H5"/></svg>
+        <h3>Horeca</h3>
+        <p>Wekelijkse pubquiz-avonden, café-competities en muziekquizzen.</p>
+      </div>
+      <div class="seg-card">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V10a2 2 0 012-2h12a2 2 0 012 2v11"/><path d="M9 21v-6h6v6"/><path d="M12 2l4 4-4 4-4-4z"/></svg>
+        <h3>Festivals</h3>
+        <p>BAM! Festival, foodtruck- en bierfestivals, thema-avonden.</p>
+      </div>
+      <div class="seg-card">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="8" width="18" height="13" rx="2"/><path d="M9 8V6a3 3 0 016 0v2"/></svg>
+        <h3>Bedrijven</h3>
+        <p>Teambuilding, kennissessies, onboarding en personeelsfeesten.</p>
+      </div>
+      <div class="seg-card">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3 20v-1a5 5 0 015-5h2a5 5 0 015 5v1"/><path d="M15.5 14.2A4 4 0 0121 18v1.5"/></svg>
+        <h3>Verenigingen</h3>
+        <p>Sportclubs, studenten- en carnavalsverenigingen, vrijwilligersorganisaties.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="hoe-het-werkt">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Hoe het werkt</div>
+      <h2>Van lege quiz tot live avond, in vier stappen</h2>
+    </div>
+    <div class="steps">
+      <div class="step"><div class="num">1</div><h3>Quiz aanmaken</h3><p>Kies individuele quiz of teamquiz — de rest van de instellingen volgt daaruit.</p></div>
+      <div class="step"><div class="num">2</div><h3>Vragen toevoegen</h3><p>Uit de vragenbank of zelf geschreven, met een eigen thema per ronde.</p></div>
+      <div class="step"><div class="num">3</div><h3>Publiceren</h3><p>Deel de roomcode, QR-code of uitnodigingslink met je spelers.</p></div>
+      <div class="step"><div class="num">4</div><h3>Spelen</h3><p>Spelers scannen en joinen binnen 15 seconden — en spelen individueel mee, ook in een team.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Waarom PuntQuiz</div>
+      <h2>Wat dit anders maakt dan een app per team</h2>
+    </div>
+    <div class="usp-grid">
+      <div class="usp-card">
+        <div class="icon-wrap"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="8" r="3.2"/><circle cx="17" cy="9" r="2.6"/><path d="M2.5 20v-1a5.5 5.5 0 015.5-5.5h1a5.5 5.5 0 015.5 5.5v1"/><path d="M15 14.3A4.2 4.2 0 0120.5 18v2"/></svg></div>
+        <h3>Elke speler speelt mee</h3>
+        <p>Geen "één telefoon per team" meer — iedereen logt in, antwoordt en bouwt eigen statistieken op.</p>
+      </div>
+      <div class="usp-card">
+        <div class="icon-wrap"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2.5" width="12" height="19" rx="2.5"/><path d="M10 18.5h4"/><path d="M14 6h3v3h-3zM14 9h3M17 6v3"/></svg></div>
+        <h3>Mobile-first, geen installatie</h3>
+        <p>Join via QR-code, link of roomcode — direct in de browser, geen app store nodig.</p>
+      </div>
+      <div class="usp-card">
+        <div class="icon-wrap"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg></div>
+        <h3>Alles realtime</h3>
+        <p>Live scores, ranglijsten en teamresultaten — ook in presentatiemodus op het grote scherm.</p>
+      </div>
+      <div class="usp-card">
+        <div class="icon-wrap"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l2 2 4-4"/><rect x="3" y="4" width="18" height="16" rx="3"/></svg></div>
+        <h3>Teamintelligentie</h3>
+        <p>Team-antwoorden worden bepaald via meerderheid van stemmen — geen kapitein die alles beslist.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="reassure-grid">
+      <div class="reassure-card">
+        <div class="icon-wrap"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="6" rx="1.5"/><rect x="3" y="14" width="18" height="6" rx="1.5"/><circle cx="7" cy="7" r=".6" fill="currentColor"/><circle cx="7" cy="17" r=".6" fill="currentColor"/></svg></div>
+        <div>
+          <h3>De server bepaalt de score</h3>
+          <p>Nooit een oneerlijke timer of een slimme telefoon: score, tijd en ranglijst komen altijd van de server, nooit van het toestel van een speler.</p>
+        </div>
+      </div>
+      <div class="reassure-card">
+        <div class="icon-wrap"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="2" width="10" height="20" rx="3"/><rect x="10" y="0.5" width="4" height="2" rx="1"/><path d="M10 13l2-4 2 4-2 4z"/></svg></div>
+        <div>
+          <h3>Batterij leeg? Geen paniek.</h3>
+          <p>Een gemiste vraag door een lege batterij of een wankele verbinding is normaal, geen fraude. Spelers krijgen 60 seconden om opnieuw te verbinden.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="prijzen">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Prijzen</div>
+      <h2>Begin klein, groei mee met je avond</h2>
+    </div>
+    <div class="price-grid">
+      <div class="price-card">
+        <h3>Free</h3>
+        <div class="amount">€0</div>
+        <div class="desc">Tot 25 spelers, basisfunctionaliteit — ideaal om PuntQuiz eerst uit te proberen.</div>
+        <button class="btn btn-ghost">Start gratis</button>
+      </div>
+      <div class="price-card featured">
+        <span class="badge">Meest gekozen</span>
+        <h3>Pro</h3>
+        <div class="amount">Op aanvraag</div>
+        <div class="desc">Onbeperkt spelers, multimedia-rondes, eigen branding en export — voor wekelijkse quizavonden.</div>
+        <button class="btn btn-primary">Vraag Pro aan</button>
+      </div>
+      <div class="price-card">
+        <h3>Event</h3>
+        <div class="amount">Op aanvraag</div>
+        <div class="desc">Voor eenmalige grote evenementen: festivals en bedrijfsquizzen op schaal.</div>
+        <button class="btn btn-ghost">Neem contact op</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="cta-band">
+      <h2>Klaar om elke speler te laten meetellen?</h2>
+      <p>Maak in een paar minuten je eerste quiz — gratis tot 25 spelers.</p>
+      <button class="btn btn-primary">Start gratis een quiz</button>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <div class="brand"><img src="icon-192.png" alt="PuntQuiz">PuntQuiz</div>
+        <p>Elke speler telt, ook in een team.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Product</h4>
+        <a href="#hoe-het-werkt">Hoe het werkt</a>
+        <a href="#prijzen">Prijzen</a>
+      </div>
+      <div class="foot-col">
+        <h4>Voor wie</h4>
+        <a href="#voor-wie">Horeca</a>
+        <a href="#voor-wie">Festivals</a>
+        <a href="#voor-wie">Bedrijven</a>
+        <a href="#voor-wie">Verenigingen</a>
+      </div>
+      <div class="foot-col">
+        <h4>Meer</h4>
+        <a href="#">Spelregels</a>
+        <a href="#">Privacybeleid</a>
+        <a href="#">Disclaimer</a>
+        <a href="#">AI-verklaring</a>
+      </div>
+    </div>
+    <div class="foot-bottom">© 2026 PuntQuiz — Elke speler telt, ook in een team.</div>
+  </div>
+</footer>
+</x-dc>
+</body>
+</html>

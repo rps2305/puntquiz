@@ -1,0 +1,25 @@
+{
+  "name": "puntquiz",
+  "private": true,
+  "version": "0.2.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "npm run test -w @puntquiz/api",
+    "typecheck": "npm run typecheck -w @puntquiz/api && npm run typecheck -w @puntquiz/web",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "design": "impeccable detect apps/web/app"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.15.0",
+    "eslint-plugin-vue": "^10.12.1",
+    "globals": "^17.14.0",
+    "impeccable": "^4.9.1",
+    "typescript-eslint": "^8.72.2",
+    "vue-eslint-parser": "^10.4.2"
+  }
+}

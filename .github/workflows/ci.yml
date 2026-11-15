@@ -1,0 +1,69 @@
+# Quality gates (spec §26): type check, unit tests, build, dependency scan, end-to-end on the real stack.
+# Make these required status checks on the trunk branch so a merge cannot bypass them.
+name: CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci
+      - name: Type check (API + shared contracts, strict)
+        run: npm run typecheck -w @puntquiz/api
+      - name: Type check (web, vue-tsc)
+        run: npm run typecheck -w @puntquiz/web
+      - name: "Lint (ESLint, TypeScript and Vue)"
+        run: npm run lint
+      - name: "Design quality (Impeccable detector on the web sources)"
+        run: npx impeccable detect apps/web/app
+      - name: Unit tests (scoring, majority vote, import/export)
+        run: npm test
+      - name: Service worker rules (live data is never cached)
+        run: node tests/sw.test.mjs
+      - name: Build web (Nuxt)
+        run: npm run build -w @puntquiz/web
+
+  security:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci --ignore-scripts
+      - name: Dependency scan - fail on critical
+        run: npm audit --omit=dev --audit-level=critical
+      - name: "Dependency scan - report high (known: Prisma CLI and Vite build tooling)"
+        run: npm audit --omit=dev --audit-level=high
+        continue-on-error: true
+
+  e2e:
+    runs-on: ubuntu-latest
+    needs: quality
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci --ignore-scripts
+      - name: Start the stack
+        run: docker compose up -d --build
+      - name: Wait for the API
+        run: |
+          for i in $(seq 1 60); do curl -fs http://localhost:8088/api/health && exit 0; sleep 3; done
+          docker compose logs; exit 1
+      - name: "Design quality on rendered pages (Impeccable, advisory)"
+        run: |
+          for p in "" login info/privacy info/spelregels about; do npx impeccable detect "http://localhost:8088/$p"; done
+        continue-on-error: true
+      - name: API end-to-end (game loop, bank, host actions, SSO wiring)
+        run: node tests/e2e.mjs http://localhost:8088
+      - name: Logs on failure
+        if: failure()
+        run: docker compose logs --tail 200
+      - run: docker compose down -v
+        if: always()

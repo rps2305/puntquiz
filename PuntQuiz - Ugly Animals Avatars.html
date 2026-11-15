@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="The §12 avatar preset pack for PuntQuiz player profiles: eight flat-vector 'ugly-cute' animal avatars in the brand palette, shown at real in-app sizes.">
+<link rel="icon" href="assets/favicon/favicon.ico">
+<title>PuntQuiz — Ugly Animals Avatars</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#FBF6EF; --surface:#FFFFFF; --surface-2:#F4ECE0; --border:#E6D9C7;
+    --ink:#241512; --ink-muted:#7A695F; --ink-faint:#A6988D;
+    --accent-strong:#E8471F; --gold:#FFC93C;
+    --font-display:'Fredoka',ui-rounded,'Segoe UI',sans-serif;
+    --font-body:'Manrope',ui-sans-serif,system-ui,sans-serif;
+    --font-mono:'IBM Plex Mono',ui-monospace,monospace;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#1B120E; --surface:#241813; --surface-2:#2E1F18; --border:#41291E;
+      --ink:#FAF3EA; --ink-muted:#C9B6A9; --ink-faint:#8C7A6E; --accent-strong:#FF8464;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#1B120E; --surface:#241813; --surface-2:#2E1F18; --border:#41291E;
+    --ink:#FAF3EA; --ink-muted:#C9B6A9; --ink-faint:#8C7A6E; --accent-strong:#FF8464;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font-body);line-height:1.5;-webkit-font-smoothing:antialiased;}
+  :focus-visible{outline:2.5px solid var(--accent-strong);outline-offset:2px;}
+  header,main,footer{max-width:1080px;margin:0 auto;padding-left:28px;padding-right:28px;}
+  header{padding-top:48px;}
+  main{padding-top:0;padding-bottom:100px;}
+  footer{padding-bottom:60px;}
+  h1{font-family:var(--font-display);font-weight:600;font-size:clamp(1.9rem,4vw,2.6rem);margin:0;text-wrap:balance;}
+  .eyebrow{font-size:.75rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--accent-strong);}
+  .lede{color:var(--ink-muted);font-size:1.02rem;max-width:64ch;margin:14px 0 0;}
+  .topbar{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;flex-wrap:wrap;}
+  .theme-toggle{display:flex;gap:4px;padding:4px;background:var(--surface-2);border-radius:999px;border:1px solid var(--border);flex:none;}
+  .theme-toggle button{border:0;background:transparent;color:var(--ink-muted);font-family:var(--font-body);font-weight:700;font-size:.75rem;padding:7px 14px;border-radius:999px;cursor:pointer;}
+  .theme-toggle button.active{background:var(--surface);color:var(--ink);box-shadow:0 1px 2px rgba(0,0,0,.12);}
+
+  .family{display:flex;flex-wrap:wrap;justify-content:center;gap:22px;margin:44px 0 8px;}
+  .fam-item{display:flex;flex-direction:column;align-items:center;gap:10px;width:108px;}
+  .fam-item .av{width:108px;height:108px;border-radius:50%;overflow:hidden;box-shadow:0 14px 26px -14px rgba(0,0,0,.4);}
+  .fam-item .name{font-family:var(--font-display);font-weight:600;font-size:.86rem;text-align:center;}
+
+  .rule{height:1px;background:var(--border);margin:44px 0;}
+
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:20px;}
+  .card{background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:26px;display:flex;flex-direction:column;gap:12px;align-items:center;text-align:center;}
+  .card .av{width:120px;height:120px;border-radius:50%;overflow:hidden;box-shadow:0 14px 26px -14px rgba(0,0,0,.4);}
+  .card h2{font-family:var(--font-display);font-weight:600;font-size:1.2rem;margin:4px 0 -6px;}
+  .card .en{font-size:.76rem;color:var(--ink-muted);}
+  .card .blurb{font-size:.84rem;color:var(--ink-muted);line-height:1.4;}
+  .card .sizes{display:flex;gap:20px;margin-top:4px;}
+  .card .sizewrap{display:flex;flex-direction:column;align-items:center;gap:5px;}
+  .card .cap{font-size:.64rem;color:var(--ink-faint);font-weight:600;}
+  .card .hexchip{font-family:var(--font-mono);font-size:.72rem;background:var(--surface-2);border:1px solid var(--border);border-radius:999px;padding:5px 12px;color:var(--ink-muted);margin-top:2px;}
+
+  footer{border-top:1px solid var(--border);margin-top:70px;padding-top:26px;color:var(--ink-faint);font-size:.82rem;max-width:70ch;}
+</style>
+</head>
+<body>
+<header>
+  <div class="topbar">
+    <div>
+      <div class="eyebrow">§12 · Profielen &amp; avatars</div>
+      <h1>Ugly Animals — avatarpakket</h1>
+      <p class="lede">Acht schattig-lelijke presets waaruit spelers hun avatar kiezen bij het aanmaken van hun profiel. Elk dier heeft een eigen badgekleur voor herkenbaarheid in team- en ranglijsten — dezelfde kleurtokens als <code>PuntQuiz - Design System.html</code>.</p>
+    </div>
+    <div class="theme-toggle" role="group" aria-label="Thema">
+      <button type="button" data-theme-btn="system" class="active">Systeem</button>
+      <button type="button" data-theme-btn="light">Licht</button>
+      <button type="button" data-theme-btn="dark">Donker</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="family">
+    <div class="fam-item"><div class="av"><svg viewBox="0 0 100 100" width="108" height="108"><rect width="100" height="100" fill="#7FAE5C"/><circle cx="28" cy="40" r="9" fill="#5F8B44"/><circle cx="72" cy="40" r="9" fill="#5F8B44"/><circle cx="50" cy="56" r="32" fill="#FBF6EF"/><ellipse cx="50" cy="70" rx="15" ry="11" fill="#EDD9BE"/><circle cx="45" cy="68" r="2" fill="#241512"/><circle cx="55" cy="68" r="2" fill="#241512"/><path d="M34,50 Q40,57 46,50" stroke="#241512" stroke-width="3.5" fill="none" stroke-linecap="round"/><path d="M54,50 Q60,57 66,50" stroke="#241512" stroke-width="3.5" fill="none" stroke-linecap="round"/><path d="M44,78 Q50,82 56,78" stroke="#241512" stroke-width="3" fill="none" stroke-linecap="round"/></svg></div><div class="name">Luiaard</div></div>
+    <div class="fam-item"><div class="av"><svg viewBox="0 0 100 100" width="108" height="108"><rect width="100" height="100" fill="#2E9E86"/><ellipse cx="50" cy="64" rx="34" ry="26" fill="#FBF6EF"/><circle cx="34" cy="34" r="14" fill="#FBF6EF"/><circle cx="66" cy="34" r="14" fill="#FBF6EF"/><circle cx="34" cy="35" r="7" fill="#241512"/><circle cx="66" cy="35" r="7" fill="#241512"/><circle cx="31.5" cy="32.5" r="1.6" fill="#FBF6EF"/><circle cx="63.5" cy="32.5" r="1.6" fill="#FBF6EF"/><circle cx="45" cy="50" r="1.8" fill="#241512"/><circle cx="55" cy="50" r="1.8" fill="#241512"/><path d="M27,74 Q50,86 73,74" stroke="#241512" stroke-width="4" fill="none" stroke-linecap="round"/></svg></div><div class="name">Kikker</div></div>
+    <div class="fam-item"><div class="av"><svg viewBox="0 0 100 100" width="108" height="108"><rect width="100" height="100" fill="#9457B0"/><circle cx="50" cy="56" r="32" fill="#241512"/><rect x="42" y="24" width="16" height="60" rx="8" fill="#FBF6EF"/><circle cx="50" cy="80" r="3" fill="#241512"/><circle cx="40" cy="52" r="4.5" fill="none" stroke="#FBF6EF" stroke-width="2"/><circle cx="60" cy="52" r="4.5" fill="none" stroke="#FBF6EF" stroke-width="2"/><circle cx="40" cy="52" r="1.8" fill="#FBF6EF"/><circle cx="60" cy="52" r="1.8" fill="#FBF6EF"/></svg></div><div class="name">Stinkdier</div></div>
+    <div class="fam-item"><div class="av"><svg viewBox="0 0 100 100" width="108" height="108"><rect width="100" height="100" fill="#FF5A38"/><circle cx="40" cy="26" r="7" fill="#E8471F"/><circle cx="50" cy="20" r="7" fill="#E8471F"/><circle cx="60" cy="26" r="7" fill="#E8471F"/><circle cx="50" cy="58" r="30" fill="#FBF6EF"/><circle cx="40" cy="54" r="3" fill="#241512"/><circle cx="60" cy="54" r="3" fill="#241512"/><path d="M42,62 L58,62 L50,74 Z" fill="#FFC93C"/><ellipse cx="50" cy="80" rx="5" ry="7" fill="#E8471F"/></svg></div><div class="name">Kip</div></div>
+    <div class="fam-item"><div class="av"><svg viewBox="0 0 100 100" width="108" height="108"><rect width="100" height="100" fill="#E0668A"/><circle cx="30" cy="52" r="4" fill="#C24A6B"/><circle cx="70" cy="52" r="4" fill="#C24A6B"/><circle cx="50" cy="56" r="32" fill="#F6D9DE"/><rect x="36" y="48" width="9" height="3" rx="1.5" fill="#241512"/><rect x="55" y="48" width="9" height="3" rx="1.5" fill="#241512"/><path d="M38,42 Q50,38 62,42" stroke="#D98FA3" stroke-width="2" fill="none" stroke-linecap="round"/><rect x="45" y="64" width="5" height="11" rx="2" fill="#FBF6EF"/><rect x="52" y="64" width="5" height="11" rx="2" fill="#FBF6EF"/></svg></div><div class="name">Naaktmol</div></div>
+    <div class="fam-item"><div class="av"><svg viewBox="0 0 100 100" width="108" height="108"><rect width="100" height="100" fill="#C1562E"/><ellipse cx="25" cy="34" rx="7" ry="11" fill="#DDA870" transform="rotate(-18 25 34)"/><ellipse cx="75" cy="34" rx="7" ry="11" fill="#DDA870" transform="rotate(18 75 34)"/><circle cx="50" cy="54" r="30" fill="#E7B98C"/><circle cx="28" cy="58" r="3" fill="#C1562E"/><circle cx="30" cy="68" r="2.6" fill="#C1562E"/><circle cx="72" cy="60" r="3" fill="#C1562E"/><rect x="34" y="64" width="32" height="22" rx="10" fill="#DDA870"/><circle cx="43" cy="80" r="2.5" fill="#241512"/><circle cx="57" cy="80" r="2.5" fill="#241512"/><path d="M32,78 Q26,86 32,90" stroke="#FBF6EF" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M68,78 Q74,86 68,90" stroke="#FBF6EF" stroke-width="4" fill="none" stroke-linecap="round"/><circle cx="40" cy="48" r="2.6" fill="#241512"/><circle cx="60" cy="48" r="2.6" fill="#241512"/></svg></div><div class="name">Wrattenzwijn</div></div>
+    <div class="fam-item"><div class="av"><svg viewBox="0 0 100 100" width="108" height="108"><rect width="100" height="100" fill="#3E8FD6"/><circle cx="24" cy="32" r="14" fill="#FBF6EF"/><circle cx="76" cy="32" r="14" fill="#FBF6EF"/><circle cx="24" cy="32" r="7" fill="#F3C9D6"/><circle cx="76" cy="32" r="7" fill="#F3C9D6"/><ellipse cx="50" cy="52" rx="28" ry="22" fill="#FBF6EF"/><ellipse cx="50" cy="80" rx="13" ry="17" fill="#FBF6EF"/><circle cx="50" cy="92" r="3" fill="#241512"/><circle cx="40" cy="50" r="3.5" fill="#241512"/><circle cx="60" cy="50" r="3.5" fill="#241512"/></svg></div><div class="name">Opossum</div></div>
+    <div class="fam-item"><div class="av"><svg viewBox="0 0 100 100" width="108" height="108"><rect width="100" height="100" fill="#FFC93C"/><rect x="16" y="24" width="10" height="20" rx="5" fill="#C9A06B" transform="rotate(-16 21 34)"/><rect x="74" y="24" width="10" height="20" rx="5" fill="#C9A06B" transform="rotate(16 79 34)"/><circle cx="50" cy="54" r="32" fill="#E9C9A0"/><path d="M38,38 Q42,34 46,38" stroke="#C9A06B" stroke-width="2.5" fill="none" stroke-linecap="round"/><path d="M54,38 Q58,34 62,38" stroke="#C9A06B" stroke-width="2.5" fill="none" stroke-linecap="round"/><circle cx="38" cy="50" r="7.5" fill="#241512"/><circle cx="62" cy="50" r="7.5" fill="#241512"/><circle cx="35.5" cy="47.5" r="1.8" fill="#FBF6EF"/><circle cx="59.5" cy="47.5" r="1.8" fill="#FBF6EF"/><rect x="36" y="62" width="28" height="20" rx="10" fill="#3A2A22"/><circle cx="50" cy="68" r="3.5" fill="#171010"/><circle cx="48.5" cy="66.5" r="1" fill="#5A4438"/></svg></div><div class="name">Mopshond</div></div>
+  </div>
+
+  <div class="rule"></div>
+
+  <div class="grid">
+    <div class="card">
+      <div class="av"><svg viewBox="0 0 100 100" width="120" height="120"><rect width="100" height="100" fill="#7FAE5C"/><circle cx="28" cy="40" r="9" fill="#5F8B44"/><circle cx="72" cy="40" r="9" fill="#5F8B44"/><circle cx="50" cy="56" r="32" fill="#FBF6EF"/><ellipse cx="50" cy="70" rx="15" ry="11" fill="#EDD9BE"/><circle cx="45" cy="68" r="2" fill="#241512"/><circle cx="55" cy="68" r="2" fill="#241512"/><path d="M34,50 Q40,57 46,50" stroke="#241512" stroke-width="3.5" fill="none" stroke-linecap="round"/><path d="M54,50 Q60,57 66,50" stroke="#241512" stroke-width="3.5" fill="none" stroke-linecap="round"/><path d="M44,78 Q50,82 56,78" stroke="#241512" stroke-width="3" fill="none" stroke-linecap="round"/></svg></div>
+      <h2>Luiaard</h2><div class="en">Sloth</div>
+      <div class="blurb">Neemt de tijd. Traag, maar bijna altijd raak met het juiste antwoord.</div>
+      <div class="sizes">
+        <div class="sizewrap"><div style="width:64px;height:64px;border-radius:50%;border:3px solid #FFC93C;display:flex;align-items:center;justify-content:center;"><div style="width:56px;height:56px;border-radius:50%;overflow:hidden;"><svg viewBox="0 0 100 100" width="56" height="56"><rect width="100" height="100" fill="#7FAE5C"/><circle cx="28" cy="40" r="9" fill="#5F8B44"/><circle cx="72" cy="40" r="9" fill="#5F8B44"/><circle cx="50" cy="56" r="32" fill="#FBF6EF"/><ellipse cx="50" cy="70" rx="15" ry="11" fill="#EDD9BE"/><circle cx="45" cy="68" r="2" fill="#241512"/><circle cx="55" cy="68" r="2" fill="#241512"/><path d="M34,50 Q40,57 46,50" stroke="#241512" stroke-width="3.5" fill="none" stroke-linecap="round"/><path d="M54,50 Q60,57 66,50" stroke="#241512" stroke-width="3.5" fill="none" stroke-linecap="round"/><path d="M44,78 Q50,82 56,78" stroke="#241512" stroke-width="3" fill="none" stroke-linecap="round"/></svg></div></div><span class="cap">Picker · 56px</span></div>
+        <div class="sizewrap"><div style="width:40px;height:40px;border-radius:50%;overflow:hidden;"><svg viewBox="0 0 100 100" width="40" height="40"><rect width="100" height="100" fill="#7FAE5C"/><circle cx="28" cy="40" r="9" fill="#5F8B44"/><circle cx="72" cy="40" r="9" fill="#5F8B44"/><circle cx="50" cy="56" r="32" fill="#FBF6EF"/><ellipse cx="50" cy="70" rx="15" ry="11" fill="#EDD9BE"/><circle cx="45" cy="68" r="2" fill="#241512"/><circle cx="55" cy="68" r="2" fill="#241512"/><path d="M34,50 Q40,57 46,50" stroke="#241512" stroke-width="3.5" fill="none" stroke-linecap="round"/><path d="M54,50 Q60,57 66,50" stroke="#241512" stroke-width="3.5" fill="none" stroke-linecap="round"/><path d="M44,78 Q50,82 56,78" stroke="#241512" stroke-width="3" fill="none" stroke-linecap="round"/></svg></div><span class="cap">Ranglijst · 40px</span></div>
+      </div>
+      <div class="hexchip">Badge · #7FAE5C</div>
+    </div>
+
+    <div class="card">
+      <div class="av"><svg viewBox="0 0 100 100" width="120" height="120"><rect width="100" height="100" fill="#2E9E86"/><ellipse cx="50" cy="64" rx="34" ry="26" fill="#FBF6EF"/><circle cx="34" cy="34" r="14" fill="#FBF6EF"/><circle cx="66" cy="34" r="14" fill="#FBF6EF"/><circle cx="34" cy="35" r="7" fill="#241512"/><circle cx="66" cy="35" r="7" fill="#241512"/><circle cx="31.5" cy="32.5" r="1.6" fill="#FBF6EF"/><circle cx="63.5" cy="32.5" r="1.6" fill="#FBF6EF"/><circle cx="45" cy="50" r="1.8" fill="#241512"/><circle cx="55" cy="50" r="1.8" fill="#241512"/><path d="M27,74 Q50,86 73,74" stroke="#241512" stroke-width="4" fill="none" stroke-linecap="round"/></svg></div>
+      <h2>Kikker</h2><div class="en">Frog</div>
+      <div class="blurb">Springt op elke kans, vooral als het muziekrondje begint.</div>
+      <div class="sizes">
+        <div class="sizewrap"><div style="width:64px;height:64px;border-radius:50%;border:3px solid #FFC93C;display:flex;align-items:center;justify-content:center;"><div style="width:56px;height:56px;border-radius:50%;overflow:hidden;"><svg viewBox="0 0 100 100" width="56" height="56"><rect width="100" height="100" fill="#2E9E86"/><ellipse cx="50" cy="64" rx="34" ry="26" fill="#FBF6EF"/><circle cx="34" cy="34" r="14" fill="#FBF6EF"/><circle cx="66" cy="34" r="14" fill="#FBF6EF"/><circle cx="34" cy="35" r="7" fill="#241512"/><circle cx="66" cy="35" r="7" fill="#241512"/><circle cx="31.5" cy="32.5" r="1.6" fill="#FBF6EF"/><circle cx="63.5" cy="32.5" r="1.6" fill="#FBF6EF"/><circle cx="45" cy="50" r="1.8" fill="#241512"/><circle cx="55" cy="50" r="1.8" fill="#241512"/><path d="M27,74 Q50,86 73,74" stroke="#241512" stroke-width="4" fill="none" stroke-linecap="round"/></svg></div></div><span class="cap">Picker · 56px</span></div>
+        <div class="sizewrap"><div style="width:40px;height:40px;border-radius:50%;overflow:hidden;"><svg viewBox="0 0 100 100" width="40" height="40"><rect width="100" height="100" fill="#2E9E86"/><ellipse cx="50" cy="64" rx="34" ry="26" fill="#FBF6EF"/><circle cx="34" cy="34" r="14" fill="#FBF6EF"/><circle cx="66" cy="34" r="14" fill="#FBF6EF"/><circle cx="34" cy="35" r="7" fill="#241512"/><circle cx="66" cy="35" r="7" fill="#241512"/><circle cx="31.5" cy="32.5" r="1.6" fill="#FBF6EF"/><circle cx="63.5" cy="32.5" r="1.6" fill="#FBF6EF"/><circle cx="45" cy="50" r="1.8" fill="#241512"/><circle cx="55" cy="50" r="1.8" fill="#241512"/><path d="M27,74 Q50,86 73,74" stroke="#241512" stroke-width="4" fill="none" stroke-linecap="round"/></svg></div><span class="cap">Ranglijst · 40px</span></div>
+      </div>
+      <div class="hexchip">Badge · #2E9E86</div>
+    </div>
+
+    <div class="card">
+      <div class="av"><svg viewBox="0 0 100 100" width="120" height="120"><rect width="100" height="100" fill="#9457B0"/><circle cx="50" cy="56" r="32" fill="#241512"/><rect x="42" y="24" width="16" height="60" rx="8" fill="#FBF6EF"/><circle cx="50" cy="80" r="3" fill="#241512"/><circle cx="40" cy="52" r="4.5" fill="none" stroke="#FBF6EF" stroke-width="2"/><circle cx="60" cy="52" r="4.5" fill="none" stroke="#FBF6EF" stroke-width="2"/><circle cx="40" cy="52" r="1.8" fill="#FBF6EF"/><circle cx="60" cy="52" r="1.8" fill="#FBF6EF"/></svg></div>
+      <h2>Stinkdier</h2><div class="en">Skunk</div>
+      <div class="blurb">Klein, gedurfd, en niet bang om een gokje te wagen.</div>
+      <div class="sizes">
+        <div class="sizewrap"><div style="width:64px;height:64px;border-radius:50%;border:3px solid #FFC93C;display:flex;align-items:center;justify-content:center;"><div style="width:56px;height:56px;border-radius:50%;overflow:hidden;"><svg viewBox="0 0 100 100" width="56" height="56"><rect width="100" height="100" fill="#9457B0"/><circle cx="50" cy="56" r="32" fill="#241512"/><rect x="42" y="24" width="16" height="60" rx="8" fill="#FBF6EF"/><circle cx="50" cy="80" r="3" fill="#241512"/><circle cx="40" cy="52" r="4.5" fill="none" stroke="#FBF6EF" stroke-width="2"/><circle cx="60" cy="52" r="4.5" fill="none" stroke="#FBF6EF" stroke-width="2"/><circle cx="40" cy="52" r="1.8" fill="#FBF6EF"/><circle cx="60" cy="52" r="1.8" fill="#FBF6EF"/></svg></div></div><span class="cap">Picker · 56px</span></div>
+        <div class="sizewrap"><div style="width:40px;height:40px;border-radius:50%;overflow:hidden;"><svg viewBox="0 0 100 100" width="40" height="40"><rect width="100" height="100" fill="#9457B0"/><circle cx="50" cy="56" r="32" fill="#241512"/><rect x="42" y="24" width="16" height="60" rx="8" fill="#FBF6EF"/><circle cx="50" cy="80" r="3" fill="#241512"/><circle cx="40" cy="52" r="4.5" fill="none" stroke="#FBF6EF" stroke-width="2"/><circle cx="60" cy="52" r="4.5" fill="none" stroke="#FBF6EF" stroke-width="2"/><circle cx="40" cy="52" r="1.8" fill="#FBF6EF"/><circle cx="60" cy="52" r="1.8" fill="#FBF6EF"/></svg></div><span class="cap">Ranglijst · 40px</span></div>
+      </div>
+      <div class="hexchip">Badge · #9457B0</div>
+    </div>
+
+    <div class="card">
+      <div class="av"><svg viewBox="0 0 100 100" width="120" height="120"><rect width="100" height="100" fill="#FF5A38"/><circle cx="40" cy="26" r="7" fill="#E8471F"/><circle cx="50" cy="20" r="7" fill="#E8471F"/><circle cx="60" cy="26" r="7" fill="#E8471F"/><circle cx="50" cy="58" r="30" fill="#FBF6EF"/><circle cx="40" cy="54" r="3" fill="#241512"/><circle cx="60" cy="54" r="3" fill="#241512"/><path d="M42,62 L58,62 L50,74 Z" fill="#FFC93C"/><ellipse cx="50" cy="80" rx="5" ry="7" fill="#E8471F"/></svg></div>
+      <h2>Kip</h2><div class="en">Chicken</div>
+      <div class="blurb">Kakelt het hardst als het antwoord toch fout blijkt te zijn.</div>
+      <div class="sizes">
+        <div class="sizewrap"><div style="width:64px;height:64px;border-radius:50%;border:3px solid #FFC93C;display:flex;align-items:center;justify-content:center;"><div style="width:56px;height:56px;border-radius:50%;overflow:hidden;"><svg viewBox="0 0 100 100" width="56" height="56"><rect width="100" height="100" fill="#FF5A38"/><circle cx="40" cy="26" r="7" fill="#E8471F"/><circle cx="50" cy="20" r="7" fill="#E8471F"/><circle cx="60" cy="26" r="7" fill="#E8471F"/><circle cx="50" cy="58" r="30" fill="#FBF6EF"/><circle cx="40" cy="54" r="3" fill="#241512"/><circle cx="60" cy="54" r="3" fill="#241512"/><path d="M42,62 L58,62 L50,74 Z" fill="#FFC93C"/><ellipse cx="50" cy="80" rx="5" ry="7" fill="#E8471F"/></svg></div></div><span class="cap">Picker · 56px</span></div>
+        <div class="sizewrap"><div style="width:40px;height:40px;border-radius:50%;overflow:hidden;"><svg viewBox="0 0 100 100" width="40" height="40"><rect width="100" height="100" fill="#FF5A38"/><circle cx="40" cy="26" r="7" fill="#E8471F"/><circle cx="50" cy="20" r="7" fill="#E8471F"/><circle cx="60" cy="26" r="7" fill="#E8471F"/><circle cx="50" cy="58" r="30" fill="#FBF6EF"/><circle cx="40" cy="54" r="3" fill="#241512"/><circle cx="60" cy="54" r="3" fill="#241512"/><path d="M42,62 L58,62 L50,74 Z" fill="#FFC93C"/><ellipse cx="50" cy="80" rx="5" ry="7" fill="#E8471F"/></svg></div><span class="cap">Ranglijst · 40px</span></div>
+      </div>
+      <div class="hexchip">Badge · #FF5A38</div>
+    </div>
+
+    <div class="card">
+      <div class="av"><svg viewBox="0 0 100 100" width="120" height="120"><rect width="100" height="100" fill="#E0668A"/><circle cx="30" cy="52" r="4" fill="#C24A6B"/><circle cx="70" cy="52" r="4" fill="#C24A6B"/><circle cx="50" cy="56" r="32" fill="#F6D9DE"/><rect x="36" y="48" width="9" height="3" rx="1.5" fill="#241512"/><rect x="55" y="48" width="9" height="3" rx="1.5" fill="#241512"/><path d="M38,42 Q50,38 62,42" stroke="#D98FA3" stroke-width="2" fill="none" stroke-linecap="round"/><rect x="45" y="64" width="5" height="11" rx="2" fill="#FBF6EF"/><rect x="52" y="64" width="5" height="11" rx="2" fill="#FBF6EF"/></svg></div>
+      <h2>Naaktmol</h2><div class="en">Naked mole-rat</div>
+      <div class="blurb">Ziet er raar uit, weet toch écht alles van geschiedenis.</div>
+      <div class="sizes">
+        <div class="sizewrap"><div style="width:64px;height:64px;border-radius:50%;border:3px solid #FFC93C;display:flex;align-items:center;justify-content:center;"><div style="width:56px;height:56px;border-radius:50%;overflow:hidden;"><svg viewBox="0 0 100 100" width="56" height="56"><rect width="100" height="100" fill="#E0668A"/><circle cx="30" cy="52" r="4" fill="#C24A6B"/><circle cx="70" cy="52" r="4" fill="#C24A6B"/><circle cx="50" cy="56" r="32" fill="#F6D9DE"/><rect x="36" y="48" width="9" height="3" rx="1.5" fill="#241512"/><rect x="55" y="48" width="9" height="3" rx="1.5" fill="#241512"/><path d="M38,42 Q50,38 62,42" stroke="#D98FA3" stroke-width="2" fill="none" stroke-linecap="round"/><rect x="45" y="64" width="5" height="11" rx="2" fill="#FBF6EF"/><rect x="52" y="64" width="5" height="11" rx="2" fill="#FBF6EF"/></svg></div></div><span class="cap">Picker · 56px</span></div>
+        <div class="sizewrap"><div style="width:40px;height:40px;border-radius:50%;overflow:hidden;"><svg viewBox="0 0 100 100" width="40" height="40"><rect width="100" height="100" fill="#E0668A"/><circle cx="30" cy="52" r="4" fill="#C24A6B"/><circle cx="70" cy="52" r="4" fill="#C24A6B"/><circle cx="50" cy="56" r="32" fill="#F6D9DE"/><rect x="36" y="48" width="9" height="3" rx="1.5" fill="#241512"/><rect x="55" y="48" width="9" height="3" rx="1.5" fill="#241512"/><path d="M38,42 Q50,38 62,42" stroke="#D98FA3" stroke-width="2" fill="none" stroke-linecap="round"/><rect x="45" y="64" width="5" height="11" rx="2" fill="#FBF6EF"/><rect x="52" y="64" width="5" height="11" rx="2" fill="#FBF6EF"/></svg></div><span class="cap">Ranglijst · 40px</span></div>
+      </div>
+      <div class="hexchip">Badge · #E0668A</div>
+    </div>
+
+    <div class="card">
+      <div class="av"><svg viewBox="0 0 100 100" width="120" height="120"><rect width="100" height="100" fill="#C1562E"/><ellipse cx="25" cy="34" rx="7" ry="11" fill="#DDA870" transform="rotate(-18 25 34)"/><ellipse cx="75" cy="34" rx="7" ry="11" fill="#DDA870" transform="rotate(18 75 34)"/><circle cx="50" cy="54" r="30" fill="#E7B98C"/><circle cx="28" cy="58" r="3" fill="#C1562E"/><circle cx="30" cy="68" r="2.6" fill="#C1562E"/><circle cx="72" cy="60" r="3" fill="#C1562E"/><rect x="34" y="64" width="32" height="22" rx="10" fill="#DDA870"/><circle cx="43" cy="80" r="2.5" fill="#241512"/><circle cx="57" cy="80" r="2.5" fill="#241512"/><path d="M32,78 Q26,86 32,90" stroke="#FBF6EF" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M68,78 Q74,86 68,90" stroke="#FBF6EF" stroke-width="4" fill="none" stroke-linecap="round"/><circle cx="40" cy="48" r="2.6" fill="#241512"/><circle cx="60" cy="48" r="2.6" fill="#241512"/></svg></div>
+      <h2>Wrattenzwijn</h2><div class="en">Warthog</div>
+      <div class="blurb">Niet knap, maar wel messcherp bij de sportvragen.</div>
+      <div class="sizes">
+        <div class="sizewrap"><div style="width:64px;height:64px;border-radius:50%;border:3px solid #FFC93C;display:flex;align-items:center;justify-content:center;"><div style="width:56px;height:56px;border-radius:50%;overflow:hidden;"><svg viewBox="0 0 100 100" width="56" height="56"><rect width="100" height="100" fill="#C1562E"/><ellipse cx="25" cy="34" rx="7" ry="11" fill="#DDA870" transform="rotate(-18 25 34)"/><ellipse cx="75" cy="34" rx="7" ry="11" fill="#DDA870" transform="rotate(18 75 34)"/><circle cx="50" cy="54" r="30" fill="#E7B98C"/><circle cx="28" cy="58" r="3" fill="#C1562E"/><circle cx="30" cy="68" r="2.6" fill="#C1562E"/><circle cx="72" cy="60" r="3" fill="#C1562E"/><rect x="34" y="64" width="32" height="22" rx="10" fill="#DDA870"/><circle cx="43" cy="80" r="2.5" fill="#241512"/><circle cx="57" cy="80" r="2.5" fill="#241512"/><path d="M32,78 Q26,86 32,90" stroke="#FBF6EF" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M68,78 Q74,86 68,90" stroke="#FBF6EF" stroke-width="4" fill="none" stroke-linecap="round"/><circle cx="40" cy="48" r="2.6" fill="#241512"/><circle cx="60" cy="48" r="2.6" fill="#241512"/></svg></div></div><span class="cap">Picker · 56px</span></div>
+        <div class="sizewrap"><div style="width:40px;height:40px;border-radius:50%;overflow:hidden;"><svg viewBox="0 0 100 100" width="40" height="40"><rect width="100" height="100" fill="#C1562E"/><ellipse cx="25" cy="34" rx="7" ry="11" fill="#DDA870" transform="rotate(-18 25 34)"/><ellipse cx="75" cy="34" rx="7" ry="11" fill="#DDA870" transform="rotate(18 75 34)"/><circle cx="50" cy="54" r="30" fill="#E7B98C"/><circle cx="28" cy="58" r="3" fill="#C1562E"/><circle cx="30" cy="68" r="2.6" fill="#C1562E"/><circle cx="72" cy="60" r="3" fill="#C1562E"/><rect x="34" y="64" width="32" height="22" rx="10" fill="#DDA870"/><circle cx="43" cy="80" r="2.5" fill="#241512"/><circle cx="57" cy="80" r="2.5" fill="#241512"/><path d="M32,78 Q26,86 32,90" stroke="#FBF6EF" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M68,78 Q74,86 68,90" stroke="#FBF6EF" stroke-width="4" fill="none" stroke-linecap="round"/><circle cx="40" cy="48" r="2.6" fill="#241512"/><circle cx="60" cy="48" r="2.6" fill="#241512"/></svg></div><span class="cap">Ranglijst · 40px</span></div>
+      </div>
+      <div class="hexchip">Badge · #C1562E</div>
+    </div>
+
+    <div class="card">
+      <div class="av"><svg viewBox="0 0 100 100" width="120" height="120"><rect width="100" height="100" fill="#3E8FD6"/><circle cx="24" cy="32" r="14" fill="#FBF6EF"/><circle cx="76" cy="32" r="14" fill="#FBF6EF"/><circle cx="24" cy="32" r="7" fill="#F3C9D6"/><circle cx="76" cy="32" r="7" fill="#F3C9D6"/><ellipse cx="50" cy="52" rx="28" ry="22" fill="#FBF6EF"/><ellipse cx="50" cy="80" rx="13" ry="17" fill="#FBF6EF"/><circle cx="50" cy="92" r="3" fill="#241512"/><circle cx="40" cy="50" r="3.5" fill="#241512"/><circle cx="60" cy="50" r="3.5" fill="#241512"/></svg></div>
+      <h2>Opossum</h2><div class="en">Opossum</div>
+      <div class="blurb">Speelt dood bij een lastige vraag, wint toch de ronde.</div>
+      <div class="sizes">
+        <div class="sizewrap"><div style="width:64px;height:64px;border-radius:50%;border:3px solid #FFC93C;display:flex;align-items:center;justify-content:center;"><div style="width:56px;height:56px;border-radius:50%;overflow:hidden;"><svg viewBox="0 0 100 100" width="56" height="56"><rect width="100" height="100" fill="#3E8FD6"/><circle cx="24" cy="32" r="14" fill="#FBF6EF"/><circle cx="76" cy="32" r="14" fill="#FBF6EF"/><circle cx="24" cy="32" r="7" fill="#F3C9D6"/><circle cx="76" cy="32" r="7" fill="#F3C9D6"/><ellipse cx="50" cy="52" rx="28" ry="22" fill="#FBF6EF"/><ellipse cx="50" cy="80" rx="13" ry="17" fill="#FBF6EF"/><circle cx="50" cy="92" r="3" fill="#241512"/><circle cx="40" cy="50" r="3.5" fill="#241512"/><circle cx="60" cy="50" r="3.5" fill="#241512"/></svg></div></div><span class="cap">Picker · 56px</span></div>
+        <div class="sizewrap"><div style="width:40px;height:40px;border-radius:50%;overflow:hidden;"><svg viewBox="0 0 100 100" width="40" height="40"><rect width="100" height="100" fill="#3E8FD6"/><circle cx="24" cy="32" r="14" fill="#FBF6EF"/><circle cx="76" cy="32" r="14" fill="#FBF6EF"/><circle cx="24" cy="32" r="7" fill="#F3C9D6"/><circle cx="76" cy="32" r="7" fill="#F3C9D6"/><ellipse cx="50" cy="52" rx="28" ry="22" fill="#FBF6EF"/><ellipse cx="50" cy="80" rx="13" ry="17" fill="#FBF6EF"/><circle cx="50" cy="92" r="3" fill="#241512"/><circle cx="40" cy="50" r="3.5" fill="#241512"/><circle cx="60" cy="50" r="3.5" fill="#241512"/></svg></div><span class="cap">Ranglijst · 40px</span></div>
+      </div>
+      <div class="hexchip">Badge · #3E8FD6</div>
+    </div>
+
+    <div class="card">
+      <div class="av"><svg viewBox="0 0 100 100" width="120" height="120"><rect width="100" height="100" fill="#FFC93C"/><rect x="16" y="24" width="10" height="20" rx="5" fill="#C9A06B" transform="rotate(-16 21 34)"/><rect x="74" y="24" width="10" height="20" rx="5" fill="#C9A06B" transform="rotate(16 79 34)"/><circle cx="50" cy="54" r="32" fill="#E9C9A0"/><path d="M38,38 Q42,34 46,38" stroke="#C9A06B" stroke-width="2.5" fill="none" stroke-linecap="round"/><path d="M54,38 Q58,34 62,38" stroke="#C9A06B" stroke-width="2.5" fill="none" stroke-linecap="round"/><circle cx="38" cy="50" r="7.5" fill="#241512"/><circle cx="62" cy="50" r="7.5" fill="#241512"/><circle cx="35.5" cy="47.5" r="1.8" fill="#FBF6EF"/><circle cx="59.5" cy="47.5" r="1.8" fill="#FBF6EF"/><rect x="36" y="62" width="28" height="20" rx="10" fill="#3A2A22"/><circle cx="50" cy="68" r="3.5" fill="#171010"/><circle cx="48.5" cy="66.5" r="1" fill="#5A4438"/></svg></div>
+      <h2>Mopshond</h2><div class="en">Pug</div>
+      <div class="blurb">Buiten adem, maar binnen altijd bij de les.</div>
+      <div class="sizes">
+        <div class="sizewrap"><div style="width:64px;height:64px;border-radius:50%;border:3px solid #FFC93C;display:flex;align-items:center;justify-content:center;"><div style="width:56px;height:56px;border-radius:50%;overflow:hidden;"><svg viewBox="0 0 100 100" width="56" height="56"><rect width="100" height="100" fill="#FFC93C"/><rect x="16" y="24" width="10" height="20" rx="5" fill="#C9A06B" transform="rotate(-16 21 34)"/><rect x="74" y="24" width="10" height="20" rx="5" fill="#C9A06B" transform="rotate(16 79 34)"/><circle cx="50" cy="54" r="32" fill="#E9C9A0"/><path d="M38,38 Q42,34 46,38" stroke="#C9A06B" stroke-width="2.5" fill="none" stroke-linecap="round"/><path d="M54,38 Q58,34 62,38" stroke="#C9A06B" stroke-width="2.5" fill="none" stroke-linecap="round"/><circle cx="38" cy="50" r="7.5" fill="#241512"/><circle cx="62" cy="50" r="7.5" fill="#241512"/><circle cx="35.5" cy="47.5" r="1.8" fill="#FBF6EF"/><circle cx="59.5" cy="47.5" r="1.8" fill="#FBF6EF"/><rect x="36" y="62" width="28" height="20" rx="10" fill="#3A2A22"/><circle cx="50" cy="68" r="3.5" fill="#171010"/><circle cx="48.5" cy="66.5" r="1" fill="#5A4438"/></svg></div></div><span class="cap">Picker · 56px</span></div>
+        <div class="sizewrap"><div style="width:40px;height:40px;border-radius:50%;overflow:hidden;"><svg viewBox="0 0 100 100" width="40" height="40"><rect width="100" height="100" fill="#FFC93C"/><rect x="16" y="24" width="10" height="20" rx="5" fill="#C9A06B" transform="rotate(-16 21 34)"/><rect x="74" y="24" width="10" height="20" rx="5" fill="#C9A06B" transform="rotate(16 79 34)"/><circle cx="50" cy="54" r="32" fill="#E9C9A0"/><path d="M38,38 Q42,34 46,38" stroke="#C9A06B" stroke-width="2.5" fill="none" stroke-linecap="round"/><path d="M54,38 Q58,34 62,38" stroke="#C9A06B" stroke-width="2.5" fill="none" stroke-linecap="round"/><circle cx="38" cy="50" r="7.5" fill="#241512"/><circle cx="62" cy="50" r="7.5" fill="#241512"/><circle cx="35.5" cy="47.5" r="1.8" fill="#FBF6EF"/><circle cx="59.5" cy="47.5" r="1.8" fill="#FBF6EF"/><rect x="36" y="62" width="28" height="20" rx="10" fill="#3A2A22"/><circle cx="50" cy="68" r="3.5" fill="#171010"/><circle cx="48.5" cy="66.5" r="1" fill="#5A4438"/></svg></div><span class="cap">Ranglijst · 40px</span></div>
+      </div>
+      <div class="hexchip">Badge · #FFC93C</div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <strong>Bron:</strong> geëxporteerd uit de Claude Design-canvas (<code>assets/avatars/*.dc.html</code>, bewerkbaar). Deze pagina is een lichtgewicht, statische kopie voor lokale weergave — zonder de canvas-editor — met dezelfde kleurtokens als <code>PuntQuiz - Design System.html</code>.
+</footer>
+<script>
+(function(){
+  var root = document.documentElement;
+  var buttons = document.querySelectorAll('[data-theme-btn]');
+  function apply(mode){
+    if(mode === 'light'){ root.setAttribute('data-theme','light'); }
+    else if(mode === 'dark'){ root.setAttribute('data-theme','dark'); }
+    else { root.removeAttribute('data-theme'); }
+    buttons.forEach(function(b){ b.classList.toggle('active', b.getAttribute('data-theme-btn') === mode); });
+  }
+  var saved = 'system';
+  try { saved = localStorage.getItem('pq-avatars-theme') || 'system'; } catch(e){}
+  apply(saved);
+  buttons.forEach(function(b){
+    b.addEventListener('click', function(){
+      var mode = b.getAttribute('data-theme-btn');
+      apply(mode);
+      try { localStorage.setItem('pq-avatars-theme', mode); } catch(e){}
+    });
+  });
+})();
+</script>
+</body>
+</html>

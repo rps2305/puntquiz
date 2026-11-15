@@ -1,0 +1,286 @@
+# Declarative Authentik setup for PuntQuiz (applied by the worker on start; idempotent).
+version: 1
+metadata:
+  name: PuntQuiz
+entries:
+  - model: authentik_core.group
+    id: grp-admins
+    identifiers: { name: puntquiz-admins }
+    attrs:
+      users: [!Find [authentik_core.user, [username, akadmin]]]
+  - model: authentik_core.group
+    id: grp-staff
+    identifiers: { name: puntquiz-staff }
+    attrs:
+      users: [!Find [authentik_core.user, [username, akadmin]]]
+
+  - model: authentik_providers_oauth2.oauth2provider
+    id: provider
+    identifiers: { name: PuntQuiz }
+    attrs:
+      authorization_flow: !Find [authentik_flows.flow, [slug, default-provider-authorization-implicit-consent]]
+      invalidation_flow: !Find [authentik_flows.flow, [slug, default-provider-invalidation-flow]]
+      client_type: confidential
+      client_id: puntquiz
+      client_secret: !Env OIDC_CLIENT_SECRET
+      redirect_uris:
+        - matching_mode: strict
+          url: !Env OIDC_REDIRECT_URI
+      signing_key: !Find [authentik_crypto.certificatekeypair, [name, authentik Self-signed Certificate]]
+      property_mappings:
+        - !Find [authentik_providers_oauth2.scopemapping, [managed, goauthentik.io/providers/oauth2/scope-openid]]
+        - !Find [authentik_providers_oauth2.scopemapping, [managed, goauthentik.io/providers/oauth2/scope-email]]
+        - !Find [authentik_providers_oauth2.scopemapping, [managed, goauthentik.io/providers/oauth2/scope-profile]]
+
+  - model: authentik_core.application
+    identifiers: { slug: puntquiz }
+    attrs:
+      name: PuntQuiz
+      provider: !KeyOf provider
+      meta_launch_url: !Env PUBLIC_URL
+
+  # ---- Login flow: identification + password, MFA (mandatory for staff, optional for players), login ----
+  - model: authentik_stages_user_login.userloginstage
+    id: stage-login
+    identifiers: { name: puntquiz-login }
+    attrs:
+      session_duration: days=30
+
+  - model: authentik_stages_authenticator_validate.authenticatorvalidatestage
+    id: stage-mfa-staff
+    identifiers: { name: puntquiz-mfa-staff }
+    attrs:
+      device_classes: [totp, webauthn, static]
+      not_configured_action: configure
+      configuration_stages:
+        - !Find [authentik_stages_authenticator_totp.authenticatortotpstage, [name, default-authenticator-totp-setup]]
+
+  - model: authentik_stages_authenticator_validate.authenticatorvalidatestage
+    id: stage-mfa-player
+    identifiers: { name: puntquiz-mfa-player }
+    attrs:
+      device_classes: [totp, webauthn, static]
+      not_configured_action: skip
+
+  - model: authentik_policies_expression.expressionpolicy
+    id: pol-is-staff
+    identifiers: { name: puntquiz-is-staff }
+    attrs:
+      expression: |
+        return ak_is_group_member(request.user, name="puntquiz-staff") or ak_is_group_member(request.user, name="puntquiz-admins")
+
+  - model: authentik_policies_expression.expressionpolicy
+    id: pol-not-staff
+    identifiers: { name: puntquiz-is-not-staff }
+    attrs:
+      expression: |
+        return not (ak_is_group_member(request.user, name="puntquiz-staff") or ak_is_group_member(request.user, name="puntquiz-admins"))
+
+  # ---- Self-service sign-up for players ----
+  - model: authentik_stages_prompt.prompt
+    id: pr-username
+    identifiers: { name: puntquiz-enroll-username }
+    attrs: { field_key: username, label: Gebruikersnaam, type: username, required: true, placeholder: Gebruikersnaam, order: 0 }
+  - model: authentik_stages_prompt.prompt
+    id: pr-name
+    identifiers: { name: puntquiz-enroll-name }
+    attrs: { field_key: name, label: Weergavenaam, type: text, required: true, placeholder: Weergavenaam, order: 1 }
+  - model: authentik_stages_prompt.prompt
+    id: pr-email
+    identifiers: { name: puntquiz-enroll-email }
+    attrs: { field_key: email, label: E-mail, type: email, required: true, placeholder: E-mail, order: 2 }
+  - model: authentik_stages_prompt.prompt
+    id: pr-password
+    identifiers: { name: puntquiz-enroll-password }
+    attrs: { field_key: password, label: Wachtwoord, type: password, required: true, placeholder: Wachtwoord, order: 3 }
+  - model: authentik_stages_prompt.prompt
+    id: pr-password2
+    identifiers: { name: puntquiz-enroll-password-repeat }
+    attrs: { field_key: password_repeat, label: Wachtwoord (herhaal), type: password, required: true, placeholder: Wachtwoord (herhaal), order: 4 }
+
+  - model: authentik_stages_prompt.promptstage
+    id: stage-enroll-prompt
+    identifiers: { name: puntquiz-enroll-prompt }
+    attrs:
+      fields: [!KeyOf pr-username, !KeyOf pr-name, !KeyOf pr-email, !KeyOf pr-password, !KeyOf pr-password2]
+
+  - model: authentik_stages_user_write.userwritestage
+    id: stage-enroll-write
+    identifiers: { name: puntquiz-enroll-write }
+    attrs:
+      user_creation_mode: always_create
+      create_users_as_inactive: false
+      user_type: external
+
+  - model: authentik_flows.flow
+    id: flow-enroll
+    identifiers: { slug: puntquiz-enrollment }
+    attrs:
+      name: PuntQuiz account maken
+      title: Account maken
+      designation: enrollment
+      authentication: require_unauthenticated
+  - model: authentik_flows.flowstagebinding
+    identifiers: { target: !KeyOf flow-enroll, stage: !KeyOf stage-enroll-prompt, order: 10 }
+  - model: authentik_flows.flowstagebinding
+    identifiers: { target: !KeyOf flow-enroll, stage: !KeyOf stage-enroll-write, order: 20 }
+  - model: authentik_flows.flowstagebinding
+    identifiers: { target: !KeyOf flow-enroll, stage: !KeyOf stage-login, order: 30 }
+
+  # ---- Password recovery: identify -> mailed link -> new password (needs working SMTP) ----
+  - model: authentik_stages_identification.identificationstage
+    id: stage-rec-ident
+    identifiers: { name: puntquiz-recovery-identification }
+    attrs:
+      user_fields: [email, username]
+  - model: authentik_stages_email.emailstage
+    id: stage-rec-email
+    identifiers: { name: puntquiz-recovery-email }
+    attrs:
+      use_global_settings: true
+      subject: PuntQuiz wachtwoord herstellen
+      template: puntquiz_password_reset.html
+      token_expiry: minutes=30
+      activate_user_on_success: true
+  - model: authentik_stages_prompt.promptstage
+    id: stage-rec-prompt
+    identifiers: { name: puntquiz-recovery-prompt }
+    attrs:
+      fields: [!KeyOf pr-password, !KeyOf pr-password2]
+  - model: authentik_stages_user_write.userwritestage
+    id: stage-rec-write
+    identifiers: { name: puntquiz-recovery-write }
+    attrs:
+      user_creation_mode: never_create
+  - model: authentik_flows.flow
+    id: flow-recovery
+    identifiers: { slug: puntquiz-recovery }
+    attrs:
+      name: PuntQuiz wachtwoord herstellen
+      title: Wachtwoord herstellen
+      designation: recovery
+      authentication: require_unauthenticated
+  - model: authentik_flows.flowstagebinding
+    identifiers: { target: !KeyOf flow-recovery, stage: !KeyOf stage-rec-ident, order: 10 }
+  - model: authentik_flows.flowstagebinding
+    identifiers: { target: !KeyOf flow-recovery, stage: !KeyOf stage-rec-email, order: 20 }
+  - model: authentik_flows.flowstagebinding
+    identifiers: { target: !KeyOf flow-recovery, stage: !KeyOf stage-rec-prompt, order: 30 }
+  - model: authentik_flows.flowstagebinding
+    identifiers: { target: !KeyOf flow-recovery, stage: !KeyOf stage-rec-write, order: 40 }
+  - model: authentik_flows.flowstagebinding
+    identifiers: { target: !KeyOf flow-recovery, stage: !KeyOf stage-login, order: 100 }
+
+  # ---- Social login sources: always defined, but only `enabled` when the client id is set in the environment ----
+  - model: authentik_sources_oauth.oauthsource
+    id: src-google
+    identifiers: { slug: google }
+    attrs:
+      name: Google
+      provider_type: google
+      consumer_key: !If [!Env [PQ_GOOGLE_CLIENT_ID, ""], !Env PQ_GOOGLE_CLIENT_ID, unset]
+      consumer_secret: !If [!Env [PQ_GOOGLE_CLIENT_ID, ""], !Env PQ_GOOGLE_CLIENT_SECRET, unset]
+      authentication_flow: !Find [authentik_flows.flow, [slug, default-source-authentication]]
+      enrollment_flow: !Find [authentik_flows.flow, [slug, default-source-enrollment]]
+      # email_link only for providers that verify e-mail addresses; others never auto-link to existing accounts.
+      user_matching_mode: email_link
+      enabled: !If [!Env [PQ_GOOGLE_CLIENT_ID, ""], true, false]
+  - model: authentik_sources_oauth.oauthsource
+    id: src-microsoft
+    identifiers: { slug: microsoft }
+    attrs:
+      name: Microsoft
+      provider_type: azuread
+      consumer_key: !If [!Env [PQ_MICROSOFT_CLIENT_ID, ""], !Env PQ_MICROSOFT_CLIENT_ID, unset]
+      consumer_secret: !If [!Env [PQ_MICROSOFT_CLIENT_ID, ""], !Env PQ_MICROSOFT_CLIENT_SECRET, unset]
+      authentication_flow: !Find [authentik_flows.flow, [slug, default-source-authentication]]
+      enrollment_flow: !Find [authentik_flows.flow, [slug, default-source-enrollment]]
+      # email_link only for providers that verify e-mail addresses; others never auto-link to existing accounts.
+      user_matching_mode: email_link
+      enabled: !If [!Env [PQ_MICROSOFT_CLIENT_ID, ""], true, false]
+  - model: authentik_sources_oauth.oauthsource
+    id: src-github
+    identifiers: { slug: github }
+    attrs:
+      name: GitHub
+      provider_type: github
+      consumer_key: !If [!Env [PQ_GITHUB_CLIENT_ID, ""], !Env PQ_GITHUB_CLIENT_ID, unset]
+      consumer_secret: !If [!Env [PQ_GITHUB_CLIENT_ID, ""], !Env PQ_GITHUB_CLIENT_SECRET, unset]
+      authentication_flow: !Find [authentik_flows.flow, [slug, default-source-authentication]]
+      enrollment_flow: !Find [authentik_flows.flow, [slug, default-source-enrollment]]
+      # email_link only for providers that verify e-mail addresses; others never auto-link to existing accounts.
+      user_matching_mode: email_deny
+      enabled: !If [!Env [PQ_GITHUB_CLIENT_ID, ""], true, false]
+  - model: authentik_sources_oauth.oauthsource
+    id: src-facebook
+    identifiers: { slug: facebook }
+    attrs:
+      name: Facebook
+      provider_type: facebook
+      consumer_key: !If [!Env [PQ_FACEBOOK_CLIENT_ID, ""], !Env PQ_FACEBOOK_CLIENT_ID, unset]
+      consumer_secret: !If [!Env [PQ_FACEBOOK_CLIENT_ID, ""], !Env PQ_FACEBOOK_CLIENT_SECRET, unset]
+      authentication_flow: !Find [authentik_flows.flow, [slug, default-source-authentication]]
+      enrollment_flow: !Find [authentik_flows.flow, [slug, default-source-enrollment]]
+      # email_link only for providers that verify e-mail addresses; others never auto-link to existing accounts.
+      user_matching_mode: email_deny
+      enabled: !If [!Env [PQ_FACEBOOK_CLIENT_ID, ""], true, false]
+
+  - model: authentik_stages_identification.identificationstage
+    id: stage-ident
+    identifiers: { name: puntquiz-identification }
+    attrs:
+      user_fields: [email, username]
+      password_stage: !Find [authentik_stages_password.passwordstage, [name, default-authentication-password]]
+      enrollment_flow: !KeyOf flow-enroll
+      recovery_flow: !KeyOf flow-recovery
+      show_source_labels: true
+      sources:
+        - !Find [authentik_sources_oauth.oauthsource, [slug, google]]
+        - !Find [authentik_sources_oauth.oauthsource, [slug, microsoft]]
+        - !Find [authentik_sources_oauth.oauthsource, [slug, github]]
+        - !Find [authentik_sources_oauth.oauthsource, [slug, facebook]]
+
+  - model: authentik_flows.flow
+    id: flow-auth
+    identifiers: { slug: puntquiz-authentication }
+    attrs:
+      name: PuntQuiz inloggen
+      title: Welkom bij PuntQuiz
+      designation: authentication
+      authentication: require_unauthenticated
+  - model: authentik_flows.flowstagebinding
+    identifiers: { target: !KeyOf flow-auth, stage: !KeyOf stage-ident, order: 10 }
+  - model: authentik_flows.flowstagebinding
+    id: bind-mfa-staff
+    identifiers: { target: !KeyOf flow-auth, stage: !KeyOf stage-mfa-staff, order: 30 }
+    attrs: { evaluate_on_plan: false, re_evaluate_policies: true, policy_engine_mode: any }
+  - model: authentik_policies.policybinding
+    identifiers: { target: !KeyOf bind-mfa-staff, policy: !KeyOf pol-is-staff, order: 0 }
+    attrs: { negate: false, enabled: true, timeout: 30 }
+  - model: authentik_flows.flowstagebinding
+    id: bind-mfa-player
+    identifiers: { target: !KeyOf flow-auth, stage: !KeyOf stage-mfa-player, order: 31 }
+    attrs: { evaluate_on_plan: false, re_evaluate_policies: true, policy_engine_mode: any }
+  - model: authentik_policies.policybinding
+    identifiers: { target: !KeyOf bind-mfa-player, policy: !KeyOf pol-not-staff, order: 0 }
+    attrs: { negate: false, enabled: true, timeout: 30 }
+  - model: authentik_flows.flowstagebinding
+    identifiers: { target: !KeyOf flow-auth, stage: !KeyOf stage-login, order: 100 }
+
+  # Brand the hosted login screens (spec §16/§30): PuntQuiz title, icon and coral accent.
+  - model: authentik_brands.brand
+    identifiers: { domain: authentik-default }
+    attrs:
+      branding_title: PuntQuiz
+      # Dutch for everything Authentik shows itself (buttons, errors, MFA setup), unless a user has chosen otherwise
+      attributes:
+        settings:
+          locale: nl
+      flow_authentication: !KeyOf flow-auth
+      branding_logo: !Format ["%s/icons/icon-192.png", !Env PUBLIC_URL]
+      branding_favicon: !Format ["%s/icons/icon-32.png", !Env PUBLIC_URL]
+      branding_custom_css: |
+        :root { --pf-global--primary-color--100: #FF5A38; --pf-global--primary-color--200: #E8471F; --pf-global--link--Color: #E8471F; }
+        .pf-c-login__main-header-desc::before { content: "Elke speler telt, ook in een team"; display: block; }
+        .pf-c-button.pf-m-primary { background-color: #FF5A38; color: #fff; font-weight: 800; border-radius: 14px; }
+        .pf-c-login { font-family: "Manrope", system-ui, sans-serif; }

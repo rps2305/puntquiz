@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Manrope:wght@500;600;700;800&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  :root{--cream:#FBF6EF;--ink:#241512;--ink-muted:#7A695F;--border:#E6D9C7;--surface:#FFFFFF;--surface2:#F4ECE0;--gold:#FFC93C;--accent-strong:#E8471F;}
+  *{box-sizing:border-box;}
+  body{margin:0;}
+  .board{width:1080px;height:760px;background:var(--cream);border:1px solid var(--border);border-radius:24px;padding:40px 44px;display:flex;flex-direction:column;gap:24px;font-family:'Manrope',sans-serif;color:var(--ink);}
+  .board[data-theme="dark"]{--cream:#1B120E;--surface:#241813;--surface2:#2E1F18;--ink:#FAF3EA;--ink-muted:#C9B6A9;--border:#41291E;--accent-strong:#FF8464;}
+  .eyebrow{font-size:.75rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--accent-strong);}
+  h1{font-family:'Fredoka',sans-serif;font-weight:600;font-size:2rem;margin:6px 0 0;}
+  .sub{color:var(--ink-muted);font-size:.95rem;margin-top:6px;max-width:64ch;}
+  .family{display:flex;justify-content:space-between;gap:16px;}
+  .fam-item{display:flex;flex-direction:column;align-items:center;gap:10px;width:96px;}
+  .fam-item .avatar96{width:96px;height:96px;border-radius:50%;overflow:hidden;box-shadow:0 12px 22px -12px rgba(0,0,0,.4);}
+  .fam-item .name{font-family:'Fredoka',sans-serif;font-weight:600;font-size:.82rem;text-align:center;}
+  .rule{height:1px;background:var(--border);}
+  .lbl{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--ink-muted);margin-bottom:12px;}
+  .ctx-row{display:flex;gap:40px;align-items:flex-start;}
+  .ctx-block{flex:1;}
+  .picker{display:flex;gap:12px;}
+  .pick-item{width:48px;height:48px;border-radius:50%;overflow:hidden;border:2.5px solid transparent;}
+  .pick-item.sel{border-color:var(--gold);}
+  .roster{border:1px solid var(--border);border-radius:14px;background:var(--surface);overflow:hidden;max-width:340px;}
+  .rrow{display:flex;align-items:center;gap:12px;padding:9px 14px;border-bottom:1px solid var(--border);}
+  .rrow:last-child{border-bottom:none;}
+  .rrow .av32{width:32px;height:32px;border-radius:50%;overflow:hidden;flex:none;}
+  .rrow .nm{flex:1;font-weight:700;font-size:.85rem;}
+  .rrow .sc{font-family:'IBM Plex Mono',monospace;font-weight:600;font-size:.85rem;}
+</style>
+</helmet>
+<div class="board" data-theme="{{theme}}">
+  <div>
+    <div class="eyebrow">§12 · Profielen &amp; avatars</div>
+    <h1>Ugly Animals — avatarpakket</h1>
+    <div class="sub">Acht schattig-lelijke presets waaruit spelers hun avatar kiezen bij het aanmaken van hun profiel. Elk dier heeft een eigen badgekleur voor herkenbaarheid in team- en ranglijsten.</div>
+  </div>
+
+  <div class="family">
+    <div class="fam-item">
+      <div class="avatar96"><svg viewBox="0 0 100 100" width="96" height="96"><rect width="100" height="100" fill="#7FAE5C"/><circle cx="28" cy="40" r="9" fill="#5F8B44"/><circle cx="72" cy="40" r="9" fill="#5F8B44"/><circle cx="50" cy="56" r="32" fill="#FBF6EF"/><ellipse cx="50" cy="70" rx="15" ry="11" fill="#EDD9BE"/><circle cx="45" cy="68" r="2" fill="#241512"/><circle cx="55" cy="68" r="2" fill="#241512"/><path d="M34,50 Q40,57 46,50" stroke="#241512" stroke-width="3.5" fill="none" stroke-linecap="round"/><path d="M54,50 Q60,57 66,50" stroke="#241512" stroke-width="3.5" fill="none" stroke-linecap="round"/><path d="M44,78 Q50,82 56,78" stroke="#241512" stroke-width="3" fill="none" stroke-linecap="round"/></svg></div>
+      <div class="name">Luiaard</div>
+    </div>
+    <div class="fam-item">
+      <div class="avatar96"><svg viewBox="0 0 100 100" width="96" height="96"><rect width="100" height="100" fill="#2E9E86"/><ellipse cx="50" cy="64" rx="34" ry="26" fill="#FBF6EF"/><circle cx="34" cy="34" r="14" fill="#FBF6EF"/><circle cx="66" cy="34" r="14" fill="#FBF6EF"/><circle cx="34" cy="35" r="7" fill="#241512"/><circle cx="66" cy="35" r="7" fill="#241512"/><circle cx="31.5" cy="32.5" r="1.6" fill="#FBF6EF"/><circle cx="63.5" cy="32.5" r="1.6" fill="#FBF6EF"/><circle cx="45" cy="50" r="1.8" fill="#241512"/><circle cx="55" cy="50" r="1.8" fill="#241512"/><path d="M27,74 Q50,86 73,74" stroke="#241512" stroke-width="4" fill="none" stroke-linecap="round"/></svg></div>
+      <div class="name">Kikker</div>
+    </div>
+    <div class="fam-item">
+      <div class="avatar96"><svg viewBox="0 0 100 100" width="96" height="96"><rect width="100" height="100" fill="#9457B0"/><circle cx="50" cy="56" r="32" fill="#241512"/><rect x="42" y="24" width="16" height="60" rx="8" fill="#FBF6EF"/><circle cx="50" cy="80" r="3" fill="#241512"/><circle cx="40" cy="52" r="4.5" fill="none" stroke="#FBF6EF" stroke-width="2"/><circle cx="60" cy="52" r="4.5" fill="none" stroke="#FBF6EF" stroke-width="2"/><circle cx="40" cy="52" r="1.8" fill="#FBF6EF"/><circle cx="60" cy="52" r="1.8" fill="#FBF6EF"/></svg></div>
+      <div class="name">Stinkdier</div>
+    </div>
+    <div class="fam-item">
+      <div class="avatar96"><svg viewBox="0 0 100 100" width="96" height="96"><rect width="100" height="100" fill="#FF5A38"/><circle cx="40" cy="26" r="7" fill="#E8471F"/><circle cx="50" cy="20" r="7" fill="#E8471F"/><circle cx="60" cy="26" r="7" fill="#E8471F"/><circle cx="50" cy="58" r="30" fill="#FBF6EF"/><circle cx="40" cy="54" r="3" fill="#241512"/><circle cx="60" cy="54" r="3" fill="#241512"/><path d="M42,62 L58,62 L50,74 Z" fill="#FFC93C"/><ellipse cx="50" cy="80" rx="5" ry="7" fill="#E8471F"/></svg></div>
+      <div class="name">Kip</div>
+    </div>
+    <div class="fam-item">
+      <div class="avatar96"><svg viewBox="0 0 100 100" width="96" height="96"><rect width="100" height="100" fill="#E0668A"/><circle cx="30" cy="52" r="4" fill="#C24A6B"/><circle cx="70" cy="52" r="4" fill="#C24A6B"/><circle cx="50" cy="56" r="32" fill="#F6D9DE"/><rect x="36" y="48" width="9" height="3" rx="1.5" fill="#241512"/><rect x="55" y="48" width="9" height="3" rx="1.5" fill="#241512"/><path d="M38,42 Q50,38 62,42" stroke="#D98FA3" stroke-width="2" fill="none" stroke-linecap="round"/><rect x="45" y="64" width="5" height="11" rx="2" fill="#FBF6EF"/><rect x="52" y="64" width="5" height="11" rx="2" fill="#FBF6EF"/></svg></div>
+      <div class="name">Naaktmol</div>
+    </div>
+    <div class="fam-item">
+      <div class="avatar96"><svg viewBox="0 0 100 100" width="96" height="96"><rect width="100" height="100" fill="#C1562E"/><ellipse cx="25" cy="34" rx="7" ry="11" fill="#DDA870" transform="rotate(-18 25 34)"/><ellipse cx="75" cy="34" rx="7" ry="11" fill="#DDA870" transform="rotate(18 75 34)"/><circle cx="50" cy="54" r="30" fill="#E7B98C"/><circle cx="28" cy="58" r="3" fill="#C1562E"/><circle cx="30" cy="68" r="2.6" fill="#C1562E"/><circle cx="72" cy="60" r="3" fill="#C1562E"/><rect x="34" y="64" width="32" height="22" rx="10" fill="#DDA870"/><circle cx="43" cy="80" r="2.5" fill="#241512"/><circle cx="57" cy="80" r="2.5" fill="#241512"/><path d="M32,78 Q26,86 32,90" stroke="#FBF6EF" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M68,78 Q74,86 68,90" stroke="#FBF6EF" stroke-width="4" fill="none" stroke-linecap="round"/><circle cx="40" cy="48" r="2.6" fill="#241512"/><circle cx="60" cy="48" r="2.6" fill="#241512"/></svg></div>
+      <div class="name">Wrattenzwijn</div>
+    </div>
+    <div class="fam-item">
+      <div class="avatar96"><svg viewBox="0 0 100 100" width="96" height="96"><rect width="100" height="100" fill="#3E8FD6"/><circle cx="24" cy="32" r="14" fill="#FBF6EF"/><circle cx="76" cy="32" r="14" fill="#FBF6EF"/><circle cx="24" cy="32" r="7" fill="#F3C9D6"/><circle cx="76" cy="32" r="7" fill="#F3C9D6"/><ellipse cx="50" cy="52" rx="28" ry="22" fill="#FBF6EF"/><ellipse cx="50" cy="80" rx="13" ry="17" fill="#FBF6EF"/><circle cx="50" cy="92" r="3" fill="#241512"/><circle cx="40" cy="50" r="3.5" fill="#241512"/><circle cx="60" cy="50" r="3.5" fill="#241512"/></svg></div>
+      <div class="name">Opossum</div>
+    </div>
+    <div class="fam-item">
+      <div class="avatar96"><svg viewBox="0 0 100 100" width="96" height="96"><rect width="100" height="100" fill="#FFC93C"/><rect x="16" y="24" width="10" height="20" rx="5" fill="#C9A06B" transform="rotate(-16 21 34)"/><rect x="74" y="24" width="10" height="20" rx="5" fill="#C9A06B" transform="rotate(16 79 34)"/><circle cx="50" cy="54" r="32" fill="#E9C9A0"/><path d="M38,38 Q42,34 46,38" stroke="#C9A06B" stroke-width="2.5" fill="none" stroke-linecap="round"/><path d="M54,38 Q58,34 62,38" stroke="#C9A06B" stroke-width="2.5" fill="none" stroke-linecap="round"/><circle cx="38" cy="50" r="7.5" fill="#241512"/><circle cx="62" cy="50" r="7.5" fill="#241512"/><circle cx="35.5" cy="47.5" r="1.8" fill="#FBF6EF"/><circle cx="59.5" cy="47.5" r="1.8" fill="#FBF6EF"/><rect x="36" y="62" width="28" height="20" rx="10" fill="#3A2A22"/><circle cx="50" cy="68" r="3.5" fill="#171010"/><circle cx="48.5" cy="66.5" r="1" fill="#5A4438"/></svg></div>
+      <div class="name">Mopshond</div>
+    </div>
+  </div>
+
+  <div class="rule"></div>
+
+  <div class="ctx-row">
+    <div class="ctx-block">
+      <div class="lbl">Kies je avatar — profielinstellingen</div>
+      <div class="picker">
+        <div class="pick-item"><svg viewBox="0 0 100 100" width="48" height="48"><rect width="100" height="100" fill="#7FAE5C"/><circle cx="28" cy="40" r="9" fill="#5F8B44"/><circle cx="72" cy="40" r="9" fill="#5F8B44"/><circle cx="50" cy="56" r="32" fill="#FBF6EF"/><ellipse cx="50" cy="70" rx="15" ry="11" fill="#EDD9BE"/><circle cx="45" cy="68" r="2" fill="#241512"/><circle cx="55" cy="68" r="2" fill="#241512"/><path d="M34,50 Q40,57 46,50" stroke="#241512" stroke-width="3.5" fill="none" stroke-linecap="round"/><path d="M54,50 Q60,57 66,50" stroke="#241512" stroke-width="3.5" fill="none" stroke-linecap="round"/><path d="M44,78 Q50,82 56,78" stroke="#241512" stroke-width="3" fill="none" stroke-linecap="round"/></svg></div>
+        <div class="pick-item sel"><svg viewBox="0 0 100 100" width="48" height="48"><rect width="100" height="100" fill="#2E9E86"/><ellipse cx="50" cy="64" rx="34" ry="26" fill="#FBF6EF"/><circle cx="34" cy="34" r="14" fill="#FBF6EF"/><circle cx="66" cy="34" r="14" fill="#FBF6EF"/><circle cx="34" cy="35" r="7" fill="#241512"/><circle cx="66" cy="35" r="7" fill="#241512"/><circle cx="31.5" cy="32.5" r="1.6" fill="#FBF6EF"/><circle cx="63.5" cy="32.5" r="1.6" fill="#FBF6EF"/><circle cx="45" cy="50" r="1.8" fill="#241512"/><circle cx="55" cy="50" r="1.8" fill="#241512"/><path d="M27,74 Q50,86 73,74" stroke="#241512" stroke-width="4" fill="none" stroke-linecap="round"/></svg></div>
+        <div class="pick-item"><svg viewBox="0 0 100 100" width="48" height="48"><rect width="100" height="100" fill="#9457B0"/><circle cx="50" cy="56" r="32" fill="#241512"/><rect x="42" y="24" width="16" height="60" rx="8" fill="#FBF6EF"/><circle cx="50" cy="80" r="3" fill="#241512"/><circle cx="40" cy="52" r="4.5" fill="none" stroke="#FBF6EF" stroke-width="2"/><circle cx="60" cy="52" r="4.5" fill="none" stroke="#FBF6EF" stroke-width="2"/><circle cx="40" cy="52" r="1.8" fill="#FBF6EF"/><circle cx="60" cy="52" r="1.8" fill="#FBF6EF"/></svg></div>
+        <div class="pick-item"><svg viewBox="0 0 100 100" width="48" height="48"><rect width="100" height="100" fill="#FF5A38"/><circle cx="40" cy="26" r="7" fill="#E8471F"/><circle cx="50" cy="20" r="7" fill="#E8471F"/><circle cx="60" cy="26" r="7" fill="#E8471F"/><circle cx="50" cy="58" r="30" fill="#FBF6EF"/><circle cx="40" cy="54" r="3" fill="#241512"/><circle cx="60" cy="54" r="3" fill="#241512"/><path d="M42,62 L58,62 L50,74 Z" fill="#FFC93C"/><ellipse cx="50" cy="80" rx="5" ry="7" fill="#E8471F"/></svg></div>
+        <div class="pick-item"><svg viewBox="0 0 100 100" width="48" height="48"><rect width="100" height="100" fill="#E0668A"/><circle cx="30" cy="52" r="4" fill="#C24A6B"/><circle cx="70" cy="52" r="4" fill="#C24A6B"/><circle cx="50" cy="56" r="32" fill="#F6D9DE"/><rect x="36" y="48" width="9" height="3" rx="1.5" fill="#241512"/><rect x="55" y="48" width="9" height="3" rx="1.5" fill="#241512"/><path d="M38,42 Q50,38 62,42" stroke="#D98FA3" stroke-width="2" fill="none" stroke-linecap="round"/><rect x="45" y="64" width="5" height="11" rx="2" fill="#FBF6EF"/><rect x="52" y="64" width="5" height="11" rx="2" fill="#FBF6EF"/></svg></div>
+        <div class="pick-item"><svg viewBox="0 0 100 100" width="48" height="48"><rect width="100" height="100" fill="#C1562E"/><ellipse cx="25" cy="34" rx="7" ry="11" fill="#DDA870" transform="rotate(-18 25 34)"/><ellipse cx="75" cy="34" rx="7" ry="11" fill="#DDA870" transform="rotate(18 75 34)"/><circle cx="50" cy="54" r="30" fill="#E7B98C"/><circle cx="28" cy="58" r="3" fill="#C1562E"/><circle cx="30" cy="68" r="2.6" fill="#C1562E"/><circle cx="72" cy="60" r="3" fill="#C1562E"/><rect x="34" y="64" width="32" height="22" rx="10" fill="#DDA870"/><circle cx="43" cy="80" r="2.5" fill="#241512"/><circle cx="57" cy="80" r="2.5" fill="#241512"/><path d="M32,78 Q26,86 32,90" stroke="#FBF6EF" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M68,78 Q74,86 68,90" stroke="#FBF6EF" stroke-width="4" fill="none" stroke-linecap="round"/><circle cx="40" cy="48" r="2.6" fill="#241512"/><circle cx="60" cy="48" r="2.6" fill="#241512"/></svg></div>
+        <div class="pick-item"><svg viewBox="0 0 100 100" width="48" height="48"><rect width="100" height="100" fill="#3E8FD6"/><circle cx="24" cy="32" r="14" fill="#FBF6EF"/><circle cx="76" cy="32" r="14" fill="#FBF6EF"/><circle cx="24" cy="32" r="7" fill="#F3C9D6"/><circle cx="76" cy="32" r="7" fill="#F3C9D6"/><ellipse cx="50" cy="52" rx="28" ry="22" fill="#FBF6EF"/><ellipse cx="50" cy="80" rx="13" ry="17" fill="#FBF6EF"/><circle cx="50" cy="92" r="3" fill="#241512"/><circle cx="40" cy="50" r="3.5" fill="#241512"/><circle cx="60" cy="50" r="3.5" fill="#241512"/></svg></div>
+        <div class="pick-item"><svg viewBox="0 0 100 100" width="48" height="48"><rect width="100" height="100" fill="#FFC93C"/><rect x="16" y="24" width="10" height="20" rx="5" fill="#C9A06B" transform="rotate(-16 21 34)"/><rect x="74" y="24" width="10" height="20" rx="5" fill="#C9A06B" transform="rotate(16 79 34)"/><circle cx="50" cy="54" r="32" fill="#E9C9A0"/><path d="M38,38 Q42,34 46,38" stroke="#C9A06B" stroke-width="2.5" fill="none" stroke-linecap="round"/><path d="M54,38 Q58,34 62,38" stroke="#C9A06B" stroke-width="2.5" fill="none" stroke-linecap="round"/><circle cx="38" cy="50" r="7.5" fill="#241512"/><circle cx="62" cy="50" r="7.5" fill="#241512"/><circle cx="35.5" cy="47.5" r="1.8" fill="#FBF6EF"/><circle cx="59.5" cy="47.5" r="1.8" fill="#FBF6EF"/><rect x="36" y="62" width="28" height="20" rx="10" fill="#3A2A22"/><circle cx="50" cy="68" r="3.5" fill="#171010"/><circle cx="48.5" cy="66.5" r="1" fill="#5A4438"/></svg></div>
+      </div>
+    </div>
+    <div class="ctx-block">
+      <div class="lbl">In de ranglijst — 40px</div>
+      <div class="roster">
+        <div class="rrow">
+          <div class="av32"><svg viewBox="0 0 100 100" width="32" height="32"><rect width="100" height="100" fill="#7FAE5C"/><circle cx="28" cy="40" r="9" fill="#5F8B44"/><circle cx="72" cy="40" r="9" fill="#5F8B44"/><circle cx="50" cy="56" r="32" fill="#FBF6EF"/><ellipse cx="50" cy="70" rx="15" ry="11" fill="#EDD9BE"/><circle cx="45" cy="68" r="2" fill="#241512"/><circle cx="55" cy="68" r="2" fill="#241512"/><path d="M34,50 Q40,57 46,50" stroke="#241512" stroke-width="3.5" fill="none" stroke-linecap="round"/><path d="M54,50 Q60,57 66,50" stroke="#241512" stroke-width="3.5" fill="none" stroke-linecap="round"/><path d="M44,78 Q50,82 56,78" stroke="#241512" stroke-width="3" fill="none" stroke-linecap="round"/></svg></div>
+          <div class="nm">Lisa</div>
+          <div class="sc">128</div>
+        </div>
+        <div class="rrow">
+          <div class="av32"><svg viewBox="0 0 100 100" width="32" height="32"><rect width="100" height="100" fill="#FF5A38"/><circle cx="40" cy="26" r="7" fill="#E8471F"/><circle cx="50" cy="20" r="7" fill="#E8471F"/><circle cx="60" cy="26" r="7" fill="#E8471F"/><circle cx="50" cy="58" r="30" fill="#FBF6EF"/><circle cx="40" cy="54" r="3" fill="#241512"/><circle cx="60" cy="54" r="3" fill="#241512"/><path d="M42,62 L58,62 L50,74 Z" fill="#FFC93C"/><ellipse cx="50" cy="80" rx="5" ry="7" fill="#E8471F"/></svg></div>
+          <div class="nm">Ronald</div>
+          <div class="sc">121</div>
+        </div>
+        <div class="rrow">
+          <div class="av32"><svg viewBox="0 0 100 100" width="32" height="32"><rect width="100" height="100" fill="#FFC93C"/><rect x="16" y="24" width="10" height="20" rx="5" fill="#C9A06B" transform="rotate(-16 21 34)"/><rect x="74" y="24" width="10" height="20" rx="5" fill="#C9A06B" transform="rotate(16 79 34)"/><circle cx="50" cy="54" r="32" fill="#E9C9A0"/><path d="M38,38 Q42,34 46,38" stroke="#C9A06B" stroke-width="2.5" fill="none" stroke-linecap="round"/><path d="M54,38 Q58,34 62,38" stroke="#C9A06B" stroke-width="2.5" fill="none" stroke-linecap="round"/><circle cx="38" cy="50" r="7.5" fill="#241512"/><circle cx="62" cy="50" r="7.5" fill="#241512"/><circle cx="35.5" cy="47.5" r="1.8" fill="#FBF6EF"/><circle cx="59.5" cy="47.5" r="1.8" fill="#FBF6EF"/><rect x="36" y="62" width="28" height="20" rx="10" fill="#3A2A22"/><circle cx="50" cy="68" r="3.5" fill="#171010"/><circle cx="48.5" cy="66.5" r="1" fill="#5A4438"/></svg></div>
+          <div class="nm">Peter</div>
+          <div class="sc">109</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</x-dc>
+<script data-dc-script data-props='{"dark":{"editor":"boolean","default":false}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return { theme: this.props.dark ? 'dark' : 'light' };
+  }
+}
+</script>
+</body>
+</html>

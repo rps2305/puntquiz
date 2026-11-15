@@ -1,0 +1,165 @@
+# One stack per environment (spec §17). Same file locally and on the server;
+# only .env differs (PQ_HTTP_PORT, PQ_BIND, secrets, COOKIE_SECURE).
+name: puntquiz
+
+services:
+  traefik:
+    image: traefik:v3.2
+    restart: unless-stopped
+    command:
+      - --providers.file.filename=/etc/traefik/dynamic.yml
+      - --entrypoints.web.address=:80
+      # nginx (CloudPanel) terminates TLS in front of us: trust its X-Forwarded-* (private ranges only).
+      - --entrypoints.web.forwardedHeaders.trustedIPs=127.0.0.1/32,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16
+      - --accesslog=false
+    volumes:
+      - ./infra/traefik/dynamic.yml:/etc/traefik/dynamic.yml:ro
+    ports:
+      - "${PQ_BIND:-127.0.0.1}:${PQ_HTTP_PORT:-8088}:80"
+    depends_on: [web, api, authentik-server]
+
+  web:
+    build:
+      context: .
+      dockerfile: apps/web/Dockerfile
+    restart: unless-stopped
+    environment:
+      NUXT_PUBLIC_APP_VERSION: ${APP_VERSION:-0.2.0}
+    depends_on: [api]
+
+  api:
+    build:
+      context: .
+      dockerfile: apps/api/Dockerfile
+    restart: unless-stopped
+    environment:
+      DATABASE_URL: postgresql://puntquiz:${POSTGRES_PASSWORD:-puntquiz}@postgres:5432/puntquiz
+      REDIS_URL: redis://redis:6379
+      JWT_SECRET: ${JWT_SECRET:-dev-secret-change-me}
+      PUBLIC_URL: ${PUBLIC_URL:-http://localhost:8088}
+      OIDC_PUBLIC_ISSUER: ${OIDC_PUBLIC_ISSUER:-http://auth.localhost:8088}
+      OIDC_INTERNAL_URL: http://authentik-server:9000
+      OIDC_CLIENT_ID: puntquiz
+      OIDC_CLIENT_SECRET: ${OIDC_CLIENT_SECRET:-dev-oidc-secret}
+      LOCAL_AUTH: ${LOCAL_AUTH:-true}
+      SMTP_HOST: ${SMTP_HOST:-}
+      SMTP_PORT: ${SMTP_PORT:-465}
+      SMTP_USER: ${SMTP_USER:-}
+      SMTP_PASS: ${SMTP_PASS:-}
+      MAIL_FROM: ${MAIL_FROM:-}
+      MAIL_DAILY_CAP: ${MAIL_DAILY_CAP:-400}
+      MEDIA_DIR: /data/media
+      RETENTION_DAYS: ${RETENTION_DAYS:-90}
+      COOKIE_SECURE: ${COOKIE_SECURE:-false}
+      APP_VERSION: ${APP_VERSION:-0.2.0}
+      PORT: 3001
+    volumes:
+      - media:/data/media
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+
+  # Identity provider (spec §16): Authentik, own database, branded via blueprint. Multi-arch image.
+  authentik-server:
+    image: ghcr.io/goauthentik/server:2025.12
+    restart: unless-stopped
+    command: server
+    environment: &authentik-env
+      AUTHENTIK_SECRET_KEY: ${AUTHENTIK_SECRET_KEY:-dev-authentik-secret-key-change-me-0123456789}
+      AUTHENTIK_POSTGRESQL__HOST: authentik-db
+      AUTHENTIK_POSTGRESQL__USER: authentik
+      AUTHENTIK_POSTGRESQL__NAME: authentik
+      AUTHENTIK_POSTGRESQL__PASSWORD: ${AUTHENTIK_DB_PASSWORD:-authentik}
+      AUTHENTIK_BOOTSTRAP_PASSWORD: ${AUTHENTIK_BOOTSTRAP_PASSWORD:-akadmin-dev}
+      AUTHENTIK_BOOTSTRAP_EMAIL: ${AUTHENTIK_BOOTSTRAP_EMAIL:-admin@puntquiz.local}
+      AUTHENTIK_ERROR_REPORTING__ENABLED: "false"
+      # Mail for account recovery / verification (same SMTP account as the app).
+      AUTHENTIK_EMAIL__HOST: ${SMTP_HOST:-localhost}
+      AUTHENTIK_EMAIL__PORT: ${SMTP_PORT:-465}
+      AUTHENTIK_EMAIL__USERNAME: ${SMTP_USER:-}
+      AUTHENTIK_EMAIL__PASSWORD: ${SMTP_PASS:-}
+      AUTHENTIK_EMAIL__USE_SSL: ${SMTP_SSL:-true}
+      AUTHENTIK_EMAIL__USE_TLS: "false"
+      AUTHENTIK_EMAIL__FROM: ${MAIL_FROM:-PuntQuiz <noreply@puntquiz.local>}
+      OIDC_CLIENT_SECRET: ${OIDC_CLIENT_SECRET:-dev-oidc-secret}
+      OIDC_REDIRECT_URI: ${PUBLIC_URL:-http://localhost:8088}/api/auth/oidc/callback
+      PQ_GOOGLE_CLIENT_ID: ${PQ_GOOGLE_CLIENT_ID:-}
+      PQ_GOOGLE_CLIENT_SECRET: ${PQ_GOOGLE_CLIENT_SECRET:-}
+      PQ_MICROSOFT_CLIENT_ID: ${PQ_MICROSOFT_CLIENT_ID:-}
+      PQ_MICROSOFT_CLIENT_SECRET: ${PQ_MICROSOFT_CLIENT_SECRET:-}
+      PQ_GITHUB_CLIENT_ID: ${PQ_GITHUB_CLIENT_ID:-}
+      PQ_GITHUB_CLIENT_SECRET: ${PQ_GITHUB_CLIENT_SECRET:-}
+      PQ_FACEBOOK_CLIENT_ID: ${PQ_FACEBOOK_CLIENT_ID:-}
+      PQ_FACEBOOK_CLIENT_SECRET: ${PQ_FACEBOOK_CLIENT_SECRET:-}
+      PUBLIC_URL: ${PUBLIC_URL:-http://localhost:8088}
+    volumes:
+      - ./infra/authentik/blueprints:/blueprints/custom:ro
+      - ./infra/authentik/templates:/templates:ro
+      - authentik-media:/media
+    depends_on:
+      authentik-db:
+        condition: service_healthy
+
+  authentik-worker:
+    image: ghcr.io/goauthentik/server:2025.12
+    restart: unless-stopped
+    command: worker
+    environment: *authentik-env
+    volumes:
+      - ./infra/authentik/blueprints:/blueprints/custom:ro
+      - ./infra/authentik/templates:/templates:ro
+      - authentik-media:/media
+    depends_on:
+      authentik-db:
+        condition: service_healthy
+
+  authentik-db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: authentik
+      POSTGRES_PASSWORD: ${AUTHENTIK_DB_PASSWORD:-authentik}
+      POSTGRES_DB: authentik
+    volumes:
+      - authentikdb:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U authentik"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: puntquiz
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-puntquiz}
+      POSTGRES_DB: puntquiz
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U puntquiz"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    command: ["redis-server", "--appendonly", "yes"]
+    volumes:
+      - redisdata:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+volumes:
+  media:
+  pgdata:
+  redisdata:
+  authentikdb:
+  authentik-media:

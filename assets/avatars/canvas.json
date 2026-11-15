@@ -1,0 +1,14 @@
+{
+  "artboards": [
+    { "file": "Main.dc.html", "x": 0, "y": 0, "w": 1080, "h": 760 },
+    { "file": "Sloth.dc.html", "x": 0, "y": 880, "w": 300, "h": 540 },
+    { "file": "Frog.dc.html", "x": 380, "y": 880, "w": 300, "h": 540 },
+    { "file": "Skunk.dc.html", "x": 760, "y": 880, "w": 300, "h": 540 },
+    { "file": "Chicken.dc.html", "x": 1140, "y": 880, "w": 300, "h": 540 },
+    { "file": "MoleRat.dc.html", "x": 0, "y": 1540, "w": 300, "h": 540 },
+    { "file": "Warthog.dc.html", "x": 380, "y": 1540, "w": 300, "h": 540 },
+    { "file": "Opossum.dc.html", "x": 760, "y": 1540, "w": 300, "h": 540 },
+    { "file": "Pug.dc.html", "x": 1140, "y": 1540, "w": 300, "h": 540 }
+  ],
+  "launch": { "view": "canvas" }
+}
