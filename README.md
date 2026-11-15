@@ -27,4 +27,4 @@ Working: quiz building and question bank, live play (individual and team), open 
 
 ## License
 
-[MIT](LICENSE) © 2026 Ronald Punt (Puntuale). The PuntQuiz name, logo and the avatar/landing artwork in `assets/` are part of the project but you are asked not to present them as your own service.
+[MIT](LICENSE) © 2026 Ronald Punt (Puntuale).
