@@ -25,6 +25,9 @@ services:
     restart: unless-stopped
     environment:
       NUXT_PUBLIC_APP_VERSION: ${APP_VERSION:-0.2.0}
+      # Optional Matomo analytics (leave empty to disable), e.g. MATOMO_URL=https://matomo.example.com/ MATOMO_SITE_ID=1
+      NUXT_PUBLIC_MATOMO_URL: ${MATOMO_URL:-}
+      NUXT_PUBLIC_MATOMO_SITE_ID: ${MATOMO_SITE_ID:-}
     depends_on: [api]
 
   api:

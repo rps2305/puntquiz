@@ -5,7 +5,8 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
   // The service worker file itself must always be revalidated so updates roll out.
   routeRules: { '/sw.js': { headers: { 'cache-control': 'no-cache' } } },
-  runtimeConfig: { public: { appVersion: "0.2.0" } },
+  // Optional Matomo analytics: only active when both are set (NUXT_PUBLIC_MATOMO_URL, NUXT_PUBLIC_MATOMO_SITE_ID).
+  runtimeConfig: { public: { appVersion: "0.2.0", matomoUrl: '', matomoSiteId: '' } },
   app: {
     head: {
       htmlAttrs: { lang: 'nl' },
