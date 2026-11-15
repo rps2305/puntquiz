@@ -1,0 +1,456 @@
+{
+ "format": "puntquiz.bank.v1",
+ "questions": [
+  {
+   "text": "Welk vliegtuig is dit?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Airbus A380"
+    },
+    {
+     "id": "b",
+     "text": "Boeing 767"
+    },
+    {
+     "id": "c",
+     "text": "Boeing 747"
+    },
+    {
+     "id": "d",
+     "text": "McDonnell Douglas DC-10"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Boeing 747 (\"Jumbo Jet\", ook wel Queen of the Skies genoemd) vloog voor het eerst in 1969 en maakte massatoerisme en intercontinentaal reizen gewoon.",
+   "category": "Vliegtuigen",
+   "tags": [
+    "beeldvragen",
+    "vliegtuigen"
+   ],
+   "source": "Foto: Wikimedia Commons (CC0), https://commons.wikimedia.org/wiki/File:N475MC_Atlas_Air_Boeing_747-400_takeoff_from_Schiphol_(AMS_-_EHAM),_The_Netherlands,_18may2014,_pic-1.JPG",
+   "hint": "De bult op de neus is het herkenningspunt.",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/N475MC_Atlas_Air_Boeing_747-400_takeoff_from_Schiphol_%28AMS_-_EHAM%29%2C_The_Netherlands%2C_18may2014%2C_pic-1.JPG/960px-N475MC_Atlas_Air_Boeing_747-400_takeoff_from_Schiphol_%28AMS_-_EHAM%29%2C_The_Netherlands%2C_18may2014%2C_pic-1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  },
+  {
+   "text": "Welk passagiersvliegtuig is dit?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Boeing 727"
+    },
+    {
+     "id": "b",
+     "text": "Concorde"
+    },
+    {
+     "id": "c",
+     "text": "Airbus A320"
+    },
+    {
+     "id": "d",
+     "text": "Fokker 100"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Concorde vloog met ongeveer Mach 2, twee keer de geluidssnelheid, en vloog van 1976 tot 2003 in ruim drie uur van Europa naar New York.",
+   "category": "Vliegtuigen",
+   "tags": [
+    "beeldvragen",
+    "vliegtuigen"
+   ],
+   "source": "Foto: Wikimedia Commons (CC0), https://commons.wikimedia.org/wiki/File:Concorde_(vliegtuig)_weer_(tweede_keer)_even_op_Schiphol_landing_van_de_Concord,_Bestanddeelnr_932-2777.jpg",
+   "hint": "Het vloog sneller dan het geluid.",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Concorde_%28vliegtuig%29_weer_%28tweede_keer%29_even_op_Schiphol_landing_van_de_Concord%2C_Bestanddeelnr_932-2777.jpg/960px-Concorde_%28vliegtuig%29_weer_%28tweede_keer%29_even_op_Schiphol_landing_van_de_Concord%2C_Bestanddeelnr_932-2777.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  },
+  {
+   "text": "Welk klassieke vliegtuig is dit?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Douglas DC-3"
+    },
+    {
+     "id": "b",
+     "text": "Fokker F27"
+    },
+    {
+     "id": "c",
+     "text": "Lockheed Constellation"
+    },
+    {
+     "id": "d",
+     "text": "Junkers Ju 52"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Douglas DC-3 uit 1935 maakte de burgerluchtvaart economisch rendabel en betrouwbaar; sommige toestellen vliegen nog steeds.",
+   "category": "Vliegtuigen",
+   "tags": [
+    "beeldvragen",
+    "vliegtuigen"
+   ],
+   "source": "Foto: Wikimedia Commons (CC0), https://commons.wikimedia.org/wiki/File:Douglas_DC-3_Airliner._(16055221680).jpg",
+   "hint": "Een tweemotorige propellerklassieker uit de jaren dertig.",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Douglas_DC-3_Airliner._%2816055221680%29.jpg/960px-Douglas_DC-3_Airliner._%2816055221680%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  },
+  {
+   "text": "Welk passagiersvliegtuig is dit?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Boeing 747-8"
+    },
+    {
+     "id": "b",
+     "text": "Airbus A340"
+    },
+    {
+     "id": "c",
+     "text": "Boeing 777"
+    },
+    {
+     "id": "d",
+     "text": "Airbus A380"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Airbus A380 is het grootste passagiersvliegtuig ter wereld, met twee volledige dekken. Het vloog voor het eerst in 2005.",
+   "category": "Vliegtuigen",
+   "tags": [
+    "beeldvragen",
+    "vliegtuigen"
+   ],
+   "source": "Foto: Wikimedia Commons (publiek domein), https://commons.wikimedia.org/wiki/File:A6-EDK_Emirates_Airbus_A380-861_-_cn_030_takeoff_from_Schiphol_runway_36C_pic4.JPG",
+   "hint": "Het heeft twee volledige passagiersdekken.",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/A6-EDK_Emirates_Airbus_A380-861_-_cn_030_takeoff_from_Schiphol_runway_36C_pic4.JPG/960px-A6-EDK_Emirates_Airbus_A380-861_-_cn_030_takeoff_from_Schiphol_runway_36C_pic4.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  },
+  {
+   "text": "Welk Brits gevechtsvliegtuig is dit?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Hawker Hurricane"
+    },
+    {
+     "id": "b",
+     "text": "Messerschmitt Bf 109"
+    },
+    {
+     "id": "c",
+     "text": "Supermarine Spitfire"
+    },
+    {
+     "id": "d",
+     "text": "Westland Lysander"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Spitfire was samen met de Hurricane de ster van de Slag om Engeland in 1940 en valt op door zijn ellipsvormige vleugels.",
+   "category": "Vliegtuigen",
+   "tags": [
+    "beeldvragen",
+    "vliegtuigen"
+   ],
+   "source": "Foto: Wikimedia Commons (publiek domein), https://commons.wikimedia.org/wiki/File:Formation_of_No.19_Squadron_RAF_Supermarine_Spitfire_Mk.Is_in_1938_over_Cambridgeshire.jpg",
+   "hint": "Ellipsvormige vleugels.",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Formation_of_No.19_Squadron_RAF_Supermarine_Spitfire_Mk.Is_in_1938_over_Cambridgeshire.jpg/960px-Formation_of_No.19_Squadron_RAF_Supermarine_Spitfire_Mk.Is_in_1938_over_Cambridgeshire.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  },
+  {
+   "text": "Welk Amerikaans gevechtsvliegtuig is dit?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Supermarine Spitfire"
+    },
+    {
+     "id": "b",
+     "text": "North American P-51 Mustang"
+    },
+    {
+     "id": "c",
+     "text": "Focke-Wulf Fw 190"
+    },
+    {
+     "id": "d",
+     "text": "Hawker Typhoon"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De P-51 Mustang kon in de Tweede Wereldoorlog bommenwerpers helemaal tot diep in Duitsland begeleiden en droeg zo bij aan de geallieerde luchtoverheersing.",
+   "category": "Vliegtuigen",
+   "tags": [
+    "beeldvragen",
+    "vliegtuigen"
+   ],
+   "source": "Foto: Wikimedia Commons (publiek domein), https://commons.wikimedia.org/wiki/File:A_restored_NACA_P-51D_Mustang_in_flight_(EC00-0277-1).jpg",
+   "hint": "Het begeleidde bommenwerpers over lange afstanden.",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/A_restored_NACA_P-51D_Mustang_in_flight_%28EC00-0277-1%29.jpg/960px-A_restored_NACA_P-51D_Mustang_in_flight_%28EC00-0277-1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  },
+  {
+   "text": "Welk spionagevliegtuig is dit?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Lockheed SR-71 Blackbird"
+    },
+    {
+     "id": "b",
+     "text": "Lockheed F-117 Nighthawk"
+    },
+    {
+     "id": "c",
+     "text": "Northrop B-2 Spirit"
+    },
+    {
+     "id": "d",
+     "text": "Lockheed U-2"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De SR-71 Blackbird vloog sneller dan Mach 3, ruim drie keer de geluidssnelheid, en is nog steeds het snelste bemande luchtademende straalvliegtuig.",
+   "category": "Vliegtuigen",
+   "tags": [
+    "beeldvragen",
+    "vliegtuigen"
+   ],
+   "source": "Foto: Wikimedia Commons (publiek domein), https://commons.wikimedia.org/wiki/File:Lockheed_SR-71_Blackbird.jpg",
+   "hint": "Het snelste luchtademende straalvliegtuig ooit.",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Lockheed_SR-71_Blackbird.jpg/960px-Lockheed_SR-71_Blackbird.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  },
+  {
+   "text": "Welke straaljager is dit?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "F-15 Eagle"
+    },
+    {
+     "id": "b",
+     "text": "F/A-18 Hornet"
+    },
+    {
+     "id": "c",
+     "text": "F-22 Raptor"
+    },
+    {
+     "id": "d",
+     "text": "F-16 Fighting Falcon"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De F-16 Fighting Falcon, bijgenaamd Viper, is een van de meest gebouwde en wendbare moderne straaljagers; hij vloog voor het eerst in 1974.",
+   "category": "Vliegtuigen",
+   "tags": [
+    "beeldvragen",
+    "vliegtuigen"
+   ],
+   "source": "Foto: Wikimedia Commons (publiek domein), https://commons.wikimedia.org/wiki/File:F-16_Viper_Demo_at_Peru_Airshow_2026_(9648732).jpg",
+   "hint": "Bijnaam: Viper.",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/F-16_Viper_Demo_at_Peru_Airshow_2026_%289648732%29.jpg/960px-F-16_Viper_Demo_at_Peru_Airshow_2026_%289648732%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  },
+  {
+   "text": "Welk vliegtuig is dit?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Blériot XI"
+    },
+    {
+     "id": "b",
+     "text": "Santos-Dumont 14-bis"
+    },
+    {
+     "id": "c",
+     "text": "Wright Flyer"
+    },
+    {
+     "id": "d",
+     "text": "Fokker Spin"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Op 17 december 1903 vloog Orville Wright bij Kitty Hawk twaalf seconden in de Wright Flyer: de eerste gemotoriseerde, bestuurbare vlucht.",
+   "category": "Vliegtuigen",
+   "tags": [
+    "beeldvragen",
+    "vliegtuigen"
+   ],
+   "source": "Foto: Wikimedia Commons (publiek domein), https://commons.wikimedia.org/wiki/File:1903_Wright_Flyer_on_launch_track_before_unsuccessful_flight_attempt_14_December_1903.jpg",
+   "hint": "Het eerste gemotoriseerde, bestuurbare vliegtuig.",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/1903_Wright_Flyer_on_launch_track_before_unsuccessful_flight_attempt_14_December_1903.jpg/960px-1903_Wright_Flyer_on_launch_track_before_unsuccessful_flight_attempt_14_December_1903.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  },
+  {
+   "text": "Welk vliegtuig is dit?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Wright Flyer"
+    },
+    {
+     "id": "b",
+     "text": "Spirit of St. Louis"
+    },
+    {
+     "id": "c",
+     "text": "Southern Cross"
+    },
+    {
+     "id": "d",
+     "text": "Winnie Mae"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Met de Spirit of St. Louis maakte Charles Lindbergh in mei 1927 de eerste solovlucht non-stop van New York naar Parijs.",
+   "category": "Vliegtuigen",
+   "tags": [
+    "beeldvragen",
+    "vliegtuigen"
+   ],
+   "source": "Foto: Wikimedia Commons (CC0), https://commons.wikimedia.org/wiki/File:Spirit_of_St._Louis_-_Blick_seitlich_von_hinten.jpg",
+   "hint": "Het vloog in 1927 non-stop over de Atlantische Oceaan.",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Spirit_of_St._Louis_-_Blick_seitlich_von_hinten.jpg/960px-Spirit_of_St._Louis_-_Blick_seitlich_von_hinten.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  },
+  {
+   "text": "Welk klassiek lichtvliegtuig is dit?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Piper J-3 Cub"
+    },
+    {
+     "id": "b",
+     "text": "Cessna 172"
+    },
+    {
+     "id": "c",
+     "text": "Boeing-Stearman Model 75"
+    },
+    {
+     "id": "d",
+     "text": "Piper PA-28 Cherokee"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Piper J-3 Cub is het klassieke gele sportvliegtuig waarmee generaties piloten hebben leren vliegen.",
+   "category": "Vliegtuigen",
+   "tags": [
+    "beeldvragen",
+    "vliegtuigen"
+   ],
+   "source": "Foto: Wikimedia Commons (CC0), https://commons.wikimedia.org/wiki/File:Piper_J-3_Cub_-_DPLA_-_1248e271972bbfc32c562931f5ff28da_(page_1).jpg",
+   "hint": "Het gele schoolvoorbeeld van de sportvliegerij.",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Piper_J-3_Cub_-_DPLA_-_1248e271972bbfc32c562931f5ff28da_%28page_1%29.jpg/960px-Piper_J-3_Cub_-_DPLA_-_1248e271972bbfc32c562931f5ff28da_%28page_1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  }
+ ]
+}

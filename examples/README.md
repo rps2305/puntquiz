@@ -14,3 +14,7 @@ Tien categorieën (Algemeen, Sport, Geschiedenis, Eten & drinken, Aardrijkskunde
 Log in als presentator, ga naar **Vragenbank**, kies **Importeren** en kies het JSON-bestand. Eerst volgt een controle ("dry run"); vragen die al in je bank staan worden overgeslagen. Het formaat is `puntquiz.bank.v1`; je kunt het ook zelf exporteren uit je vragenbank.
 
 De vragen zijn zelf geschreven en vrij te gebruiken (MIT, zoals de rest van de repo). Controleer feiten altijd even voordat je ze in een echte quiz gebruikt.
+
+## Vragenset vliegtuigen met afbeeldingen
+
+`vragenset-vliegtuigen-met-afbeeldingen.json` heeft 11 meerkeuzevragen "Welk vliegtuig is dit?" met een foto. De foto's komen van Wikimedia Commons en zijn publiek domein of CC0, dus vrij te gebruiken zonder naamsvermelding. Ze worden via de link geladen (niet kopie in de repo); de bronpagina staat per vraag in het veld `source`. Als een link ooit verdwijnt, vervang je de afbeelding in de vragenbank.
