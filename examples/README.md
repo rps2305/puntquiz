@@ -30,3 +30,7 @@ De vragen zijn zelf geschreven en vrij te gebruiken (MIT, zoals de rest van de r
 ## Vragenset taal en spreekwoorden
 
 `vragenset-taal-en-spreekwoorden.json` heeft 73 meerkeuzevragen: 20 spreekwoorden om af te maken, 20 uitdrukkingen met hun betekenis, 12 over taalkundige begrippen (palindroom, metafoor, pleonasme), 10 over spelling en grammatica en 11 taalfeiten (Groene Boekje, Afrikaans, Vlaamse woorden). Filter in de vragenbank op de tags `spreekwoorden`, `uitdrukkingen`, `taalkunde`, `spelling` of `taalfeiten`.
+
+## Vragenset beroemde schilderijen
+
+`vragenset-schilderijen.json` heeft 50 meerkeuzevragen over beroemde kunstwerken: 24 beeldvragen ("Hoe heet dit schilderij van ...?") met een afbeelding en 26 vragen zonder afbeelding over museums, kunststromingen en schilders. De afbeeldingen komen van Wikimedia Commons en zijn publiek domein of CC0 (oude meesters en werken waarvan de maker lang geleden overleed); de bronpagina staat per vraag in het veld `source`. Ze worden via de link geladen.

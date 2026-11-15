@@ -1,0 +1,1899 @@
+{
+ "format": "puntquiz.bank.v1",
+ "questions": [
+  {
+   "text": "Hoe heet dit schilderij van Leonardo da Vinci uit de vroege zestiende eeuw?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De dame met de hermelijn"
+    },
+    {
+     "id": "b",
+     "text": "Meisje met de parel"
+    },
+    {
+     "id": "c",
+     "text": "Mona Lisa"
+    },
+    {
+     "id": "d",
+     "text": "De Madonna van de rotsen"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Mona Lisa hangt in het Louvre in Parijs en is waarschijnlijk het beroemdste schilderij ter wereld.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "beeldvragen"
+   ],
+   "source": "Afbeelding: Wikimedia Commons (publiek domein), https://commons.wikimedia.org/wiki/File:Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF.jpg",
+   "hint": "Kijk goed naar het onderwerp.",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF.jpg/960px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  },
+  {
+   "text": "Hoe heet dit schilderij van Leonardo da Vinci uit 1495-1498?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De Nachtwacht"
+    },
+    {
+     "id": "b",
+     "text": "Het Laatste Avondmaal"
+    },
+    {
+     "id": "c",
+     "text": "De schepping van Adam"
+    },
+    {
+     "id": "d",
+     "text": "De kruisafneming"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Het is een muurschildering in het klooster van Santa Maria delle Grazie in Milaan.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "beeldvragen"
+   ],
+   "source": "Afbeelding: Wikimedia Commons (publiek domein), https://commons.wikimedia.org/wiki/File:The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg",
+   "hint": "Kijk goed naar het onderwerp.",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg/960px-The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  },
+  {
+   "text": "Hoe heet dit schilderij van Michelangelo op een plafond?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De schepping van Adam"
+    },
+    {
+     "id": "b",
+     "text": "Het Laatste Oordeel"
+    },
+    {
+     "id": "c",
+     "text": "De School van Athene"
+    },
+    {
+     "id": "d",
+     "text": "De geboorte van Venus"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Deze fresco staat op het plafond van de Sixtijnse Kapel in Vaticaanstad, gemaakt tussen 1508 en 1512.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "beeldvragen"
+   ],
+   "source": "Afbeelding: Wikimedia Commons (publiek domein), https://commons.wikimedia.org/wiki/File:The_Creation_of_Adam_perspective_fix.jpg",
+   "hint": "Kijk goed naar het onderwerp.",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/The_Creation_of_Adam_perspective_fix.jpg/960px-The_Creation_of_Adam_perspective_fix.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  },
+  {
+   "text": "Hoe heet dit schilderij van Sandro Botticelli uit omstreeks 1485?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Primavera"
+    },
+    {
+     "id": "b",
+     "text": "De schepping van Adam"
+    },
+    {
+     "id": "c",
+     "text": "Venus van Urbino"
+    },
+    {
+     "id": "d",
+     "text": "De geboorte van Venus"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Het schilderij hangt in de Uffizi in Florence.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "beeldvragen"
+   ],
+   "source": "Afbeelding: Wikimedia Commons (publiek domein), https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg",
+   "hint": "Kijk goed naar het onderwerp.",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/960px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  },
+  {
+   "text": "Hoe heet dit schilderij van Rembrandt van Rijn uit 1642?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De Staalmeesters"
+    },
+    {
+     "id": "b",
+     "text": "De anatomische les van Dr. Tulp"
+    },
+    {
+     "id": "c",
+     "text": "De Nachtwacht"
+    },
+    {
+     "id": "d",
+     "text": "Het Joodse bruidje"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Nachtwacht is een schuttersstuk en hangt in het Rijksmuseum in Amsterdam.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "beeldvragen"
+   ],
+   "source": "Afbeelding: Wikimedia Commons (publiek domein), https://commons.wikimedia.org/wiki/File:The_Night_Watch_-_cropped.jpg",
+   "hint": "Kijk goed naar het onderwerp.",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/The_Night_Watch_-_cropped.jpg/960px-The_Night_Watch_-_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  },
+  {
+   "text": "Hoe heet dit schilderij van Rembrandt van Rijn uit omstreeks 1665?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De Nachtwacht"
+    },
+    {
+     "id": "b",
+     "text": "Het Joodse bruidje"
+    },
+    {
+     "id": "c",
+     "text": "De Staalmeesters"
+    },
+    {
+     "id": "d",
+     "text": "Saskia als Flora"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Het schilderij hangt in het Rijksmuseum; de precieze betekenis van de titel is onzeker.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "beeldvragen"
+   ],
+   "source": "Afbeelding: Wikimedia Commons (publiek domein), https://commons.wikimedia.org/wiki/File:Rembrandt_Harmensz._van_Rijn_-_Het_Joodse_bruidje.jpg",
+   "hint": "Kijk goed naar het onderwerp.",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Rembrandt_Harmensz._van_Rijn_-_Het_Joodse_bruidje.jpg/960px-Rembrandt_Harmensz._van_Rijn_-_Het_Joodse_bruidje.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  },
+  {
+   "text": "Hoe heet dit schilderij van Johannes Vermeer uit omstreeks 1665?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Meisje met de parel"
+    },
+    {
+     "id": "b",
+     "text": "Het melkmeisje"
+    },
+    {
+     "id": "c",
+     "text": "Gezicht op Delft"
+    },
+    {
+     "id": "d",
+     "text": "De brief"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Het hangt in het Mauritshuis in Den Haag en wordt wel de Mona Lisa van het Noorden genoemd.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "beeldvragen"
+   ],
+   "source": "Afbeelding: Wikimedia Commons (publiek domein), https://commons.wikimedia.org/wiki/File:1665_Girl_with_a_Pearl_Earring.jpg",
+   "hint": "Kijk goed naar het onderwerp.",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/960px-1665_Girl_with_a_Pearl_Earring.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  },
+  {
+   "text": "Hoe heet dit schilderij van Johannes Vermeer uit omstreeks 1658?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Meisje met de parel"
+    },
+    {
+     "id": "b",
+     "text": "De brief"
+    },
+    {
+     "id": "c",
+     "text": "Het straatje"
+    },
+    {
+     "id": "d",
+     "text": "Het melkmeisje"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Het melkmeisje hangt in het Rijksmuseum in Amsterdam.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "beeldvragen"
+   ],
+   "source": "Afbeelding: Wikimedia Commons (publiek domein), https://commons.wikimedia.org/wiki/File:Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.png",
+   "hint": "Kijk goed naar het onderwerp.",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.png/960px-Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  },
+  {
+   "text": "Hoe heet dit schilderij van Diego Velázquez uit 1656?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De overgave van Breda"
+    },
+    {
+     "id": "b",
+     "text": "Venus voor de spiegel"
+    },
+    {
+     "id": "c",
+     "text": "Las Meninas"
+    },
+    {
+     "id": "d",
+     "text": "Portret van Innocentius X"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Dit hofportret hangt in het Prado in Madrid; Velázquez schilderde zichzelf ook in het schilderij.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "beeldvragen"
+   ],
+   "source": "Afbeelding: Wikimedia Commons (publiek domein), https://commons.wikimedia.org/wiki/File:Las_Meninas,_by_Diego_Vel%C3%A1zquez,_from_Prado_in_Google_Earth.jpg",
+   "hint": "Kijk goed naar het onderwerp.",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg/960px-Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  },
+  {
+   "text": "Hoe heet dit schilderij van Vincent van Gogh uit 1889?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Sterrennacht boven de Rhône"
+    },
+    {
+     "id": "b",
+     "text": "De sterrennacht"
+    },
+    {
+     "id": "c",
+     "text": "Het Nachtcafé"
+    },
+    {
+     "id": "d",
+     "text": "De slaapkamer"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Van Gogh schilderde het vanuit zijn kamer in het sanatorium in Saint-Rémy; het hangt in het MoMA in New York.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "beeldvragen"
+   ],
+   "source": "Afbeelding: Wikimedia Commons (publiek domein), https://commons.wikimedia.org/wiki/File:Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+   "hint": "Kijk goed naar het onderwerp.",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/960px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  },
+  {
+   "text": "Hoe heet dit schilderij van Vincent van Gogh uit 1885?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De aardappeleters"
+    },
+    {
+     "id": "b",
+     "text": "De slaapkamer"
+    },
+    {
+     "id": "c",
+     "text": "Het Nachtcafé"
+    },
+    {
+     "id": "d",
+     "text": "Korenveld met kraaien"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Een vroeg, donker werk uit zijn Nederlandse tijd; het hangt in het Van Gogh Museum in Amsterdam.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "beeldvragen"
+   ],
+   "source": "Afbeelding: Wikimedia Commons (publiek domein), https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_The_potato_eaters_-_Google_Art_Project.jpg",
+   "hint": "Kijk goed naar het onderwerp.",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Vincent_van_Gogh_-_The_potato_eaters_-_Google_Art_Project.jpg/960px-Vincent_van_Gogh_-_The_potato_eaters_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  },
+  {
+   "text": "Hoe heet dit schilderij van Vincent van Gogh met een vaas gele bloemen uit 1888?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Irissen"
+    },
+    {
+     "id": "b",
+     "text": "Amandelbloesem"
+    },
+    {
+     "id": "c",
+     "text": "De zaaier"
+    },
+    {
+     "id": "d",
+     "text": "Zonnebloemen"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Van Gogh schilderde meerdere versies in Arles, onder meer om de kamer van Gauguin te versieren.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "beeldvragen"
+   ],
+   "source": "Afbeelding: Wikimedia Commons (publiek domein), https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Sunflowers_(1888,_National_Gallery_London).jpg",
+   "hint": "Kijk goed naar het onderwerp.",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Vincent_van_Gogh_-_Sunflowers_%281888%2C_National_Gallery_London%29.jpg/960px-Vincent_van_Gogh_-_Sunflowers_%281888%2C_National_Gallery_London%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  },
+  {
+   "text": "Hoe heet dit schilderij van Edvard Munch uit 1893?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Angst"
+    },
+    {
+     "id": "b",
+     "text": "Vampier"
+    },
+    {
+     "id": "c",
+     "text": "De Schreeuw"
+    },
+    {
+     "id": "d",
+     "text": "Het zieke kind"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Munch maakte meerdere versies; één hangt in het Nationalmuseum in Oslo.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "beeldvragen"
+   ],
+   "source": "Afbeelding: Wikimedia Commons (publiek domein), https://commons.wikimedia.org/wiki/File:Edvard_Munch_-_The_Scream_-_NG.M.00939_-_National_Museum_of_Art,_Architecture_and_Design.jpg",
+   "hint": "Kijk goed naar het onderwerp.",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Edvard_Munch_-_The_Scream_-_NG.M.00939_-_National_Museum_of_Art%2C_Architecture_and_Design.jpg/960px-Edvard_Munch_-_The_Scream_-_NG.M.00939_-_National_Museum_of_Art%2C_Architecture_and_Design.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  },
+  {
+   "text": "Hoe heet dit schilderij van Gustav Klimt met bladgoud?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Adele Bloch-Bauer I"
+    },
+    {
+     "id": "b",
+     "text": "De Kus"
+    },
+    {
+     "id": "c",
+     "text": "Judith"
+    },
+    {
+     "id": "d",
+     "text": "De Levensboom"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Kus is gemaakt in 1907-1908 en hangt in het Belvedere in Wenen.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "beeldvragen"
+   ],
+   "source": "Afbeelding: Wikimedia Commons (publiek domein), https://commons.wikimedia.org/wiki/File:The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg",
+   "hint": "Kijk goed naar het onderwerp.",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg/960px-The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  },
+  {
+   "text": "Hoe heet dit schilderij van Claude Monet uit 1872?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Impressie, zonsopgang"
+    },
+    {
+     "id": "b",
+     "text": "Waterlelies"
+    },
+    {
+     "id": "c",
+     "text": "De kathedraal van Rouen"
+    },
+    {
+     "id": "d",
+     "text": "Vrouw met parasol"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Dit schilderij gaf de impressionisten hun naam, nadat een criticus het \"impressie\" noemde.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "beeldvragen"
+   ],
+   "source": "Afbeelding: Wikimedia Commons (publiek domein), https://commons.wikimedia.org/wiki/File:Monet_-_Impression,_Sunrise.jpg",
+   "hint": "Kijk goed naar het onderwerp.",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Monet_-_Impression%2C_Sunrise.jpg/960px-Monet_-_Impression%2C_Sunrise.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  },
+  {
+   "text": "Hoe heet dit schilderij van Claude Monet uit zijn tuin in Giverny?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Impressie, zonsopgang"
+    },
+    {
+     "id": "b",
+     "text": "Vrouw met parasol"
+    },
+    {
+     "id": "c",
+     "text": "De kathedraal van Rouen"
+    },
+    {
+     "id": "d",
+     "text": "Waterlelies"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Monet schilderde de waterlelievijver in zijn tuin in Giverny in een reeks van ruim tweehonderd schilderijen.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "beeldvragen"
+   ],
+   "source": "Afbeelding: Wikimedia Commons (publiek domein), https://commons.wikimedia.org/wiki/File:Water_Lilies_by_Claude_Monet,_Metropolitan_Museum_of_Art_1983.532.JPG",
+   "hint": "Kijk goed naar het onderwerp.",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Water_Lilies_by_Claude_Monet%2C_Metropolitan_Museum_of_Art_1983.532.JPG/960px-Water_Lilies_by_Claude_Monet%2C_Metropolitan_Museum_of_Art_1983.532.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  },
+  {
+   "text": "Hoe heet dit schilderij van Georges Seurat met kleine puntjes verf?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Een bad in Asnières"
+    },
+    {
+     "id": "b",
+     "text": "Het circus"
+    },
+    {
+     "id": "c",
+     "text": "Een zondagmiddag op het eiland La Grande Jatte"
+    },
+    {
+     "id": "d",
+     "text": "Het kanaal van Gravelines"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Seurat paste pointillisme toe: duizenden kleine stippen verf. Het hangt in het Art Institute of Chicago.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "beeldvragen"
+   ],
+   "source": "Afbeelding: Wikimedia Commons (publiek domein), https://commons.wikimedia.org/wiki/File:Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg",
+   "hint": "Kijk goed naar het onderwerp.",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg/960px-Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  },
+  {
+   "text": "Hoe heet dit schilderij van Jheronimus Bosch uit omstreeks 1500?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De hooiwagen"
+    },
+    {
+     "id": "b",
+     "text": "De tuin der lusten"
+    },
+    {
+     "id": "c",
+     "text": "De zeven hoofdzonden"
+    },
+    {
+     "id": "d",
+     "text": "De verzoeking van Sint-Antonius"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Het drieluik hangt in het Prado in Madrid; Bosch werd geboren in 's-Hertogenbosch.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "beeldvragen"
+   ],
+   "source": "Afbeelding: Wikimedia Commons (publiek domein), https://commons.wikimedia.org/wiki/File:The_Garden_of_Earthly_Delights_by_Bosch_High_Resolution.jpg",
+   "hint": "Kijk goed naar het onderwerp.",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/The_Garden_of_Earthly_Delights_by_Bosch_High_Resolution.jpg/960px-The_Garden_of_Earthly_Delights_by_Bosch_High_Resolution.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  },
+  {
+   "text": "Hoe heet dit beroemde werk van Katsushika Hokusai uit omstreeks 1831?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De grote golf bij Kanagawa"
+    },
+    {
+     "id": "b",
+     "text": "De rode Fuji"
+    },
+    {
+     "id": "c",
+     "text": "Regenstorm onder de top"
+    },
+    {
+     "id": "d",
+     "text": "Zonsondergang bij Ryogoku"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Dit is een houtsnede (ukiyo-e), geen schilderij, en een van de bekendste Japanse kunstwerken.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "beeldvragen"
+   ],
+   "source": "Afbeelding: Wikimedia Commons (publiek domein), https://commons.wikimedia.org/wiki/File:Katsushika_Hokusai_-_The_Great_Wave_off_the_Coast_of_Kanagawa_LCCN2008660568.jpg",
+   "hint": "Kijk goed naar het onderwerp.",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Katsushika_Hokusai_-_The_Great_Wave_off_the_Coast_of_Kanagawa_LCCN2008660568.jpg/960px-Katsushika_Hokusai_-_The_Great_Wave_off_the_Coast_of_Kanagawa_LCCN2008660568.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  },
+  {
+   "text": "Hoe heet dit schilderij van Caspar David Friedrich uit omstreeks 1818?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Abdij in het eikenbos"
+    },
+    {
+     "id": "b",
+     "text": "De zee van ijs"
+    },
+    {
+     "id": "c",
+     "text": "Kruis in de bergen"
+    },
+    {
+     "id": "d",
+     "text": "De wandelaar boven de nevelzee"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Een icoon van de romantiek, nu in de Hamburger Kunsthalle.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "beeldvragen"
+   ],
+   "source": "Afbeelding: Wikimedia Commons (publiek domein), https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Wanderer_above_the_Sea_of_Fog.jpeg",
+   "hint": "Kijk goed naar het onderwerp.",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Caspar_David_Friedrich_-_Wanderer_above_the_Sea_of_Fog.jpeg/960px-Caspar_David_Friedrich_-_Wanderer_above_the_Sea_of_Fog.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  },
+  {
+   "text": "Hoe heet dit schilderij van John Constable uit 1821?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De kathedraal van Salisbury"
+    },
+    {
+     "id": "b",
+     "text": "Dedham Vale"
+    },
+    {
+     "id": "c",
+     "text": "De hooiwagen"
+    },
+    {
+     "id": "d",
+     "text": "Het hooiveld"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Het landschap hangt in de National Gallery in Londen en toont de rivier de Stour in Suffolk.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "beeldvragen"
+   ],
+   "source": "Afbeelding: Wikimedia Commons (publiek domein), https://commons.wikimedia.org/wiki/File:John_Constable_-_The_Hay_Wain_(1821).jpg",
+   "hint": "Kijk goed naar het onderwerp.",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/John_Constable_-_The_Hay_Wain_%281821%29.jpg/960px-John_Constable_-_The_Hay_Wain_%281821%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  },
+  {
+   "text": "Hoe heet dit schilderij van Eugène Delacroix uit 1830?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De raft van de Medusa"
+    },
+    {
+     "id": "b",
+     "text": "De Vrijheid leidt het volk"
+    },
+    {
+     "id": "c",
+     "text": "De dood van Marat"
+    },
+    {
+     "id": "d",
+     "text": "De dood van Sardanapalus"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Het schilderij verbeeldt de Julirevolutie van 1830 in Parijs en hangt in het Louvre.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "beeldvragen"
+   ],
+   "source": "Afbeelding: Wikimedia Commons (publiek domein), https://commons.wikimedia.org/wiki/File:La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg",
+   "hint": "Kijk goed naar het onderwerp.",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg/960px-La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  },
+  {
+   "text": "Hoe heet dit schilderij van Pieter Bruegel de Oude uit 1565?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Jagers in de sneeuw"
+    },
+    {
+     "id": "b",
+     "text": "De boerenbruiloft"
+    },
+    {
+     "id": "c",
+     "text": "Kinderspelen"
+    },
+    {
+     "id": "d",
+     "text": "De parabel van de blinden"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Het hangt in het Kunsthistorisches Museum in Wenen en toont een winterlandschap in de zestiende eeuw.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "beeldvragen"
+   ],
+   "source": "Afbeelding: Wikimedia Commons (publiek domein), https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_Hunters_in_the_Snow_(Winter)_-_Google_Art_Project.jpg",
+   "hint": "Kijk goed naar het onderwerp.",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Pieter_Bruegel_the_Elder_-_Hunters_in_the_Snow_%28Winter%29_-_Google_Art_Project.jpg/960px-Pieter_Bruegel_the_Elder_-_Hunters_in_the_Snow_%28Winter%29_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  },
+  {
+   "text": "Hoe heet dit schilderij van Pieter Bruegel de Oude uit 1563?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Kinderspelen"
+    },
+    {
+     "id": "b",
+     "text": "De graanoogst"
+    },
+    {
+     "id": "c",
+     "text": "Jagers in de sneeuw"
+    },
+    {
+     "id": "d",
+     "text": "De Toren van Babel"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Het schilderij hangt in het Kunsthistorisches Museum in Wenen.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "beeldvragen"
+   ],
+   "source": "Afbeelding: Wikimedia Commons (publiek domein), https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_(Vienna)_-_Google_Art_Project.jpg",
+   "hint": "Kijk goed naar het onderwerp.",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_%28Vienna%29_-_Google_Art_Project.jpg/960px-Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_%28Vienna%29_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  },
+  {
+   "text": "In welk museum hangt de Mona Lisa?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Het Louvre in Parijs"
+    },
+    {
+     "id": "b",
+     "text": "Het Prado in Madrid"
+    },
+    {
+     "id": "c",
+     "text": "De Uffizi in Florence"
+    },
+    {
+     "id": "d",
+     "text": "De National Gallery in Londen"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Het Louvre is het meest bezochte museum ter wereld.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "kunstgeschiedenis"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Het ligt aan de Seine."
+  },
+  {
+   "text": "In welk museum hangt De Nachtwacht van Rembrandt?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Het Mauritshuis"
+    },
+    {
+     "id": "b",
+     "text": "Het Stedelijk Museum"
+    },
+    {
+     "id": "c",
+     "text": "Het Van Gogh Museum"
+    },
+    {
+     "id": "d",
+     "text": "Het Rijksmuseum"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Nachtwacht is het topstuk van het Rijksmuseum in Amsterdam.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "kunstgeschiedenis"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Het staat op het Museumplein."
+  },
+  {
+   "text": "In welk museum in Den Haag hangt Meisje met de parel?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Het Gemeentemuseum"
+    },
+    {
+     "id": "b",
+     "text": "Panorama Mesdag"
+    },
+    {
+     "id": "c",
+     "text": "Het Mauritshuis"
+    },
+    {
+     "id": "d",
+     "text": "Het Haags Historisch Museum"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Het Mauritshuis ligt naast het Binnenhof in Den Haag.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "kunstgeschiedenis"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Een klein museum bij het Binnenhof."
+  },
+  {
+   "text": "In welk museum in New York hangt De sterrennacht van Van Gogh?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Het Metropolitan Museum of Art"
+    },
+    {
+     "id": "b",
+     "text": "Het MoMA"
+    },
+    {
+     "id": "c",
+     "text": "Het Guggenheim"
+    },
+    {
+     "id": "d",
+     "text": "Het Whitney Museum"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De sterrennacht hangt sinds 1941 in het Museum of Modern Art.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "kunstgeschiedenis"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Een museum voor moderne kunst."
+  },
+  {
+   "text": "In welk museum in Amsterdam hangt De aardappeleters van Van Gogh?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Het Van Gogh Museum"
+    },
+    {
+     "id": "b",
+     "text": "Het Rijksmuseum"
+    },
+    {
+     "id": "c",
+     "text": "Het Stedelijk Museum"
+    },
+    {
+     "id": "d",
+     "text": "Het Hermitage Amsterdam"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Het Van Gogh Museum heeft de grootste Van Gogh-collectie ter wereld.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "kunstgeschiedenis"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Het museum heeft zijn naam."
+  },
+  {
+   "text": "In welke stad staat de muurschildering Het Laatste Avondmaal van Leonardo da Vinci?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Florence"
+    },
+    {
+     "id": "b",
+     "text": "Rome"
+    },
+    {
+     "id": "c",
+     "text": "Venetië"
+    },
+    {
+     "id": "d",
+     "text": "Milaan"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De muurschildering staat in het refectorium van Santa Maria delle Grazie in Milaan.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "kunstgeschiedenis"
+   ],
+   "source": "Eigen kennis",
+   "hint": "In een Italiaans klooster."
+  },
+  {
+   "text": "In welk museum in Florence hangt De geboorte van Venus?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De Galleria dell’Accademia"
+    },
+    {
+     "id": "b",
+     "text": "Het Palazzo Pitti"
+    },
+    {
+     "id": "c",
+     "text": "De Uffizi"
+    },
+    {
+     "id": "d",
+     "text": "Het Bargello"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Uffizi in Florence bezit ook Botticelli’s Primavera.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "kunstgeschiedenis"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Een beroemd Italiaans museum."
+  },
+  {
+   "text": "In welk museum in Madrid hangen Las Meninas en De tuin der lusten?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Het Reina Sofía"
+    },
+    {
+     "id": "b",
+     "text": "Het Prado"
+    },
+    {
+     "id": "c",
+     "text": "Het Thyssen-Bornemisza"
+    },
+    {
+     "id": "d",
+     "text": "Het Sorolla"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Het Prado is het belangrijkste museum van Spanje.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "kunstgeschiedenis"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Het ligt aan de Paseo del Prado."
+  },
+  {
+   "text": "In welk museum in Wenen hangt De Kus van Gustav Klimt?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Het Belvedere"
+    },
+    {
+     "id": "b",
+     "text": "Het Kunsthistorisches Museum"
+    },
+    {
+     "id": "c",
+     "text": "Het Albertina"
+    },
+    {
+     "id": "d",
+     "text": "Het Leopold Museum"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Het Belvedere bezit de grootste collectie Klimts ter wereld.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "kunstgeschiedenis"
+   ],
+   "source": "Eigen kennis",
+   "hint": "In een paleis."
+  },
+  {
+   "text": "In welk museum in Londen hangt De hooiwagen van John Constable?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De Tate Britain"
+    },
+    {
+     "id": "b",
+     "text": "Het British Museum"
+    },
+    {
+     "id": "c",
+     "text": "De Wallace Collection"
+    },
+    {
+     "id": "d",
+     "text": "De National Gallery"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De National Gallery ligt aan Trafalgar Square.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "kunstgeschiedenis"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Het ligt aan Trafalgar Square."
+  },
+  {
+   "text": "Welke kunststroming kreeg haar naam van het schilderij Impressie, zonsopgang van Claude Monet?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Het expressionisme"
+    },
+    {
+     "id": "b",
+     "text": "Het kubisme"
+    },
+    {
+     "id": "c",
+     "text": "Het impressionisme"
+    },
+    {
+     "id": "d",
+     "text": "Het realisme"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Een criticus noemde het werk spottend \"impressie\", en de groep nam de naam over.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "kunstgeschiedenis"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Het draait om de eerste indruk."
+  },
+  {
+   "text": "Welke schilderstijl gebruikt kleine puntjes verf, zoals in La Grande Jatte van Georges Seurat?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Surrealisme"
+    },
+    {
+     "id": "b",
+     "text": "Pointillisme"
+    },
+    {
+     "id": "c",
+     "text": "Barok"
+    },
+    {
+     "id": "d",
+     "text": "Fauvisme"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Bij pointillisme mengen de kleuren zich pas in het oog van de kijker.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "kunstgeschiedenis"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Punten naast elkaar."
+  },
+  {
+   "text": "Wie schilderde De Schreeuw uit 1893?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Edvard Munch"
+    },
+    {
+     "id": "b",
+     "text": "Gustav Klimt"
+    },
+    {
+     "id": "c",
+     "text": "Egon Schiele"
+    },
+    {
+     "id": "d",
+     "text": "Wassily Kandinsky"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Munch maakte meerdere versies van De Schreeuw.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "kunstgeschiedenis"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Hij kwam uit Noorwegen."
+  },
+  {
+   "text": "Wie schilderde De Kus met bladgoud?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Egon Schiele"
+    },
+    {
+     "id": "b",
+     "text": "Edvard Munch"
+    },
+    {
+     "id": "c",
+     "text": "Henri Matisse"
+    },
+    {
+     "id": "d",
+     "text": "Gustav Klimt"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Klimt gebruikte echt bladgoud in zijn Gouden Periode.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "kunstgeschiedenis"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Zijn stijl hoort bij de Weense Jugendstil."
+  },
+  {
+   "text": "Wie schilderde De tuin der lusten?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Pieter Bruegel de Oude"
+    },
+    {
+     "id": "b",
+     "text": "Jan van Eyck"
+    },
+    {
+     "id": "c",
+     "text": "Jheronimus Bosch"
+    },
+    {
+     "id": "d",
+     "text": "Hans Memling"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Bosch schilderde fantastische, bijna droomachtige taferelen.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "kunstgeschiedenis"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Hij werd geboren in 's-Hertogenbosch."
+  },
+  {
+   "text": "Wie schilderde Las Meninas?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Francisco Goya"
+    },
+    {
+     "id": "b",
+     "text": "Diego Velázquez"
+    },
+    {
+     "id": "c",
+     "text": "El Greco"
+    },
+    {
+     "id": "d",
+     "text": "Bartolomé Murillo"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Velázquez was hofschilder van Filips IV.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "kunstgeschiedenis"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Hij was hofschilder van de Spaanse koning."
+  },
+  {
+   "text": "Wie schilderde De geboorte van Venus?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Sandro Botticelli"
+    },
+    {
+     "id": "b",
+     "text": "Leonardo da Vinci"
+    },
+    {
+     "id": "c",
+     "text": "Rafaël"
+    },
+    {
+     "id": "d",
+     "text": "Titiaan"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Botticelli was een van de bekendste schilders van de Italiaanse vroege Renaissance.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "kunstgeschiedenis"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Een schilder uit Florence."
+  },
+  {
+   "text": "Wie schilderde het plafond van de Sixtijnse Kapel?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Leonardo da Vinci"
+    },
+    {
+     "id": "b",
+     "text": "Rafaël"
+    },
+    {
+     "id": "c",
+     "text": "Donatello"
+    },
+    {
+     "id": "d",
+     "text": "Michelangelo"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Michelangelo schilderde het plafond van 1508 tot 1512.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "kunstgeschiedenis"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Hij was ook beeldhouwer."
+  },
+  {
+   "text": "Wie schilderde Het melkmeisje?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Rembrandt van Rijn"
+    },
+    {
+     "id": "b",
+     "text": "Frans Hals"
+    },
+    {
+     "id": "c",
+     "text": "Johannes Vermeer"
+    },
+    {
+     "id": "d",
+     "text": "Jan Steen"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Het melkmeisje hangt in het Rijksmuseum.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "kunstgeschiedenis"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Een schilder uit Delft."
+  },
+  {
+   "text": "Welk schilderij van Van Gogh toont de hemel boven Saint-Rémy met wervelende sterren?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De slaapkamer"
+    },
+    {
+     "id": "b",
+     "text": "De sterrennacht"
+    },
+    {
+     "id": "c",
+     "text": "Het Nachtcafé"
+    },
+    {
+     "id": "d",
+     "text": "Korenveld met kraaien"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Van Gogh schilderde het in 1889 vanuit zijn kamer in het sanatorium.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "kunstgeschiedenis"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Een nachtelijk uitzicht."
+  },
+  {
+   "text": "Voor welke schilder maakte Van Gogh in Arles meerdere schilderijen van zonnebloemen?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Paul Gauguin"
+    },
+    {
+     "id": "b",
+     "text": "Claude Monet"
+    },
+    {
+     "id": "c",
+     "text": "Paul Cézanne"
+    },
+    {
+     "id": "d",
+     "text": "Edouard Manet"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Van Gogh wilde met zonnebloemen de kamer van Gauguin versieren.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "kunstgeschiedenis"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Een bevriende schilder die kwam logeren."
+  },
+  {
+   "text": "Welke kunstvorm is De grote golf bij Kanagawa van Hokusai?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Een olieverfschilderij"
+    },
+    {
+     "id": "b",
+     "text": "Een aquarel"
+    },
+    {
+     "id": "c",
+     "text": "Een fresco"
+    },
+    {
+     "id": "d",
+     "text": "Een houtsnede"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Hokusais golf is een ukiyo-e-houtsnede uit omstreeks 1831.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "kunstgeschiedenis"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Het is geen schilderij."
+  },
+  {
+   "text": "Bij welke kunststroming hoort De wandelaar boven de nevelzee van Caspar David Friedrich?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Het realisme"
+    },
+    {
+     "id": "b",
+     "text": "Het impressionisme"
+    },
+    {
+     "id": "c",
+     "text": "De romantiek"
+    },
+    {
+     "id": "d",
+     "text": "De barok"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Friedrich is een icoon van de Duitse romantiek.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "kunstgeschiedenis"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Gevoel en natuur staan centraal."
+  },
+  {
+   "text": "Welk schilderij van Delacroix verbeeldt de Julirevolutie van 1830?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De raft van de Medusa"
+    },
+    {
+     "id": "b",
+     "text": "De Vrijheid leidt het volk"
+    },
+    {
+     "id": "c",
+     "text": "De dood van Marat"
+    },
+    {
+     "id": "d",
+     "text": "De dood van Sardanapalus"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De vrouw met de driekleur is Marianne, de personificatie van Frankrijk.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "kunstgeschiedenis"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Een vrouw met een vlag."
+  },
+  {
+   "text": "Wie schilderde De Toren van Babel uit 1563?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Pieter Bruegel de Oude"
+    },
+    {
+     "id": "b",
+     "text": "Jheronimus Bosch"
+    },
+    {
+     "id": "c",
+     "text": "Jan van Eyck"
+    },
+    {
+     "id": "d",
+     "text": "Rogier van der Weyden"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Het schilderij hangt in Wenen.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "kunstgeschiedenis"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Hij werd \"boeren-Bruegel\" genoemd."
+  },
+  {
+   "text": "Welk beroemd werk van Leonardo da Vinci is een muurschildering?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De Mona Lisa"
+    },
+    {
+     "id": "b",
+     "text": "De dame met de hermelijn"
+    },
+    {
+     "id": "c",
+     "text": "De Madonna van de rotsen"
+    },
+    {
+     "id": "d",
+     "text": "Het Laatste Avondmaal"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Het is geschilderd op een muur in een klooster in Milaan.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "schilderijen",
+    "kunstgeschiedenis"
+   ],
+   "source": "Eigen kennis",
+   "hint": "Het hangt niet in een museum."
+  }
+ ]
+}
