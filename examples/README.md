@@ -18,3 +18,7 @@ De vragen zijn zelf geschreven en vrij te gebruiken (MIT, zoals de rest van de r
 ## Vragenset vliegtuigen met afbeeldingen
 
 `vragenset-vliegtuigen-met-afbeeldingen.json` heeft 11 meerkeuzevragen "Welk vliegtuig is dit?" met een foto. De foto's komen van Wikimedia Commons en zijn publiek domein of CC0, dus vrij te gebruiken zonder naamsvermelding. Ze worden via de link geladen (niet kopie in de repo); de bronpagina staat per vraag in het veld `source`. Als een link ooit verdwijnt, vervang je de afbeelding in de vragenbank.
+
+## Vragenset rivieren
+
+`vragenset-rivieren.json` heeft 39 meerkeuzevragen over rivieren per werelddeel (langste, grensrivieren, landen, bekende bouwwerken en natuurverschijnselen). De lengtes komen uit de CIA World Factbook en zijn bij benadering; bij de Nijl en de Amazone hangt de "langste" af van hoe je meet, dus daar noemt de uitleg dat.

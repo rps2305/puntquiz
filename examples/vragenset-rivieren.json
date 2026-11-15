@@ -1,0 +1,1331 @@
+{
+ "format": "puntquiz.bank.v1",
+ "questions": [
+  {
+   "text": "Welke rivier wordt vaak genoemd als de langste ter wereld, met ongeveer 6.650 kilometer?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De Amazone"
+    },
+    {
+     "id": "b",
+     "text": "De Yangtze"
+    },
+    {
+     "id": "c",
+     "text": "De Nijl"
+    },
+    {
+     "id": "d",
+     "text": "De Mississippi"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Volgens de lijst is de Nijl ruim 6.650 km lang; de Amazone (circa 6.400 km) maakt hem de titel betwistbaar, afhankelijk van hoe je meet.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "rivieren"
+   ],
+   "source": "Rivierenlijst (CIA World Factbook, lengtes bij benadering)",
+   "hint": "Hij stroomt door Egypte."
+  },
+  {
+   "text": "Welke twee rivieren strijden om de titel langste rivier ter wereld?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De Yangtze en de Nijl"
+    },
+    {
+     "id": "b",
+     "text": "De Mississippi en de Amazone"
+    },
+    {
+     "id": "c",
+     "text": "De Kongo en de Wolga"
+    },
+    {
+     "id": "d",
+     "text": "De Nijl en de Amazone"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Nijl telt zo’n 6.650 km en de Amazone zo’n 6.400 km. De uitkomst hangt af van waar je de bron en de monding legt.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "rivieren"
+   ],
+   "source": "Rivierenlijst (CIA World Factbook, lengtes bij benadering)",
+   "hint": "Eén in Afrika, één in Zuid-Amerika."
+  },
+  {
+   "text": "Hoe lang is de Nijl ongeveer?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "6.650 km"
+    },
+    {
+     "id": "b",
+     "text": "3.700 km"
+    },
+    {
+     "id": "c",
+     "text": "4.700 km"
+    },
+    {
+     "id": "d",
+     "text": "8.200 km"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Nijl stroomt door onder meer Tanzania, Oeganda, Zuid-Soedan, Soedan en Egypte.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "rivieren"
+   ],
+   "source": "Rivierenlijst (CIA World Factbook, lengtes bij benadering)",
+   "hint": "Meer dan 6.000 kilometer."
+  },
+  {
+   "text": "Welke Afrikaanse rivier is de diepste ter wereld en kruist de evenaar twee keer?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De Nijl"
+    },
+    {
+     "id": "b",
+     "text": "De Kongo"
+    },
+    {
+     "id": "c",
+     "text": "De Niger"
+    },
+    {
+     "id": "d",
+     "text": "De Zambezi"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Kongo is zo’n 4.700 km lang en heeft plaatsen van meer dan 200 meter diep.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "rivieren"
+   ],
+   "source": "Rivierenlijst (CIA World Factbook, lengtes bij benadering)",
+   "hint": "De naam is ook een land."
+  },
+  {
+   "text": "Op welke rivier liggen de Victoriawatervallen?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De Nijl"
+    },
+    {
+     "id": "b",
+     "text": "De Kongo"
+    },
+    {
+     "id": "c",
+     "text": "De Zambezi"
+    },
+    {
+     "id": "d",
+     "text": "De Limpopo"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Zambezi (circa 2.740 km) stroomt door zes landen en eindigt in Mozambique.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "rivieren"
+   ],
+   "source": "Rivierenlijst (CIA World Factbook, lengtes bij benadering)",
+   "hint": "Het is de grens tussen Zambia en Zimbabwe."
+  },
+  {
+   "text": "In welk land ontspringt de Blauwe Nijl?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Oeganda"
+    },
+    {
+     "id": "b",
+     "text": "Egypte"
+    },
+    {
+     "id": "c",
+     "text": "Kenia"
+    },
+    {
+     "id": "d",
+     "text": "Ethiopië"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Blauwe Nijl begint in Ethiopië, bij het Tanameer, en voegt zich in Khartoem bij de Witte Nijl.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "rivieren"
+   ],
+   "source": "Rivierenlijst (CIA World Factbook, lengtes bij benadering)",
+   "hint": "Hij stroomt daarna door Soedan."
+  },
+  {
+   "text": "Welke rivier vormt de grens van Zuid-Afrika met Zimbabwe en Botswana?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De Limpopo"
+    },
+    {
+     "id": "b",
+     "text": "De Oranjerivier"
+    },
+    {
+     "id": "c",
+     "text": "De Zambezi"
+    },
+    {
+     "id": "d",
+     "text": "De Okavango"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Limpopo is zo’n 1.750 km lang en stroomt door Zuid-Afrika, Botswana, Zimbabwe en Mozambique.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "rivieren"
+   ],
+   "source": "Rivierenlijst (CIA World Factbook, lengtes bij benadering)",
+   "hint": "Haar naam begint met een L."
+  },
+  {
+   "text": "Welke rivier in Zuid-Afrika is vernoemd naar het Nederlandse Huis van Oranje?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De Limpopo"
+    },
+    {
+     "id": "b",
+     "text": "De Oranjerivier"
+    },
+    {
+     "id": "c",
+     "text": "De Vaalrivier"
+    },
+    {
+     "id": "d",
+     "text": "De Zambezi"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Oranjerivier werd in 1779 naar stadhouder Willem V van Oranje genoemd en is zo’n 2.200 km lang.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "rivieren"
+   ],
+   "source": "Rivierenlijst (CIA World Factbook, lengtes bij benadering)",
+   "hint": "Ze stroomt ook door Lesotho en Namibië."
+  },
+  {
+   "text": "In welk land eindigt de Okavango in een grote binnendelta in plaats van in zee?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Namibië"
+    },
+    {
+     "id": "b",
+     "text": "Angola"
+    },
+    {
+     "id": "c",
+     "text": "Botswana"
+    },
+    {
+     "id": "d",
+     "text": "Zambia"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Okavango begint in Angola en verdwijnt in de Kalahari: de Okavangodelta in Botswana.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "rivieren"
+   ],
+   "source": "Rivierenlijst (CIA World Factbook, lengtes bij benadering)",
+   "hint": "Het land ligt ten noorden van Zuid-Afrika."
+  },
+  {
+   "text": "Welke is de langste rivier van Azië?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De Gele Rivier"
+    },
+    {
+     "id": "b",
+     "text": "De Mekong"
+    },
+    {
+     "id": "c",
+     "text": "De Lena"
+    },
+    {
+     "id": "d",
+     "text": "De Yangtze"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Yangtze is zo’n 6.300 km lang en stroomt volledig door China.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "rivieren"
+   ],
+   "source": "Rivierenlijst (CIA World Factbook, lengtes bij benadering)",
+   "hint": "Ze stroomt helemaal door China."
+  },
+  {
+   "text": "Aan welke rivier ligt de Drieklovendam, een van de grootste waterkrachtcentrales ter wereld?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De Yangtze"
+    },
+    {
+     "id": "b",
+     "text": "De Gele Rivier"
+    },
+    {
+     "id": "c",
+     "text": "De Mekong"
+    },
+    {
+     "id": "d",
+     "text": "De Brahmaputra"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De dam in de Yangtze levert enorme hoeveelheden stroom, maar liet ook miljoenen mensen verhuizen.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "rivieren"
+   ],
+   "source": "Rivierenlijst (CIA World Factbook, lengtes bij benadering)",
+   "hint": "Hij ligt in China."
+  },
+  {
+   "text": "Welke Chinese rivier stond eeuwenlang bekend als \"het verdriet van China\" door overstromingen?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De Yangtze"
+    },
+    {
+     "id": "b",
+     "text": "De Gele Rivier (Huang He)"
+    },
+    {
+     "id": "c",
+     "text": "De Mekong"
+    },
+    {
+     "id": "d",
+     "text": "De Xi"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Gele Rivier is zo’n 5.464 km lang en voert veel gele löss mee; dammen en dijken moesten overstromingen tegengaan.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "rivieren"
+   ],
+   "source": "Rivierenlijst (CIA World Factbook, lengtes bij benadering)",
+   "hint": "De naam verwijst naar de kleur van het water."
+  },
+  {
+   "text": "Door hoeveel landen stroomt de Mekong?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Drie"
+    },
+    {
+     "id": "b",
+     "text": "Vier"
+    },
+    {
+     "id": "c",
+     "text": "Zes"
+    },
+    {
+     "id": "d",
+     "text": "Acht"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Mekong stroomt door China, Myanmar, Laos, Thailand, Cambodja en Vietnam.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "rivieren"
+   ],
+   "source": "Rivierenlijst (CIA World Factbook, lengtes bij benadering)",
+   "hint": "Van China tot Vietnam."
+  },
+  {
+   "text": "Welke Siberische rivier mondt uit in de Laptevzee?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De Wolga"
+    },
+    {
+     "id": "b",
+     "text": "De Don"
+    },
+    {
+     "id": "c",
+     "text": "De Amoer"
+    },
+    {
+     "id": "d",
+     "text": "De Lena"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Wolga en de Don stromen naar andere zeeën; de Lena eindigt in de Noordelijke IJszee.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "rivieren"
+   ],
+   "source": "Rivierenlijst (CIA World Factbook, lengtes bij benadering)",
+   "hint": "Ze is zo’n 4.300 km lang en stroomt helemaal door Rusland."
+  },
+  {
+   "text": "Welke rivier vormt voor een groot deel de grens tussen Rusland en China?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De Amoer"
+    },
+    {
+     "id": "b",
+     "text": "De Lena"
+    },
+    {
+     "id": "c",
+     "text": "De Wolga"
+    },
+    {
+     "id": "d",
+     "text": "De Irtysj"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Amoer stroomt door Rusland en China en mondt uit in de Zee van Ochotsk.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "rivieren"
+   ],
+   "source": "Rivierenlijst (CIA World Factbook, lengtes bij benadering)",
+   "hint": "Ze is zo’n 2.800 km lang."
+  },
+  {
+   "text": "De Ganges stroomt door twee landen: India en welk ander land?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Pakistan"
+    },
+    {
+     "id": "b",
+     "text": "Bangladesh"
+    },
+    {
+     "id": "c",
+     "text": "Sri Lanka"
+    },
+    {
+     "id": "d",
+     "text": "Myanmar"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Ganges is zo’n 2.525 km lang.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "rivieren"
+   ],
+   "source": "Rivierenlijst (CIA World Factbook, lengtes bij benadering)",
+   "hint": "Hij mondt samen met de Brahmaputra uit in de Golf van Bengalen."
+  },
+  {
+   "text": "Door welk land stroomt de Indus voor het grootste deel?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "India"
+    },
+    {
+     "id": "b",
+     "text": "China"
+    },
+    {
+     "id": "c",
+     "text": "Pakistan"
+    },
+    {
+     "id": "d",
+     "text": "Afghanistan"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Indus begint in Tibet (China), loopt door India en daarna vooral door Pakistan.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "rivieren"
+   ],
+   "source": "Rivierenlijst (CIA World Factbook, lengtes bij benadering)",
+   "hint": "Zijn naam leeft voort in de naam van een subcontinent."
+  },
+  {
+   "text": "Welke twee rivieren omsluiten Mesopotamië, het \"land tussen de rivieren\"?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De Nijl en de Jordaan"
+    },
+    {
+     "id": "b",
+     "text": "De Indus en de Ganges"
+    },
+    {
+     "id": "c",
+     "text": "De Amoer en de Lena"
+    },
+    {
+     "id": "d",
+     "text": "De Eufraat en de Tigris"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Beide rivieren komen uit Turkije en stromen door Syrië en Irak.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "rivieren"
+   ],
+   "source": "Rivierenlijst (CIA World Factbook, lengtes bij benadering)",
+   "hint": "Ze stromen door Irak."
+  },
+  {
+   "text": "Aan welke rivier ligt Bagdad?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De Tigris"
+    },
+    {
+     "id": "b",
+     "text": "De Eufraat"
+    },
+    {
+     "id": "c",
+     "text": "De Nijl"
+    },
+    {
+     "id": "d",
+     "text": "De Jordaan"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Tigris is zo’n 1.850 km lang en stroomt door het centrum van Bagdad.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "rivieren"
+   ],
+   "source": "Rivierenlijst (CIA World Factbook, lengtes bij benadering)",
+   "hint": "Haar naam klinkt als een groot katachtig roofdier."
+  },
+  {
+   "text": "Welk meer is grotendeels verdwenen doordat het water van de Amu Darya en de Syr Darya werd afgeleid?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Het Baikalmeer"
+    },
+    {
+     "id": "b",
+     "text": "Het Aralmeer"
+    },
+    {
+     "id": "c",
+     "text": "De Kaspische Zee"
+    },
+    {
+     "id": "d",
+     "text": "Het Victoriameer"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Het water van de twee rivieren ging naar irrigatie van katoenvelden; het Aralmeer slonk daardoor enorm.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "rivieren"
+   ],
+   "source": "Rivierenlijst (CIA World Factbook, lengtes bij benadering)",
+   "hint": "Het ligt in Centraal-Azië."
+  },
+  {
+   "text": "Welke Europese rivier stroomt door de hoofdsteden Wenen, Bratislava, Boedapest en Belgrado?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De Rijn"
+    },
+    {
+     "id": "b",
+     "text": "De Wolga"
+    },
+    {
+     "id": "c",
+     "text": "De Donau"
+    },
+    {
+     "id": "d",
+     "text": "De Elbe"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Donau is zo’n 2.850 km lang en stroomt door tien landen.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "rivieren"
+   ],
+   "source": "Rivierenlijst (CIA World Factbook, lengtes bij benadering)",
+   "hint": "Op de kaart een blauwe lijn door heel Zuidoost-Europa."
+  },
+  {
+   "text": "Welke rivier stroomt volgens de lijst door de meeste landen?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De Nijl"
+    },
+    {
+     "id": "b",
+     "text": "De Mekong"
+    },
+    {
+     "id": "c",
+     "text": "De Zambezi"
+    },
+    {
+     "id": "d",
+     "text": "De Donau"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Donau stroomt door tien landen: Duitsland, Oostenrijk, Slowakije, Hongarije, Kroatië, Servië, Roemenië, Bulgarije, Moldavië en Oekraïne.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "rivieren"
+   ],
+   "source": "Rivierenlijst (CIA World Factbook, lengtes bij benadering)",
+   "hint": "Zijn bron ligt in Duitsland."
+  },
+  {
+   "text": "In welke zee mondt de Wolga uit?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De Kaspische Zee"
+    },
+    {
+     "id": "b",
+     "text": "De Zwarte Zee"
+    },
+    {
+     "id": "c",
+     "text": "De Oostzee"
+    },
+    {
+     "id": "d",
+     "text": "De Zee van Azov"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Wolga is Europa’s langste rivier (circa 3.530 km) en stroomt helemaal door Rusland.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "rivieren"
+   ],
+   "source": "Rivierenlijst (CIA World Factbook, lengtes bij benadering)",
+   "hint": "Het is de grootste binnenzee ter wereld."
+  },
+  {
+   "text": "Aan welke rivier ligt Kiev?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De Wolga"
+    },
+    {
+     "id": "b",
+     "text": "De Dnjepr"
+    },
+    {
+     "id": "c",
+     "text": "De Don"
+    },
+    {
+     "id": "d",
+     "text": "De Donau"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Dnjepr is zo’n 2.201 km lang en mondt uit in de Zwarte Zee.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "rivieren"
+   ],
+   "source": "Rivierenlijst (CIA World Factbook, lengtes bij benadering)",
+   "hint": "Ze stroomt ook door Wit-Rusland en Rusland."
+  },
+  {
+   "text": "Aan welke rivier ligt Hamburg?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De Rijn"
+    },
+    {
+     "id": "b",
+     "text": "De Donau"
+    },
+    {
+     "id": "c",
+     "text": "De Elbe"
+    },
+    {
+     "id": "d",
+     "text": "De Wezer"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Elbe is zo’n 1.094 km lang en stroomt door Tsjechië en Duitsland.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "rivieren"
+   ],
+   "source": "Rivierenlijst (CIA World Factbook, lengtes bij benadering)",
+   "hint": "Ze komt uit Tsjechië."
+  },
+  {
+   "text": "Welke langste rivier van Frankrijk staat bekend om haar vele kastelen?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De Seine"
+    },
+    {
+     "id": "b",
+     "text": "De Rhône"
+    },
+    {
+     "id": "c",
+     "text": "De Garonne"
+    },
+    {
+     "id": "d",
+     "text": "De Loire"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Loire is zo’n 1.012 km lang; de Loirevallei heeft veel beroemde kastelen.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "rivieren"
+   ],
+   "source": "Rivierenlijst (CIA World Factbook, lengtes bij benadering)",
+   "hint": "Ze stroomt helemaal door Frankrijk."
+  },
+  {
+   "text": "Welke rivier stroomt door Lissabon?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De Taag"
+    },
+    {
+     "id": "b",
+     "text": "De Douro"
+    },
+    {
+     "id": "c",
+     "text": "De Ebro"
+    },
+    {
+     "id": "d",
+     "text": "De Guadalquivir"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Taag is zo’n 1.007 km lang en stroomt door Spanje en Portugal.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "rivieren"
+   ],
+   "source": "Rivierenlijst (CIA World Factbook, lengtes bij benadering)",
+   "hint": "Ze komt uit Spanje."
+  },
+  {
+   "text": "Welk van deze landen ligt níet aan de Rijn?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Oostenrijk"
+    },
+    {
+     "id": "b",
+     "text": "België"
+    },
+    {
+     "id": "c",
+     "text": "Liechtenstein"
+    },
+    {
+     "id": "d",
+     "text": "Frankrijk"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Rijn (circa 1.230 km) stroomt door of langs Zwitserland, Liechtenstein, Oostenrijk, Duitsland, Frankrijk en Nederland.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "rivieren"
+   ],
+   "source": "Rivierenlijst (CIA World Factbook, lengtes bij benadering)",
+   "hint": "Het is een buurland van Nederland."
+  },
+  {
+   "text": "Welke rivier vormt samen met de Missouri het langste riviersysteem van Noord-Amerika?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De Colorado"
+    },
+    {
+     "id": "b",
+     "text": "De Columbia"
+    },
+    {
+     "id": "c",
+     "text": "De Mississippi"
+    },
+    {
+     "id": "d",
+     "text": "De Rio Grande"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Het Missouri-Mississippisysteem is zo’n 6.275 km lang; de Mississippi alleen circa 3.730 km.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "rivieren"
+   ],
+   "source": "Rivierenlijst (CIA World Factbook, lengtes bij benadering)",
+   "hint": "Ze stroomt door de zuidelijke Verenigde Staten."
+  },
+  {
+   "text": "Welke rivier heeft de Grand Canyon uitgesleten?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De Missouri"
+    },
+    {
+     "id": "b",
+     "text": "De Columbia"
+    },
+    {
+     "id": "c",
+     "text": "De Rio Grande"
+    },
+    {
+     "id": "d",
+     "text": "De Colorado"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Colorado is zo’n 2.330 km lang en heeft in miljoenen jaren de Grand Canyon gevormd.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "rivieren"
+   ],
+   "source": "Rivierenlijst (CIA World Factbook, lengtes bij benadering)",
+   "hint": "Ze stroomt ook door Mexico."
+  },
+  {
+   "text": "Welke rivier stroomt door Canada en Alaska en was belangrijk tijdens de Klondike-goudkoorts?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De Yukon"
+    },
+    {
+     "id": "b",
+     "text": "De Columbia"
+    },
+    {
+     "id": "c",
+     "text": "De Colorado"
+    },
+    {
+     "id": "d",
+     "text": "De Mackenzie"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Yukon is zo’n 3.185 km lang; de goudvelden lagen bij haar zijrivier de Klondike.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "rivieren"
+   ],
+   "source": "Rivierenlijst (CIA World Factbook, lengtes bij benadering)",
+   "hint": "Haar naam klinkt als een Canadees gebied."
+  },
+  {
+   "text": "Welke rivier vormt een groot deel van de grens tussen de Verenigde Staten en Mexico?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De Colorado"
+    },
+    {
+     "id": "b",
+     "text": "De Rio Grande"
+    },
+    {
+     "id": "c",
+     "text": "De Missouri"
+    },
+    {
+     "id": "d",
+     "text": "De Columbia"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Rio Grande vormt veel van de grens tussen Texas en Mexico.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "rivieren"
+   ],
+   "source": "Rivierenlijst (CIA World Factbook, lengtes bij benadering)",
+   "hint": "Ze is zo’n 3.000 km lang."
+  },
+  {
+   "text": "Welke rivier verbindt de Grote Meren met de Atlantische Oceaan?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De Mississippi"
+    },
+    {
+     "id": "b",
+     "text": "De Hudson"
+    },
+    {
+     "id": "c",
+     "text": "De Sint-Laurensstroom"
+    },
+    {
+     "id": "d",
+     "text": "De Mackenzie"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Sint-Laurensstroom is zo’n 1.197 km lang en loopt langs onder meer Montréal en Québec.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "rivieren"
+   ],
+   "source": "Rivierenlijst (CIA World Factbook, lengtes bij benadering)",
+   "hint": "Ze stroomt door Canada en de Verenigde Staten."
+  },
+  {
+   "text": "Welke is de langste rivier van Zuid-Amerika?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De Orinoco"
+    },
+    {
+     "id": "b",
+     "text": "De Paraná"
+    },
+    {
+     "id": "c",
+     "text": "De São Francisco"
+    },
+    {
+     "id": "d",
+     "text": "De Amazone"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Amazone is zo’n 6.400 km lang en voert meer water af dan enige andere rivier.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "rivieren"
+   ],
+   "source": "Rivierenlijst (CIA World Factbook, lengtes bij benadering)",
+   "hint": "Ze stroomt door het grootste regenwoud ter wereld."
+  },
+  {
+   "text": "Door welk land stroomt de Amazone níet?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Argentinië"
+    },
+    {
+     "id": "b",
+     "text": "Peru"
+    },
+    {
+     "id": "c",
+     "text": "Colombia"
+    },
+    {
+     "id": "d",
+     "text": "Brazilië"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Amazone stroomt door Peru, Colombia en Brazilië.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "rivieren"
+   ],
+   "source": "Rivierenlijst (CIA World Factbook, lengtes bij benadering)",
+   "hint": "Het ligt in het zuiden van het continent."
+  },
+  {
+   "text": "Door welke twee landen stroomt de Orinoco?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Brazilië en Peru"
+    },
+    {
+     "id": "b",
+     "text": "Venezuela en Colombia"
+    },
+    {
+     "id": "c",
+     "text": "Bolivia en Paraguay"
+    },
+    {
+     "id": "d",
+     "text": "Chili en Argentinië"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Orinoco is zo’n 2.140 km lang en mondt uit in de Atlantische Oceaan.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "rivieren"
+   ],
+   "source": "Rivierenlijst (CIA World Factbook, lengtes bij benadering)",
+   "hint": "Een rivier in het noorden van Zuid-Amerika."
+  },
+  {
+   "text": "Door welke drie landen stroomt de Paraná?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Peru, Bolivia en Chili"
+    },
+    {
+     "id": "b",
+     "text": "Colombia, Venezuela en Ecuador"
+    },
+    {
+     "id": "c",
+     "text": "Brazilië, Paraguay en Argentinië"
+    },
+    {
+     "id": "d",
+     "text": "Uruguay, Chili en Bolivia"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Paraná is zo’n 4.880 km lang.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "rivieren"
+   ],
+   "source": "Rivierenlijst (CIA World Factbook, lengtes bij benadering)",
+   "hint": "Een van hen heeft ook een rivier met dezelfde naam als het land."
+  },
+  {
+   "text": "Welk riviersysteem is het langste van Australië?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Cooper Creek"
+    },
+    {
+     "id": "b",
+     "text": "Murrumbidgee"
+    },
+    {
+     "id": "c",
+     "text": "Lachlan"
+    },
+    {
+     "id": "d",
+     "text": "Murray-Darling"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Het Murray-Darlingsysteem is zo’n 3.672 km lang.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "rivieren"
+   ],
+   "source": "Rivierenlijst (CIA World Factbook, lengtes bij benadering)",
+   "hint": "Het bestaat uit twee rivieren."
+  },
+  {
+   "text": "Welk werelddeel heeft geen grote permanente rivieren?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Antarctica"
+    },
+    {
+     "id": "b",
+     "text": "Australië"
+    },
+    {
+     "id": "c",
+     "text": "Afrika"
+    },
+    {
+     "id": "d",
+     "text": "Europa"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Antarctica heeft alleen korte stroompjes van smeltwater, die niet te vergelijken zijn met de grote rivieren op andere werelddelen.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "rivieren"
+   ],
+   "source": "Rivierenlijst (CIA World Factbook, lengtes bij benadering)",
+   "hint": "Het is het koudste werelddeel."
+  }
+ ]
+}
