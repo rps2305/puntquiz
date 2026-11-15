@@ -104,7 +104,7 @@
           <p v-if="!bankItems.length" class="muted">Geen vragen gevonden. <NuxtLink to="/bank">Naar de vragenbank</NuxtLink></p>
           <label v-for="b in bankItems" :key="b.id" class="row" style="margin: 0; align-items: flex-start">
             <input v-model="picked" type="checkbox" :value="b.id" style="width: 22px; min-height: 22px" />
-            <span class="grow"><strong>{{ b.text }}</strong><span class="muted"> — {{ b.category || 'geen categorie' }}</span><UsageBadge :usage="b.usage" /></span>
+            <span class="grow"><strong>{{ b.text }}</strong><span class="muted"> — {{ b.category || 'geen categorie' }}</span><UsageBadge :usage="b.usage" /><MediaPeek :items="b.media ?? []" /></span>
           </label>
           <div class="row"><button :disabled="!picked.length" @click="addPicked(ri)">{{ picked.length }} toevoegen</button><button class="ghost" @click="pickerRound = null">Sluiten</button></div>
         </div>

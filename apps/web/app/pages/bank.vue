@@ -92,6 +92,7 @@
         <span class="pill mono">{{ q.points }} pt · {{ q.seconds }}s</span>
         <span v-if="q.media?.length" class="pill">{{ q.media.map((m) => ({ image: '🖼', audio: '🎵', youtube: '▶' })[m.kind]).join(' ') }}</span>
       </div>
+      <MediaPeek :items="q.media ?? []" />
       <UsageBadge :usage="q.usage" />
     </div>
   </main>
