@@ -17,6 +17,10 @@ model User {
   passwordHash String?
   isGuest      Boolean         @default(false)
   isAdmin      Boolean         @default(false)
+  /// Approved by an admin to build and present quizzes (HOST_APPROVAL=required); admins may always host.
+  canHost      Boolean         @default(false)
+  /// Set when the user asked to become a presenter; cleared on approve/deny.
+  hostRequestedAt DateTime?
   /// Subject claim from the identity provider (Authentik, spec §16).
   oidcSub      String?         @unique
   avatar       String?

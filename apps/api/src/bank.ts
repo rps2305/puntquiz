@@ -7,7 +7,7 @@ import type { BankQuestionDto, BankUsage, MusicConfigDto } from '@puntquiz/contr
 import { MediaItem, validateMedia } from './media'
 import { normaliseMusic } from './music'
 import { toMediaDtos } from './quizzes'
-import { AuthGuard, AuthedRequest } from './auth'
+import { AuthedRequest, HostGuard } from './auth'
 import { PrismaService } from './prisma.service'
 import { BankInput, COLUMNS, ParseResult, jsonToQuestions, normalizeText, parseCsv, questionsToRows, rowsToQuestions, toCsv, validateBank } from './bankio'
 
@@ -208,7 +208,7 @@ export class BankService {
 }
 
 @Controller('bank')
-@UseGuards(AuthGuard)
+@UseGuards(HostGuard)
 export class BankController {
   constructor(private bank: BankService) {}
 

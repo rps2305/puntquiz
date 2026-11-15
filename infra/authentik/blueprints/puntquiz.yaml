@@ -6,11 +6,15 @@ entries:
   - model: authentik_core.group
     id: grp-admins
     identifiers: { name: puntquiz-admins }
+    # created once with akadmin; afterwards membership is managed in Authentik (a blueprint would reset it on every apply)
+    state: created
     attrs:
       users: [!Find [authentik_core.user, [username, akadmin]]]
   - model: authentik_core.group
     id: grp-staff
     identifiers: { name: puntquiz-staff }
+    # created once with akadmin; afterwards membership is managed in Authentik (a blueprint would reset it on every apply)
+    state: created
     attrs:
       users: [!Find [authentik_core.user, [username, akadmin]]]
 

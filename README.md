@@ -26,7 +26,7 @@ De meeste pubquiz-apps geven één telefoon aan een heel team. Bij PuntQuiz logt
 - **Server bepaalt alles:** timers en scores staan op de server; de klok op je telefoon is alleen weergave. Antwoorden worden offline bewaard en binnen 60 seconden alsnog verstuurd.
 - **Afdrukbare antwoordformulieren** en antwoordsleutel, voor quizzen met papier naast de telefoon.
 - **E-mail (opt-in):** welkomstmail, rondeuitslagen en eindstand in huisstijl.
-- **Accounts:** gast, of Authentik (OIDC) met optioneel sociale logins en MFA.
+- **Accounts:** gast, of Authentik (OIDC) met optioneel sociale logins en MFA. Meespelen mag iedereen; quizzen maken en presenteren vraagt toestemming van de beheerder (`HOST_APPROVAL`, zie `docker-compose.yml`).
 - **PWA:** te installeren, met een offlinepagina. Live gegevens worden nooit gecachet.
 
 ## Techniek

@@ -42,6 +42,8 @@ services:
       OIDC_CLIENT_ID: puntquiz
       OIDC_CLIENT_SECRET: ${OIDC_CLIENT_SECRET:-dev-oidc-secret}
       LOCAL_AUTH: ${LOCAL_AUTH:-true}
+      # required (default): new accounts must ask an admin before they can build/present quizzes. open: every registered user may.
+      HOST_APPROVAL: ${HOST_APPROVAL:-required}
       SMTP_HOST: ${SMTP_HOST:-}
       SMTP_PORT: ${SMTP_PORT:-465}
       SMTP_USER: ${SMTP_USER:-}

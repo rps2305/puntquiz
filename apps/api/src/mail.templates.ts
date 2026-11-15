@@ -52,6 +52,30 @@ export function welcomeMail(name: string, siteUrl: string): Mail {
   return { subject, html, text: `Welkom, ${name}!\n\nJe account is aangemaakt. Meedoen: vul de quizcode in op ${siteUrl}.\n` }
 }
 
+export function hostRequestMail(o: { name: string; email: string | null; siteUrl: string }): Mail {
+  const subject = `Presentator-aanvraag van ${o.name}`
+  const who = o.email ? `${o.name} (${o.email})` : o.name
+  const html = wrap(
+    'Iemand wil presentator worden',
+    `<p><strong>${esc(who)}</strong> vraagt toestemming om quizzen te maken en te presenteren.</p>
+     <p>Je kunt de aanvraag goedkeuren of afwijzen op de beheerpagina.</p>${btn(`${o.siteUrl}/admin`, 'Naar de aanvragen')}`,
+    o.siteUrl,
+    { preheader: `${o.name} vraagt toestemming om presentator te worden.`, footer: 'Je ontvangt deze mail omdat je beheerder bent van PuntQuiz.' },
+  )
+  return { subject, html, text: `${who} vraagt toestemming om presentator te worden.\nGoedkeuren of afwijzen: ${o.siteUrl}/admin\n` }
+}
+
+export function hostApprovedMail(o: { name: string; siteUrl: string }): Mail {
+  const subject = 'Je mag nu quizzen presenteren'
+  const html = wrap(
+    `Welkom als presentator, ${o.name}!`,
+    `<p>Je aanvraag is goedgekeurd. Je kunt nu quizzen maken, vragen bewaren in de vragenbank en een quiz presenteren.</p>${btn(`${o.siteUrl}/quizzes`, 'Naar mijn quizzen')}`,
+    o.siteUrl,
+    { preheader: 'Je aanvraag is goedgekeurd.', footer: ACCOUNT_FOOTER },
+  )
+  return { subject, html, text: `Welkom als presentator, ${o.name}! Je aanvraag is goedgekeurd. Naar je quizzen: ${o.siteUrl}/quizzes\n` }
+}
+
 export interface RoundItem {
   text: string
   correct: string[]

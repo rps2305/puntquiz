@@ -11,6 +11,7 @@ export async function api<T = any>(path: string, opts: { method?: string; body?:
   } catch (e: any) {
     const status = e?.response?.status ?? e?.statusCode ?? 0
     const data = e?.data
+    if (status === 403 && data?.code === 'HOST_APPROVAL_REQUIRED' && import.meta.client) void navigateTo('/presentator')
     const m = data?.message
     throw new ApiError(Array.isArray(m) ? m.join(', ') : typeof m === 'string' ? m : status ? `Fout ${status}` : 'Geen verbinding', status, data)
   }

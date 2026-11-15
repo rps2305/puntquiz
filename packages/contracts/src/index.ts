@@ -51,7 +51,14 @@ export interface UserDto {
   email: string | null
   isGuest: boolean
   avatar: string | null
+  isAdmin: boolean
+  /** May build and present quizzes (approved, or admin, or approval switched off). */
+  canHost: boolean
+  hostRequested: boolean
 }
+
+export interface HostRequestDto { id: string; name: string; email: string | null; requestedAt: string }
+export interface HostAdminDto { requests: HostRequestDto[]; hosts: { id: string; name: string; email: string | null }[] }
 
 export interface OptionDto {
   id: string

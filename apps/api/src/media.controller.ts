@@ -3,7 +3,7 @@ import type { Response } from 'express'
 import { mkdir, writeFile } from 'node:fs/promises'
 import { existsSync } from 'node:fs'
 import { join, resolve } from 'node:path'
-import { AuthGuard, AuthedRequest } from './auth'
+import { AuthedRequest, HostGuard } from './auth'
 import { MAX_AUDIO_BYTES, MAX_IMAGE_BYTES, sniffMime } from './media'
 import { PrismaService } from './prisma.service'
 
@@ -15,7 +15,7 @@ export class MediaController {
 
   /** Upload as base64 JSON (no multipart dependency). The type comes from the file's bytes, never from its name. */
   @Post()
-  @UseGuards(AuthGuard)
+  @UseGuards(HostGuard)
   async upload(@Req() req: AuthedRequest, @Body() b: { name?: string; data: string }) {
     if (req.user.isGuest) throw new ForbiddenException('Create an account to upload media')
     if (typeof b?.data !== 'string' || b.data.length > 15_000_000) throw new BadRequestException('file missing or too large')

@@ -1,3 +1,4 @@
+import { mayHost } from './hosting'
 import {
   BadRequestException,
   Query,
@@ -36,7 +37,7 @@ if (process.env.NODE_ENV === 'production' && !process.env.JWT_SECRET) {
 export type AuthedRequest = Request & { user: User }
 
 export function toUserDto(u: User): UserDto {
-  return { id: u.id, name: u.name, email: u.email, isGuest: u.isGuest, avatar: u.avatar }
+  return { id: u.id, name: u.name, email: u.email, isGuest: u.isGuest, avatar: u.avatar, isAdmin: u.isAdmin, canHost: mayHost(u), hostRequested: !!u.hostRequestedAt && !mayHost(u) }
 }
 
 @Injectable()
@@ -77,6 +78,17 @@ export class AuthGuard implements CanActivate {
     const user = await this.auth.userFromToken(req.cookies?.[COOKIE])
     if (!user) throw new UnauthorizedException('Not signed in')
     ;(req as AuthedRequest).user = user
+    return true
+  }
+}
+
+/** Like AuthGuard, but only for users who may build and present quizzes (admin approval, see hosting.ts). */
+@Injectable()
+export class HostGuard extends AuthGuard {
+  async canActivate(ctx: ExecutionContext) {
+    await super.canActivate(ctx)
+    const user = ctx.switchToHttp().getRequest<AuthedRequest>().user
+    if (!mayHost(user)) throw new ForbiddenException({ message: 'Je hebt toestemming nodig om quizzen te maken en te presenteren.', code: 'HOST_APPROVAL_REQUIRED' })
     return true
   }
 }

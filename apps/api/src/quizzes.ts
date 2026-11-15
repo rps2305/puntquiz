@@ -17,7 +17,7 @@ import type { Response } from 'express'
 import { Prisma } from '@prisma/client'
 import type { Quiz, Round, Question } from '@prisma/client'
 import type { MediaDto, MusicConfigDto, OptionDto, QuestionDto, QuizDetailDto, QuizSummaryDto, RoundDto } from '@puntquiz/contracts'
-import { AuthGuard, AuthedRequest } from './auth'
+import { AuthedRequest, HostGuard } from './auth'
 import { MediaItem, embedUrl, validateMedia } from './media'
 import { musicMax, normaliseMusic, validateMusic } from './music'
 import { normaliseSettings } from './powerups'
@@ -264,7 +264,7 @@ export class QuizzesService {
 }
 
 @Controller('quizzes')
-@UseGuards(AuthGuard)
+@UseGuards(HostGuard)
 export class QuizzesController {
   constructor(private quizzes: QuizzesService) {}
 
