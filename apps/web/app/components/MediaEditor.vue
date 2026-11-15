@@ -7,10 +7,7 @@
       </div>
       <template v-if="m.kind === 'youtube'">
         <input v-model="m.url" placeholder="YouTube-link, bv. https://youtu.be/…" :aria-label="`YouTube-link ${i + 1}`" />
-        <div class="row">
-          <label style="margin: 0">Start (sec) <input v-model.number="m.start" type="number" min="0" style="width: 90px" /></label>
-          <label style="margin: 0">Einde (sec) <input v-model.number="m.end" type="number" min="1" style="width: 90px" /></label>
-        </div>
+        <YoutubeRange v-model:start="m.start" v-model:end="m.end" :url="m.url" />
       </template>
       <template v-else>
         <div class="row">

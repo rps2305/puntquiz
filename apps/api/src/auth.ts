@@ -101,7 +101,7 @@ function limit(req: Request, max = 20) {
   const arr = (hits.get(key) ?? []).filter((t) => now - t < 60_000)
   arr.push(now)
   hits.set(key, arr)
-  if (arr.length > max) throw new BadRequestException('Too many attempts, try again in a minute')
+  if (arr.length > max) throw new BadRequestException('Te veel pogingen vanaf dit netwerk. Wacht een minuut en probeer het opnieuw.')
 }
 
 const LOCAL_AUTH = process.env.LOCAL_AUTH !== 'false'
@@ -146,7 +146,7 @@ export class AuthController {
 
   @Post('guest')
   async guest(@Body() b: { name: string }, @Req() req: Request, @Res({ passthrough: true }) res: Response) {
-    limit(req)
+    limit(req, 150) // a whole venue shares one public IP and joins within minutes
     const user = await this.prisma.user.create({ data: { name: cleanName(b.name), isGuest: true } })
     this.auth.setCookie(res, user.id)
     return toUserDto(user)

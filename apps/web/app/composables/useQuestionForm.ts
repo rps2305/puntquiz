@@ -1,7 +1,7 @@
 // Shared helpers for the quiz editor and the question bank form (media + music settings).
 const lines = (t: string) => String(t ?? '').split('\n').map((x) => x.trim()).filter(Boolean)
 
-export const emptyCfg = () => ({ artist: '', title: '', year: '' as number | string, artistPoints: 1, titlePoints: 1, yearPoints: 1 })
+export const emptyCfg = () => ({ artist: '', title: '', year: '' as number | string, artistPoints: 0.5, titlePoints: 0.5, yearPoints: 1 })
 
 export const cfgFromDto = (c: any) =>
   c ? { artist: (c.artist ?? []).join('\n'), title: (c.title ?? []).join('\n'), year: c.year ?? '', artistPoints: c.artistPoints, titlePoints: c.titlePoints, yearPoints: c.yearPoints } : emptyCfg()

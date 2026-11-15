@@ -78,7 +78,7 @@ export class BankService {
     return {
       ...(ownerId ? { ownerId } : {}),
       text: i.text.trim(), type: i.type, options: i.options as unknown as Prisma.InputJsonValue, correct: i.correct as unknown as Prisma.InputJsonValue,
-      points: i.points ?? 10, seconds: i.seconds ?? 30, explanation: i.explanation || null, category: i.category?.trim() || null,
+      points: i.points ?? 1, seconds: i.seconds ?? 30, explanation: i.explanation || null, category: i.category?.trim() || null,
       difficulty: i.difficulty ?? null, tags: [...new Set((i.tags ?? []).map((t) => t.trim().toLowerCase()).filter(Boolean))], source: i.source?.trim() || null,
       hint: i.hint?.trim().slice(0, 300) || null,
       media: ((validateMedia(i.media) as { items: MediaItem[] }).items ?? []) as unknown as Prisma.InputJsonValue,

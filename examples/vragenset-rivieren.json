@@ -25,7 +25,7 @@
    "correct": [
     "c"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "Volgens de lijst is de Nijl ruim 6.650 km lang; de Amazone (circa 6.400 km) maakt hem de titel betwistbaar, afhankelijk van hoe je meet.",
    "category": "Aardrijkskunde",
@@ -59,7 +59,7 @@
    "correct": [
     "d"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "De Nijl telt zo’n 6.650 km en de Amazone zo’n 6.400 km. De uitkomst hangt af van waar je de bron en de monding legt.",
    "category": "Aardrijkskunde",
@@ -93,7 +93,7 @@
    "correct": [
     "a"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "De Nijl stroomt door onder meer Tanzania, Oeganda, Zuid-Soedan, Soedan en Egypte.",
    "category": "Aardrijkskunde",
@@ -127,7 +127,7 @@
    "correct": [
     "b"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "De Kongo is zo’n 4.700 km lang en heeft plaatsen van meer dan 200 meter diep.",
    "category": "Aardrijkskunde",
@@ -161,7 +161,7 @@
    "correct": [
     "c"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "De Zambezi (circa 2.740 km) stroomt door zes landen en eindigt in Mozambique.",
    "category": "Aardrijkskunde",
@@ -195,7 +195,7 @@
    "correct": [
     "d"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "De Blauwe Nijl begint in Ethiopië, bij het Tanameer, en voegt zich in Khartoem bij de Witte Nijl.",
    "category": "Aardrijkskunde",
@@ -229,7 +229,7 @@
    "correct": [
     "a"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "De Limpopo is zo’n 1.750 km lang en stroomt door Zuid-Afrika, Botswana, Zimbabwe en Mozambique.",
    "category": "Aardrijkskunde",
@@ -263,7 +263,7 @@
    "correct": [
     "b"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "De Oranjerivier werd in 1779 naar stadhouder Willem V van Oranje genoemd en is zo’n 2.200 km lang.",
    "category": "Aardrijkskunde",
@@ -297,7 +297,7 @@
    "correct": [
     "c"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "De Okavango begint in Angola en verdwijnt in de Kalahari: de Okavangodelta in Botswana.",
    "category": "Aardrijkskunde",
@@ -331,7 +331,7 @@
    "correct": [
     "d"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "De Yangtze is zo’n 6.300 km lang en stroomt volledig door China.",
    "category": "Aardrijkskunde",
@@ -365,7 +365,7 @@
    "correct": [
     "a"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "De dam in de Yangtze levert enorme hoeveelheden stroom, maar liet ook miljoenen mensen verhuizen.",
    "category": "Aardrijkskunde",
@@ -399,7 +399,7 @@
    "correct": [
     "b"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "De Gele Rivier is zo’n 5.464 km lang en voert veel gele löss mee; dammen en dijken moesten overstromingen tegengaan.",
    "category": "Aardrijkskunde",
@@ -433,7 +433,7 @@
    "correct": [
     "c"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "De Mekong stroomt door China, Myanmar, Laos, Thailand, Cambodja en Vietnam.",
    "category": "Aardrijkskunde",
@@ -467,7 +467,7 @@
    "correct": [
     "d"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "De Wolga en de Don stromen naar andere zeeën; de Lena eindigt in de Noordelijke IJszee.",
    "category": "Aardrijkskunde",
@@ -501,7 +501,7 @@
    "correct": [
     "a"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "De Amoer stroomt door Rusland en China en mondt uit in de Zee van Ochotsk.",
    "category": "Aardrijkskunde",
@@ -535,7 +535,7 @@
    "correct": [
     "b"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "De Ganges is zo’n 2.525 km lang.",
    "category": "Aardrijkskunde",
@@ -569,7 +569,7 @@
    "correct": [
     "c"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "De Indus begint in Tibet (China), loopt door India en daarna vooral door Pakistan.",
    "category": "Aardrijkskunde",
@@ -603,7 +603,7 @@
    "correct": [
     "d"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "Beide rivieren komen uit Turkije en stromen door Syrië en Irak.",
    "category": "Aardrijkskunde",
@@ -637,7 +637,7 @@
    "correct": [
     "a"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "De Tigris is zo’n 1.850 km lang en stroomt door het centrum van Bagdad.",
    "category": "Aardrijkskunde",
@@ -671,7 +671,7 @@
    "correct": [
     "b"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "Het water van de twee rivieren ging naar irrigatie van katoenvelden; het Aralmeer slonk daardoor enorm.",
    "category": "Aardrijkskunde",
@@ -705,7 +705,7 @@
    "correct": [
     "c"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "De Donau is zo’n 2.850 km lang en stroomt door tien landen.",
    "category": "Aardrijkskunde",
@@ -739,7 +739,7 @@
    "correct": [
     "d"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "De Donau stroomt door tien landen: Duitsland, Oostenrijk, Slowakije, Hongarije, Kroatië, Servië, Roemenië, Bulgarije, Moldavië en Oekraïne.",
    "category": "Aardrijkskunde",
@@ -773,7 +773,7 @@
    "correct": [
     "a"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "De Wolga is Europa’s langste rivier (circa 3.530 km) en stroomt helemaal door Rusland.",
    "category": "Aardrijkskunde",
@@ -807,7 +807,7 @@
    "correct": [
     "b"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "De Dnjepr is zo’n 2.201 km lang en mondt uit in de Zwarte Zee.",
    "category": "Aardrijkskunde",
@@ -841,7 +841,7 @@
    "correct": [
     "c"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "De Elbe is zo’n 1.094 km lang en stroomt door Tsjechië en Duitsland.",
    "category": "Aardrijkskunde",
@@ -875,7 +875,7 @@
    "correct": [
     "d"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "De Loire is zo’n 1.012 km lang; de Loirevallei heeft veel beroemde kastelen.",
    "category": "Aardrijkskunde",
@@ -909,7 +909,7 @@
    "correct": [
     "a"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "De Taag is zo’n 1.007 km lang en stroomt door Spanje en Portugal.",
    "category": "Aardrijkskunde",
@@ -943,7 +943,7 @@
    "correct": [
     "b"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "De Rijn (circa 1.230 km) stroomt door of langs Zwitserland, Liechtenstein, Oostenrijk, Duitsland, Frankrijk en Nederland.",
    "category": "Aardrijkskunde",
@@ -977,7 +977,7 @@
    "correct": [
     "c"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "Het Missouri-Mississippisysteem is zo’n 6.275 km lang; de Mississippi alleen circa 3.730 km.",
    "category": "Aardrijkskunde",
@@ -1011,7 +1011,7 @@
    "correct": [
     "d"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "De Colorado is zo’n 2.330 km lang en heeft in miljoenen jaren de Grand Canyon gevormd.",
    "category": "Aardrijkskunde",
@@ -1045,7 +1045,7 @@
    "correct": [
     "a"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "De Yukon is zo’n 3.185 km lang; de goudvelden lagen bij haar zijrivier de Klondike.",
    "category": "Aardrijkskunde",
@@ -1079,7 +1079,7 @@
    "correct": [
     "b"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "De Rio Grande vormt veel van de grens tussen Texas en Mexico.",
    "category": "Aardrijkskunde",
@@ -1113,7 +1113,7 @@
    "correct": [
     "c"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "De Sint-Laurensstroom is zo’n 1.197 km lang en loopt langs onder meer Montréal en Québec.",
    "category": "Aardrijkskunde",
@@ -1147,7 +1147,7 @@
    "correct": [
     "d"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "De Amazone is zo’n 6.400 km lang en voert meer water af dan enige andere rivier.",
    "category": "Aardrijkskunde",
@@ -1181,7 +1181,7 @@
    "correct": [
     "a"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "De Amazone stroomt door Peru, Colombia en Brazilië.",
    "category": "Aardrijkskunde",
@@ -1215,7 +1215,7 @@
    "correct": [
     "b"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "De Orinoco is zo’n 2.140 km lang en mondt uit in de Atlantische Oceaan.",
    "category": "Aardrijkskunde",
@@ -1249,7 +1249,7 @@
    "correct": [
     "c"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "De Paraná is zo’n 4.880 km lang.",
    "category": "Aardrijkskunde",
@@ -1283,7 +1283,7 @@
    "correct": [
     "d"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "Het Murray-Darlingsysteem is zo’n 3.672 km lang.",
    "category": "Aardrijkskunde",
@@ -1317,7 +1317,7 @@
    "correct": [
     "a"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "Antarctica heeft alleen korte stroompjes van smeltwater, die niet te vergelijken zijn met de grote rivieren op andere werelddelen.",
    "category": "Aardrijkskunde",

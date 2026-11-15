@@ -253,7 +253,7 @@ export class QuizzesService {
             type: q.type ?? 'MC',
             options: (q.type === 'OPEN' || q.type === 'MUSIC' ? [] : q.options.map((o) => ({ id: o.id, text: o.text.trim() }))) as Prisma.InputJsonValue,
             correct: (q.type === 'OPEN' ? q.correct.map((a) => String(a).trim()).filter(Boolean) : q.type === 'MUSIC' ? [] : q.correct) as Prisma.InputJsonValue,
-            points: q.type === 'MUSIC' ? musicMax(normaliseMusic(q.config ?? {})) : (q.points ?? 10),
+            points: q.type === 'MUSIC' ? musicMax(normaliseMusic(q.config ?? {})) : (q.points ?? 1),
             seconds: q.seconds ?? 30,
             explanation: q.explanation ?? null,
           })),

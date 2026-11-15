@@ -6,7 +6,7 @@
    "type": "MUSIC",
    "options": [],
    "correct": [],
-   "points": 10,
+   "points": 2.0,
    "seconds": 60,
    "explanation": "Queen — Bohemian Rhapsody (1975).",
    "category": "Muziek",
@@ -31,9 +31,9 @@
      "Bohemian Rhapsody"
     ],
     "year": 1975,
-    "artistPoints": 3,
-    "titlePoints": 3,
-    "yearPoints": 4
+    "artistPoints": 0.5,
+    "titlePoints": 0.5,
+    "yearPoints": 1
    }
   },
   {
@@ -41,7 +41,7 @@
    "type": "MUSIC",
    "options": [],
    "correct": [],
-   "points": 10,
+   "points": 2.0,
    "seconds": 60,
    "explanation": "Rick Astley — Never Gonna Give You Up (1987).",
    "category": "Muziek",
@@ -66,9 +66,9 @@
      "Never Gonna Give You Up"
     ],
     "year": 1987,
-    "artistPoints": 3,
-    "titlePoints": 3,
-    "yearPoints": 4
+    "artistPoints": 0.5,
+    "titlePoints": 0.5,
+    "yearPoints": 1
    }
   },
   {
@@ -76,7 +76,7 @@
    "type": "MUSIC",
    "options": [],
    "correct": [],
-   "points": 10,
+   "points": 2.0,
    "seconds": 60,
    "explanation": "Michael Jackson — Billie Jean (1983).",
    "category": "Muziek",
@@ -101,9 +101,9 @@
      "Billie Jean"
     ],
     "year": 1983,
-    "artistPoints": 3,
-    "titlePoints": 3,
-    "yearPoints": 4
+    "artistPoints": 0.5,
+    "titlePoints": 0.5,
+    "yearPoints": 1
    }
   },
   {
@@ -111,7 +111,7 @@
    "type": "MUSIC",
    "options": [],
    "correct": [],
-   "points": 10,
+   "points": 2.0,
    "seconds": 60,
    "explanation": "Nirvana — Smells Like Teen Spirit (1991).",
    "category": "Muziek",
@@ -136,9 +136,9 @@
      "Smells Like Teen Spirit"
     ],
     "year": 1991,
-    "artistPoints": 3,
-    "titlePoints": 3,
-    "yearPoints": 4
+    "artistPoints": 0.5,
+    "titlePoints": 0.5,
+    "yearPoints": 1
    }
   },
   {
@@ -146,7 +146,7 @@
    "type": "MUSIC",
    "options": [],
    "correct": [],
-   "points": 10,
+   "points": 2.0,
    "seconds": 60,
    "explanation": "John Lennon — Imagine (1971).",
    "category": "Muziek",
@@ -172,9 +172,9 @@
      "Imagine"
     ],
     "year": 1971,
-    "artistPoints": 3,
-    "titlePoints": 3,
-    "yearPoints": 4
+    "artistPoints": 0.5,
+    "titlePoints": 0.5,
+    "yearPoints": 1
    }
   },
   {
@@ -182,7 +182,7 @@
    "type": "MUSIC",
    "options": [],
    "correct": [],
-   "points": 10,
+   "points": 2.0,
    "seconds": 60,
    "explanation": "a-ha — Take On Me (1985).",
    "category": "Muziek",
@@ -208,9 +208,9 @@
      "Take On Me"
     ],
     "year": 1985,
-    "artistPoints": 3,
-    "titlePoints": 3,
-    "yearPoints": 4
+    "artistPoints": 0.5,
+    "titlePoints": 0.5,
+    "yearPoints": 1
    }
   },
   {
@@ -218,7 +218,7 @@
    "type": "MUSIC",
    "options": [],
    "correct": [],
-   "points": 10,
+   "points": 2.0,
    "seconds": 60,
    "explanation": "Oasis — Wonderwall (1995).",
    "category": "Muziek",
@@ -243,9 +243,9 @@
      "Wonderwall"
     ],
     "year": 1995,
-    "artistPoints": 3,
-    "titlePoints": 3,
-    "yearPoints": 4
+    "artistPoints": 0.5,
+    "titlePoints": 0.5,
+    "yearPoints": 1
    }
   },
   {
@@ -253,7 +253,7 @@
    "type": "MUSIC",
    "options": [],
    "correct": [],
-   "points": 10,
+   "points": 2.0,
    "seconds": 60,
    "explanation": "Guns N' Roses — Sweet Child O' Mine (1987).",
    "category": "Muziek",
@@ -281,9 +281,9 @@
      "Sweet Child of Mine"
     ],
     "year": 1987,
-    "artistPoints": 3,
-    "titlePoints": 3,
-    "yearPoints": 4
+    "artistPoints": 0.5,
+    "titlePoints": 0.5,
+    "yearPoints": 1
    }
   },
   {
@@ -291,7 +291,7 @@
    "type": "MUSIC",
    "options": [],
    "correct": [],
-   "points": 10,
+   "points": 2.0,
    "seconds": 60,
    "explanation": "Adele — Rolling in the Deep (2010).",
    "category": "Muziek",
@@ -316,9 +316,9 @@
      "Rolling in the Deep"
     ],
     "year": 2010,
-    "artistPoints": 3,
-    "titlePoints": 3,
-    "yearPoints": 4
+    "artistPoints": 0.5,
+    "titlePoints": 0.5,
+    "yearPoints": 1
    }
   },
   {
@@ -326,7 +326,7 @@
    "type": "MUSIC",
    "options": [],
    "correct": [],
-   "points": 10,
+   "points": 2.0,
    "seconds": 60,
    "explanation": "Ed Sheeran — Shape of You (2017).",
    "category": "Muziek",
@@ -351,9 +351,9 @@
      "Shape of You"
     ],
     "year": 2017,
-    "artistPoints": 3,
-    "titlePoints": 3,
-    "yearPoints": 4
+    "artistPoints": 0.5,
+    "titlePoints": 0.5,
+    "yearPoints": 1
    }
   },
   {
@@ -361,7 +361,7 @@
    "type": "MUSIC",
    "options": [],
    "correct": [],
-   "points": 10,
+   "points": 2.0,
    "seconds": 60,
    "explanation": "Mark Ronson — Uptown Funk (2014).",
    "category": "Muziek",
@@ -387,9 +387,9 @@
      "Uptown Funk"
     ],
     "year": 2014,
-    "artistPoints": 3,
-    "titlePoints": 3,
-    "yearPoints": 4
+    "artistPoints": 0.5,
+    "titlePoints": 0.5,
+    "yearPoints": 1
    }
   },
   {
@@ -397,7 +397,7 @@
    "type": "MUSIC",
    "options": [],
    "correct": [],
-   "points": 10,
+   "points": 2.0,
    "seconds": 60,
    "explanation": "Psy — Gangnam Style (2012).",
    "category": "Muziek",
@@ -422,9 +422,9 @@
      "Gangnam Style"
     ],
     "year": 2012,
-    "artistPoints": 3,
-    "titlePoints": 3,
-    "yearPoints": 4
+    "artistPoints": 0.5,
+    "titlePoints": 0.5,
+    "yearPoints": 1
    }
   },
   {
@@ -432,7 +432,7 @@
    "type": "MUSIC",
    "options": [],
    "correct": [],
-   "points": 10,
+   "points": 2.0,
    "seconds": 60,
    "explanation": "Toto — Africa (1982).",
    "category": "Muziek",
@@ -457,9 +457,9 @@
      "Africa"
     ],
     "year": 1982,
-    "artistPoints": 3,
-    "titlePoints": 3,
-    "yearPoints": 4
+    "artistPoints": 0.5,
+    "titlePoints": 0.5,
+    "yearPoints": 1
    }
   },
   {
@@ -467,7 +467,7 @@
    "type": "MUSIC",
    "options": [],
    "correct": [],
-   "points": 10,
+   "points": 2.0,
    "seconds": 60,
    "explanation": "Bon Jovi — Livin' on a Prayer (1986).",
    "category": "Muziek",
@@ -493,9 +493,9 @@
      "Living on a Prayer"
     ],
     "year": 1986,
-    "artistPoints": 3,
-    "titlePoints": 3,
-    "yearPoints": 4
+    "artistPoints": 0.5,
+    "titlePoints": 0.5,
+    "yearPoints": 1
    }
   },
   {
@@ -503,7 +503,7 @@
    "type": "MUSIC",
    "options": [],
    "correct": [],
-   "points": 10,
+   "points": 2.0,
    "seconds": 60,
    "explanation": "Journey — Don't Stop Believin' (1981).",
    "category": "Muziek",
@@ -530,9 +530,9 @@
      "Don't Stop Believing"
     ],
     "year": 1981,
-    "artistPoints": 3,
-    "titlePoints": 3,
-    "yearPoints": 4
+    "artistPoints": 0.5,
+    "titlePoints": 0.5,
+    "yearPoints": 1
    }
   },
   {
@@ -540,7 +540,7 @@
    "type": "MUSIC",
    "options": [],
    "correct": [],
-   "points": 10,
+   "points": 2.0,
    "seconds": 60,
    "explanation": "Led Zeppelin — Stairway to Heaven (1971).",
    "category": "Muziek",
@@ -565,9 +565,9 @@
      "Stairway to Heaven"
     ],
     "year": 1971,
-    "artistPoints": 3,
-    "titlePoints": 3,
-    "yearPoints": 4
+    "artistPoints": 0.5,
+    "titlePoints": 0.5,
+    "yearPoints": 1
    }
   },
   {
@@ -575,7 +575,7 @@
    "type": "MUSIC",
    "options": [],
    "correct": [],
-   "points": 10,
+   "points": 2.0,
    "seconds": 60,
    "explanation": "The Beatles — Hey Jude (1968).",
    "category": "Muziek",
@@ -601,9 +601,9 @@
      "Hey Jude"
     ],
     "year": 1968,
-    "artistPoints": 3,
-    "titlePoints": 3,
-    "yearPoints": 4
+    "artistPoints": 0.5,
+    "titlePoints": 0.5,
+    "yearPoints": 1
    }
   },
   {
@@ -611,7 +611,7 @@
    "type": "MUSIC",
    "options": [],
    "correct": [],
-   "points": 10,
+   "points": 2.0,
    "seconds": 60,
    "explanation": "Luis Fonsi — Despacito (2017).",
    "category": "Muziek",
@@ -638,9 +638,9 @@
      "Despacito"
     ],
     "year": 2017,
-    "artistPoints": 3,
-    "titlePoints": 3,
-    "yearPoints": 4
+    "artistPoints": 0.5,
+    "titlePoints": 0.5,
+    "yearPoints": 1
    }
   },
   {
@@ -648,7 +648,7 @@
    "type": "MUSIC",
    "options": [],
    "correct": [],
-   "points": 10,
+   "points": 2.0,
    "seconds": 60,
    "explanation": "Katy Perry — Roar (2013).",
    "category": "Muziek",
@@ -673,9 +673,9 @@
      "Roar"
     ],
     "year": 2013,
-    "artistPoints": 3,
-    "titlePoints": 3,
-    "yearPoints": 4
+    "artistPoints": 0.5,
+    "titlePoints": 0.5,
+    "yearPoints": 1
    }
   },
   {
@@ -683,7 +683,7 @@
    "type": "MUSIC",
    "options": [],
    "correct": [],
-   "points": 10,
+   "points": 2.0,
    "seconds": 60,
    "explanation": "AC/DC — Thunderstruck (1990).",
    "category": "Muziek",
@@ -710,9 +710,9 @@
      "Thunderstruck"
     ],
     "year": 1990,
-    "artistPoints": 3,
-    "titlePoints": 3,
-    "yearPoints": 4
+    "artistPoints": 0.5,
+    "titlePoints": 0.5,
+    "yearPoints": 1
    }
   },
   {
@@ -720,7 +720,7 @@
    "type": "MUSIC",
    "options": [],
    "correct": [],
-   "points": 10,
+   "points": 2.0,
    "seconds": 60,
    "explanation": "Taylor Swift — Shake It Off (2014).",
    "category": "Muziek",
@@ -745,9 +745,9 @@
      "Shake It Off"
     ],
     "year": 2014,
-    "artistPoints": 3,
-    "titlePoints": 3,
-    "yearPoints": 4
+    "artistPoints": 0.5,
+    "titlePoints": 0.5,
+    "yearPoints": 1
    }
   },
   {
@@ -755,7 +755,7 @@
    "type": "MUSIC",
    "options": [],
    "correct": [],
-   "points": 6,
+   "points": 2,
    "seconds": 60,
    "explanation": "Eagles — Hotel California.",
    "category": "Muziek",
@@ -781,8 +781,8 @@
      "Hotel California"
     ],
     "year": null,
-    "artistPoints": 3,
-    "titlePoints": 3,
+    "artistPoints": 1,
+    "titlePoints": 1,
     "yearPoints": 0
    }
   },
@@ -810,7 +810,7 @@
    "correct": [
     "b"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "ABBA won in Brighton en werd daarna wereldberoemd.",
    "category": "Muziek",
@@ -844,7 +844,7 @@
    "correct": [
     "a"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "Teach-In won in Stockholm met Ding-a-dong.",
    "category": "Muziek",
@@ -878,7 +878,7 @@
    "correct": [
     "d"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "Duncan Laurence won in Tel Aviv; het was de eerste Nederlandse winst sinds 1975.",
    "category": "Muziek",
@@ -912,7 +912,7 @@
    "correct": [
     "c"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "Conchita Wurst won in Kopenhagen voor Oostenrijk.",
    "category": "Muziek",
@@ -946,7 +946,7 @@
    "correct": [
     "b"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "Armin van Buuren won in 2007, 2008, 2009, 2010 en 2012.",
    "category": "Muziek",
@@ -980,7 +980,7 @@
    "correct": [
     "a"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "Het album stond meer dan 900 weken in de Amerikaanse hitlijsten.",
    "category": "Muziek",
@@ -1014,7 +1014,7 @@
    "correct": [
     "d"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "Hello brak in 2015 allerlei kijk- en luisterrecords.",
    "category": "Muziek",
@@ -1048,7 +1048,7 @@
    "correct": [
     "c"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "Prince en zijn band The Revolution scoorden hits met Purple Rain en When Doves Cry.",
    "category": "Muziek",
@@ -1082,7 +1082,7 @@
    "correct": [
     "b"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "Madonna won de titel met hits als Vogue, Like a Virgin en Like a Prayer.",
    "category": "Muziek",
@@ -1116,7 +1116,7 @@
    "correct": [
     "a"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "Simon & Garfunkel zongen onder meer Mrs. Robinson en Bridge Over Troubled Water.",
    "category": "Muziek",
@@ -1150,7 +1150,7 @@
    "correct": [
     "d"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "De snaren zijn E, A, D, G, B en E. Een basgitaar heeft meestal vier, een ukelele vier.",
    "category": "Muziek",
@@ -1184,7 +1184,7 @@
    "correct": [
     "c"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "Een moderne piano heeft 52 witte en 36 zwarte toetsen.",
    "category": "Muziek",
@@ -1218,7 +1218,7 @@
    "correct": [
     "b"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "Beethoven werd langzaam doof, maar schreef zijn Negende in 1824 toch.",
    "category": "Muziek",
@@ -1252,7 +1252,7 @@
    "correct": [
     "a"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "Smells Like Teen Spirit stond op Nevermind.",
    "category": "Muziek",
@@ -1286,7 +1286,7 @@
    "correct": [
     "d"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "Bono zingt bij U2, dat in 1976 in Dublin werd opgericht.",
    "category": "Muziek",
@@ -1320,7 +1320,7 @@
    "correct": [
     "c"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "Radar Love werd een internationale hit voor Golden Earring uit Den Haag.",
    "category": "Muziek",
@@ -1354,7 +1354,7 @@
    "correct": [
     "b"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "Het lied uit 1982 werd een Nederlands levenslied.",
    "category": "Muziek",
@@ -1388,7 +1388,7 @@
    "correct": [
     "a"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "Tommy van The Who verscheen in 1969.",
    "category": "Muziek",
@@ -1422,7 +1422,7 @@
    "correct": [
     "d"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "The Beatles begonnen in Liverpool, onder meer in The Cavern Club.",
    "category": "Muziek",
@@ -1456,7 +1456,7 @@
    "correct": [
     "c"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "Eminem is vernoemd naar zijn initialen M&M.",
    "category": "Muziek",
@@ -1490,7 +1490,7 @@
    "correct": [
     "b"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "Lemonade is een visueel album met de hit Formation.",
    "category": "Muziek",
@@ -1524,7 +1524,7 @@
    "correct": [
     "a"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "Pinkpop wordt sinds 1970 gehouden, bijna altijd met Pinksteren.",
    "category": "Muziek",
@@ -1558,7 +1558,7 @@
    "correct": [
     "d"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "Shake It Off verscheen op het album 1989.",
    "category": "Muziek",
@@ -1592,7 +1592,7 @@
    "correct": [
     "c"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "Bohemian Rhapsody staat op het album A Night at the Opera.",
    "category": "Muziek",
@@ -1626,7 +1626,7 @@
    "correct": [
     "b"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "Springsteen speelt met de E Street Band.",
    "category": "Muziek",
@@ -1660,7 +1660,7 @@
    "correct": [
     "a"
    ],
-   "points": 10,
+   "points": 1,
    "seconds": 30,
    "explanation": "Een C-groot toonladder gebruikt alleen de witte toetsen van de piano.",
    "category": "Muziek",

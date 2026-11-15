@@ -134,7 +134,7 @@ const msg = ref('')
 const busy = ref(false)
 const form = ref<any>(null)
 const LETTERS = 'abcdefgh'
-const blankQ = () => ({ text: '', type: 'MC', options: [{ id: 'a', text: '' }, { id: 'b', text: '' }, { id: 'c', text: '' }, { id: 'd', text: '' }], correct: ['a'], points: 10, seconds: 30, explanation: '', hint: '', media: [] as any[], cfg: emptyCfg() })
+const blankQ = () => ({ text: '', type: 'MC', options: [{ id: 'a', text: '' }, { id: 'b', text: '' }, { id: 'c', text: '' }, { id: 'd', text: '' }], correct: ['a'], points: 1, seconds: 30, explanation: '', hint: '', media: [] as any[], cfg: emptyCfg() })
 const addOpt = (q: any) => q.options.push({ id: LETTERS.split('').find((l) => !q.options.some((o: any) => o.id === l))!, text: '' })
 function removeOpt(q: any, i: number) { const [o] = q.options.splice(i, 1); q.correct = q.correct.filter((c: string) => c !== o.id); if (!q.correct.length) q.correct = [q.options[0].id] }
 function toggle(q: any, oid: string) { q.correct = q.correct.includes(oid) ? q.correct.filter((c: string) => c !== oid) : [...q.correct, oid] }

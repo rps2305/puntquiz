@@ -124,7 +124,7 @@ async function load() {
     meta.value = await api('/bank/meta')
   } catch (e: any) { err.value = e.message }
 }
-const blank = () => ({ text: '', type: 'MC', options: [{ id: 'a', text: '' }, { id: 'b', text: '' }, { id: 'c', text: '' }, { id: 'd', text: '' }], correct: ['a'], points: 10, seconds: 30, explanation: '', hint: '', category: '', difficulty: null, tags: [], source: '', media: [] as any[], cfg: emptyCfg() })
+const blank = () => ({ text: '', type: 'MC', options: [{ id: 'a', text: '' }, { id: 'b', text: '' }, { id: 'c', text: '' }, { id: 'd', text: '' }], correct: ['a'], points: 1, seconds: 30, explanation: '', hint: '', category: '', difficulty: null, tags: [], source: '', media: [] as any[], cfg: emptyCfg() })
 function startNew() { form.value = blank(); tagsText.value = '' }
 function edit(q: BankQuestionDto) { form.value = JSON.parse(JSON.stringify(q)); form.value.accepted = q.type === 'OPEN' ? q.correct.join('\n') : ''; form.value.media = mediaFromDto((q.media ?? []) as any[]); form.value.cfg = cfgFromDto(q.config); tagsText.value = q.tags.join(', ') }
 function fixType() {
