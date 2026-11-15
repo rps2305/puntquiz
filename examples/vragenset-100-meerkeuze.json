@@ -1,0 +1,3505 @@
+{
+ "format": "puntquiz.bank.v1",
+ "questions": [
+  {
+   "text": "Welke kleur krijg je door blauw en geel te mengen?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Paars"
+    },
+    {
+     "id": "b",
+     "text": "Oranje"
+    },
+    {
+     "id": "c",
+     "text": "Bruin"
+    },
+    {
+     "id": "d",
+     "text": "Groen"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Geel en blauw vormen samen groen.",
+   "category": "Algemeen",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Denk aan gras."
+  },
+  {
+   "text": "Hoeveel zijden heeft een hexagoon?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Vijf"
+    },
+    {
+     "id": "b",
+     "text": "Zeven"
+    },
+    {
+     "id": "c",
+     "text": "Zes"
+    },
+    {
+     "id": "d",
+     "text": "Acht"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Een hexagoon is een zeshoek.",
+   "category": "Algemeen",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Het Griekse hexa betekent zes."
+  },
+  {
+   "text": "Welke planeet staat het dichtst bij de zon?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Mars"
+    },
+    {
+     "id": "b",
+     "text": "Mercurius"
+    },
+    {
+     "id": "c",
+     "text": "Jupiter"
+    },
+    {
+     "id": "d",
+     "text": "Aarde"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Mercurius is de binnenste planeet van het zonnestelsel.",
+   "category": "Algemeen",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Niet Venus."
+  },
+  {
+   "text": "In welk land ligt Machu Picchu?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Bolivia"
+    },
+    {
+     "id": "b",
+     "text": "Peru"
+    },
+    {
+     "id": "c",
+     "text": "Chili"
+    },
+    {
+     "id": "d",
+     "text": "Colombia"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Machu Picchu is een Incastad in Peru.",
+   "category": "Algemeen",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Zuid-Amerika, in de Andes."
+  },
+  {
+   "text": "Welke taal wordt in Brazilië officieel gesproken?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Portugees"
+    },
+    {
+     "id": "b",
+     "text": "Spaans"
+    },
+    {
+     "id": "c",
+     "text": "Engels"
+    },
+    {
+     "id": "d",
+     "text": "Italiaans"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Brazilië was een Portugese kolonie.",
+   "category": "Algemeen",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Anders dan in de meeste buurlanden."
+  },
+  {
+   "text": "Hoe heet het grootste orgaan van het menselijk lichaam?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De lever"
+    },
+    {
+     "id": "b",
+     "text": "De hersenen"
+    },
+    {
+     "id": "c",
+     "text": "De longen"
+    },
+    {
+     "id": "d",
+     "text": "De huid"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De huid beschermt het lichaam en is het grootste orgaan.",
+   "category": "Algemeen",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Het zit aan de buitenkant."
+  },
+  {
+   "text": "Wat is de munteenheid van Japan?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Yuan"
+    },
+    {
+     "id": "b",
+     "text": "Won"
+    },
+    {
+     "id": "c",
+     "text": "Yen"
+    },
+    {
+     "id": "d",
+     "text": "Dollar"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Japanse munteenheid is de yen.",
+   "category": "Algemeen",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Drie letters in valutakoersen: JPY."
+  },
+  {
+   "text": "Welke kleur heeft een saffier meestal?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Rood"
+    },
+    {
+     "id": "b",
+     "text": "Groen"
+    },
+    {
+     "id": "c",
+     "text": "Blauw"
+    },
+    {
+     "id": "d",
+     "text": "Geel"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Saffieren zijn meestal blauw, al bestaan er andere kleuren.",
+   "category": "Algemeen",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Denk aan een blauwe edelsteen."
+  },
+  {
+   "text": "Hoeveel minuten zitten er in tweeënhalf uur?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "120"
+    },
+    {
+     "id": "b",
+     "text": "150"
+    },
+    {
+     "id": "c",
+     "text": "135"
+    },
+    {
+     "id": "d",
+     "text": "180"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Twee uur is 120 minuten; plus 30 is 150.",
+   "category": "Algemeen",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "2 × 60 plus een half uur."
+  },
+  {
+   "text": "Welke vogel is het symbool van vrede?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De duif"
+    },
+    {
+     "id": "b",
+     "text": "De adelaar"
+    },
+    {
+     "id": "c",
+     "text": "De uil"
+    },
+    {
+     "id": "d",
+     "text": "De zwaan"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Een duif met olijftak staat traditioneel voor vrede.",
+   "category": "Algemeen",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Vaak afgebeeld met een takje."
+  },
+  {
+   "text": "Welke oceaan is de grootste?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De Atlantische Oceaan"
+    },
+    {
+     "id": "b",
+     "text": "De Indische Oceaan"
+    },
+    {
+     "id": "c",
+     "text": "De Noordelijke IJszee"
+    },
+    {
+     "id": "d",
+     "text": "De Stille Oceaan"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Stille Oceaan is de grootste en diepste oceaan.",
+   "category": "Algemeen",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Tussen Azië en Amerika."
+  },
+  {
+   "text": "Welke edelsteen hoort bij de maand april?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Smaragd"
+    },
+    {
+     "id": "b",
+     "text": "Robijn"
+    },
+    {
+     "id": "c",
+     "text": "Saffier"
+    },
+    {
+     "id": "d",
+     "text": "Diamant"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Diamant is de geboortesteen van april.",
+   "category": "Algemeen",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Transparant en zeer hard."
+  },
+  {
+   "text": "Wat betekent het Romeinse getal L?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "40"
+    },
+    {
+     "id": "b",
+     "text": "60"
+    },
+    {
+     "id": "c",
+     "text": "50"
+    },
+    {
+     "id": "d",
+     "text": "500"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "L is het Romeinse cijfer voor vijftig.",
+   "category": "Algemeen",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Het ligt tussen X en C."
+  },
+  {
+   "text": "Welk land heeft de vorm van een laars op de kaart?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Spanje"
+    },
+    {
+     "id": "b",
+     "text": "Italië"
+    },
+    {
+     "id": "c",
+     "text": "Griekenland"
+    },
+    {
+     "id": "d",
+     "text": "Portugal"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Italië wordt vaak vergeleken met een laars.",
+   "category": "Algemeen",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "De hoofdstad is Rome."
+  },
+  {
+   "text": "Wat is het grootste zoogdier ter wereld?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De blauwe vinvis"
+    },
+    {
+     "id": "b",
+     "text": "De olifant"
+    },
+    {
+     "id": "c",
+     "text": "De potvis"
+    },
+    {
+     "id": "d",
+     "text": "De bultrug"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De blauwe vinvis is het grootste bekende dier ooit.",
+   "category": "Natuur & dieren",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Leeft in de oceaan."
+  },
+  {
+   "text": "Hoeveel spelers staan er per voetbalteam normaal op het veld bij de aftrap?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "11"
+    },
+    {
+     "id": "b",
+     "text": "9"
+    },
+    {
+     "id": "c",
+     "text": "10"
+    },
+    {
+     "id": "d",
+     "text": "12"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Een voetbalelftal bestaat uit tien veldspelers en een keeper.",
+   "category": "Sport",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Inclusief keeper."
+  },
+  {
+   "text": "Welke kleur trui draagt de leider in de Tour de France?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Groen"
+    },
+    {
+     "id": "b",
+     "text": "Rood"
+    },
+    {
+     "id": "c",
+     "text": "Wit"
+    },
+    {
+     "id": "d",
+     "text": "Geel"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De gele trui is voor de leider van het algemeen klassement.",
+   "category": "Sport",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "De kleur van de zon."
+  },
+  {
+   "text": "In welke sport gebruik je een shuttle?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Squash"
+    },
+    {
+     "id": "b",
+     "text": "Tafeltennis"
+    },
+    {
+     "id": "c",
+     "text": "Badminton"
+    },
+    {
+     "id": "d",
+     "text": "Tennis"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Bij badminton sla je een shuttle over het net.",
+   "category": "Sport",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Met een net en rackets."
+  },
+  {
+   "text": "Hoe heet de Nederlandse hoogste voetbalcompetitie?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Eerste Divisie"
+    },
+    {
+     "id": "b",
+     "text": "Eredivisie"
+    },
+    {
+     "id": "c",
+     "text": "Tweede Divisie"
+    },
+    {
+     "id": "d",
+     "text": "KNVB Beker"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Eredivisie is het hoogste niveau in het Nederlandse mannenvoetbal.",
+   "category": "Sport",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "De naam staat op de schaal."
+  },
+  {
+   "text": "Bij welke sport hoort Wimbledon?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Golf"
+    },
+    {
+     "id": "b",
+     "text": "Tennis"
+    },
+    {
+     "id": "c",
+     "text": "Cricket"
+    },
+    {
+     "id": "d",
+     "text": "Hockey"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Wimbledon is een Grand Slam-tennistoernooi in Londen.",
+   "category": "Sport",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Gras is er belangrijk."
+  },
+  {
+   "text": "Hoeveel ringen staan er op de olympische vlag?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Vijf"
+    },
+    {
+     "id": "b",
+     "text": "Vier"
+    },
+    {
+     "id": "c",
+     "text": "Zes"
+    },
+    {
+     "id": "d",
+     "text": "Zeven"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De vijf ringen verbeelden de verbondenheid van de continenten.",
+   "category": "Sport",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Eén per werelddeel in de traditionele symboliek."
+  },
+  {
+   "text": "Welke Nederlandse coureur werd in 2021 voor het eerst wereldkampioen in de Formule 1?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Jos Verstappen"
+    },
+    {
+     "id": "b",
+     "text": "Nyck de Vries"
+    },
+    {
+     "id": "c",
+     "text": "Christijan Albers"
+    },
+    {
+     "id": "d",
+     "text": "Max Verstappen"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Verstappen werd in 2021 voor het eerst wereldkampioen, en ook in 2022, 2023 en 2024.",
+   "category": "Sport",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Zijn voornaam is Max."
+  },
+  {
+   "text": "Welke kaart betekent uitsluiting in voetbal?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Blauw"
+    },
+    {
+     "id": "b",
+     "text": "Groen"
+    },
+    {
+     "id": "c",
+     "text": "Rood"
+    },
+    {
+     "id": "d",
+     "text": "Zwart"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Een rode kaart betekent dat een speler het veld moet verlaten.",
+   "category": "Sport",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Ernstiger dan geel."
+  },
+  {
+   "text": "Hoeveel punten is een vrije worp waard in basketbal?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Twee"
+    },
+    {
+     "id": "b",
+     "text": "Drie"
+    },
+    {
+     "id": "c",
+     "text": "Eén"
+    },
+    {
+     "id": "d",
+     "text": "Vier"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Een vrije worp levert één punt op.",
+   "category": "Sport",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Minder dan een gewone score."
+  },
+  {
+   "text": "Welke Nederlandse schaatsster won goud op de 3.000 meter in Sotsji 2014?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Jorien ter Mors"
+    },
+    {
+     "id": "b",
+     "text": "Ireen Wüst"
+    },
+    {
+     "id": "c",
+     "text": "Marrit Leenstra"
+    },
+    {
+     "id": "d",
+     "text": "Lotte van Beek"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Ireen Wüst won in Sotsji goud op de 3.000 meter.",
+   "category": "Sport",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Zij is de succesvolste Nederlandse olympiër."
+  },
+  {
+   "text": "Wat is een hattrick in voetbal?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Drie doelpunten van één speler in één wedstrijd"
+    },
+    {
+     "id": "b",
+     "text": "Drie wedstrijden achter elkaar winnen"
+    },
+    {
+     "id": "c",
+     "text": "Drie assists van één speler in één wedstrijd"
+    },
+    {
+     "id": "d",
+     "text": "Drie gele kaarten in één wedstrijd"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De term wordt gebruikt wanneer dezelfde speler driemaal scoort.",
+   "category": "Sport",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Drie keer raak."
+  },
+  {
+   "text": "In welke sport kun je een birdie maken?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Tennis"
+    },
+    {
+     "id": "b",
+     "text": "Honkbal"
+    },
+    {
+     "id": "c",
+     "text": "Bowlen"
+    },
+    {
+     "id": "d",
+     "text": "Golf"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Een birdie is één slag onder par op een hole.",
+   "category": "Sport",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Een kleine witte bal en 18 holes."
+  },
+  {
+   "text": "Welke sport kent de termen strike, spare en gutter?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Darts"
+    },
+    {
+     "id": "b",
+     "text": "Biljart"
+    },
+    {
+     "id": "c",
+     "text": "Curling"
+    },
+    {
+     "id": "d",
+     "text": "Bowlen"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Bij bowlen is een strike alle kegels met de eerste bal.",
+   "category": "Sport",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Kegels zijn het doel."
+  },
+  {
+   "text": "In welk land vonden de eerste moderne Olympische Spelen plaats in 1896?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Frankrijk"
+    },
+    {
+     "id": "b",
+     "text": "Italië"
+    },
+    {
+     "id": "c",
+     "text": "Griekenland"
+    },
+    {
+     "id": "d",
+     "text": "Engeland"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De moderne Spelen begonnen in Athene in 1896.",
+   "category": "Sport",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Het oude Olympia lag er ook."
+  },
+  {
+   "text": "Welk land won het EK voetbal van 1988?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "West-Duitsland"
+    },
+    {
+     "id": "b",
+     "text": "Nederland"
+    },
+    {
+     "id": "c",
+     "text": "Italië"
+    },
+    {
+     "id": "d",
+     "text": "Engeland"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Oranje versloeg de Sovjet-Unie in de finale.",
+   "category": "Sport",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Marco van Basten maakte een beroemde volley."
+  },
+  {
+   "text": "In welk jaar begon de Tweede Wereldoorlog in Europa?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "1939"
+    },
+    {
+     "id": "b",
+     "text": "1914"
+    },
+    {
+     "id": "c",
+     "text": "1933"
+    },
+    {
+     "id": "d",
+     "text": "1945"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Duitse inval in Polen was op 1 september 1939.",
+   "category": "Geschiedenis",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Duitsland viel Polen binnen."
+  },
+  {
+   "text": "Welke stad werd in 79 na Christus bedolven door de Vesuvius?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Pompeï"
+    },
+    {
+     "id": "b",
+     "text": "Athene"
+    },
+    {
+     "id": "c",
+     "text": "Carthago"
+    },
+    {
+     "id": "d",
+     "text": "Napels"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Pompeï werd bedolven onder as en puimsteen.",
+   "category": "Geschiedenis",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Bij Napels."
+  },
+  {
+   "text": "Wie was de eerste president van de Verenigde Staten?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "John Adams"
+    },
+    {
+     "id": "b",
+     "text": "Thomas Jefferson"
+    },
+    {
+     "id": "c",
+     "text": "Abraham Lincoln"
+    },
+    {
+     "id": "d",
+     "text": "George Washington"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Washington diende van 1789 tot 1797 als president.",
+   "category": "Geschiedenis",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Zijn gezicht staat op het dollarbiljet van één dollar."
+  },
+  {
+   "text": "Welke gouverneur-generaal van de VOC stichtte in 1619 Batavia?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Piet Hein"
+    },
+    {
+     "id": "b",
+     "text": "Michiel de Ruyter"
+    },
+    {
+     "id": "c",
+     "text": "Jan Pieterszoon Coen"
+    },
+    {
+     "id": "d",
+     "text": "Willem Barentsz"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Jan Pieterszoon Coen stichtte Batavia, het huidige Jakarta.",
+   "category": "Geschiedenis",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Zijn standbeeld staat in Hoorn."
+  },
+  {
+   "text": "Hoe heette het schip waarmee de Pilgrim Fathers in 1620 naar Amerika voeren?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Santa Maria"
+    },
+    {
+     "id": "b",
+     "text": "Mayflower"
+    },
+    {
+     "id": "c",
+     "text": "Batavia"
+    },
+    {
+     "id": "d",
+     "text": "Golden Hind"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Mayflower bracht Engelse kolonisten naar Noord-Amerika.",
+   "category": "Geschiedenis",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Een bloem in de naam."
+  },
+  {
+   "text": "Welke Franse keizer werd verslagen bij Waterloo?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Lodewijk XIV"
+    },
+    {
+     "id": "b",
+     "text": "Napoleon Bonaparte"
+    },
+    {
+     "id": "c",
+     "text": "Lodewijk XVIII"
+    },
+    {
+     "id": "d",
+     "text": "Hendrik IV"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Napoleon verloor de Slag bij Waterloo in 1815.",
+   "category": "Geschiedenis",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Zijn voornaam was Napoleon."
+  },
+  {
+   "text": "Welke muur viel in 1989 en werd het symbool van het einde van de Koude Oorlog?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De Berlijnse Muur"
+    },
+    {
+     "id": "b",
+     "text": "De Muur van Hadrianus"
+    },
+    {
+     "id": "c",
+     "text": "De Atlantikmuur"
+    },
+    {
+     "id": "d",
+     "text": "De Grote Muur van China"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De val van de muur markeerde de Duitse hereniging.",
+   "category": "Geschiedenis",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Hij verdeelde een Duitse stad."
+  },
+  {
+   "text": "Wie schreef het dagboek dat tijdens de Tweede Wereldoorlog in het Achterhuis ontstond?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Hella Haasse"
+    },
+    {
+     "id": "b",
+     "text": "Annie M.G. Schmidt"
+    },
+    {
+     "id": "c",
+     "text": "Corrie ten Boom"
+    },
+    {
+     "id": "d",
+     "text": "Anne Frank"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Anne Frank schreef haar dagboek terwijl zij ondergedoken zat in Amsterdam.",
+   "category": "Geschiedenis",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Een Joods Duits-Nederlands meisje."
+  },
+  {
+   "text": "Welke beschaving bouwde Machu Picchu?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De Azteken"
+    },
+    {
+     "id": "b",
+     "text": "De Olmeken"
+    },
+    {
+     "id": "c",
+     "text": "De Inca's"
+    },
+    {
+     "id": "d",
+     "text": "De Egyptenaren"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Machu Picchu was een Incanederzetting in het Andesgebergte.",
+   "category": "Geschiedenis",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Geen Maya's."
+  },
+  {
+   "text": "Welke Nederlandse vorstin was koningin tijdens de Duitse bezetting?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Emma"
+    },
+    {
+     "id": "b",
+     "text": "Beatrix"
+    },
+    {
+     "id": "c",
+     "text": "Wilhelmina"
+    },
+    {
+     "id": "d",
+     "text": "Máxima"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Koningin Wilhelmina was van 1890 tot 1948 staatshoofd.",
+   "category": "Geschiedenis",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Haar dochter Juliana volgde haar op."
+  },
+  {
+   "text": "Welke Britse stad was in de Romeinse tijd bekend als Londinium?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "York"
+    },
+    {
+     "id": "b",
+     "text": "Londen"
+    },
+    {
+     "id": "c",
+     "text": "Bath"
+    },
+    {
+     "id": "d",
+     "text": "Lincoln"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Londinium was de Romeinse voorganger van Londen.",
+   "category": "Geschiedenis",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Hoofdstad van het VK."
+  },
+  {
+   "text": "Welke uitvinding van Johannes Gutenberg versnelde de verspreiding van boeken?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De boekdrukkunst met losse letters"
+    },
+    {
+     "id": "b",
+     "text": "De stoomtrein"
+    },
+    {
+     "id": "c",
+     "text": "Het kompas"
+    },
+    {
+     "id": "d",
+     "text": "De telescoop"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Gutenberg ontwikkelde in Europa een drukpers met losse metalen letters.",
+   "category": "Geschiedenis",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Letters werden herbruikbaar."
+  },
+  {
+   "text": "Welke ontdekkingsreiziger bereikte Amerika in 1492?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Vasco da Gama"
+    },
+    {
+     "id": "b",
+     "text": "Ferdinand Magellan"
+    },
+    {
+     "id": "c",
+     "text": "Marco Polo"
+    },
+    {
+     "id": "d",
+     "text": "Christoffel Columbus"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Columbus bereikte in 1492 de Caraïben.",
+   "category": "Geschiedenis",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Hij voer onder Spaanse vlag."
+  },
+  {
+   "text": "Hoe heette de Nederlandse handelscompagnie die in 1602 werd opgericht?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "WIC"
+    },
+    {
+     "id": "b",
+     "text": "NHM"
+    },
+    {
+     "id": "c",
+     "text": "KNSM"
+    },
+    {
+     "id": "d",
+     "text": "VOC"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Verenigde Oostindische Compagnie handelde vooral in Azië.",
+   "category": "Geschiedenis",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Afkorting van drie letters."
+  },
+  {
+   "text": "Welke stad was de hoofdstad van het Romeinse Rijk?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Athene"
+    },
+    {
+     "id": "b",
+     "text": "Carthago"
+    },
+    {
+     "id": "c",
+     "text": "Rome"
+    },
+    {
+     "id": "d",
+     "text": "Alexandrië"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Rome was eeuwenlang het politieke centrum van het rijk.",
+   "category": "Geschiedenis",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "De stad van zeven heuvels."
+  },
+  {
+   "text": "Uit welk land komt paella oorspronkelijk?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Italië"
+    },
+    {
+     "id": "b",
+     "text": "Spanje"
+    },
+    {
+     "id": "c",
+     "text": "Mexico"
+    },
+    {
+     "id": "d",
+     "text": "Portugal"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Paella komt uit de regio Valencia.",
+   "category": "Eten & drinken",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Valencia ligt er."
+  },
+  {
+   "text": "Welk hoofdingrediënt geeft guacamole zijn basis?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Avocado"
+    },
+    {
+     "id": "b",
+     "text": "Komkommer"
+    },
+    {
+     "id": "c",
+     "text": "Courgette"
+    },
+    {
+     "id": "d",
+     "text": "Erwten"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Guacamole bestaat voornamelijk uit geprakte avocado.",
+   "category": "Eten & drinken",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Groen en romig."
+  },
+  {
+   "text": "Welke drank wordt traditioneel gemaakt van gefermenteerde druiven?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Wijn"
+    },
+    {
+     "id": "b",
+     "text": "Bier"
+    },
+    {
+     "id": "c",
+     "text": "Whisky"
+    },
+    {
+     "id": "d",
+     "text": "Cider"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Wijn ontstaat door vergisting van druivensap.",
+   "category": "Eten & drinken",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Rood, wit of rosé."
+  },
+  {
+   "text": "Wat is het hoofdingrediënt van hummus?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Linzen"
+    },
+    {
+     "id": "b",
+     "text": "Witte bonen"
+    },
+    {
+     "id": "c",
+     "text": "Erwten"
+    },
+    {
+     "id": "d",
+     "text": "Kikkererwten"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Hummus wordt gemaakt van kikkererwten en vaak tahin.",
+   "category": "Eten & drinken",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Een peulvrucht."
+  },
+  {
+   "text": "Welke Italiaanse kaas wordt vaak op pizza margherita gebruikt?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Cheddar"
+    },
+    {
+     "id": "b",
+     "text": "Edammer"
+    },
+    {
+     "id": "c",
+     "text": "Mozzarella"
+    },
+    {
+     "id": "d",
+     "text": "Gouda"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Een klassieke margherita bevat tomaat, mozzarella en basilicum.",
+   "category": "Eten & drinken",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Zacht en wit."
+  },
+  {
+   "text": "Welke specerij is het duurst per kilogram en komt van een krokusbloem?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Kurkuma"
+    },
+    {
+     "id": "b",
+     "text": "Saffraan"
+    },
+    {
+     "id": "c",
+     "text": "Kaneel"
+    },
+    {
+     "id": "d",
+     "text": "Paprikapoeder"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Saffraan bestaat uit de stempels van de saffraankrokus.",
+   "category": "Eten & drinken",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Gele draadjes."
+  },
+  {
+   "text": "Wat is de Nederlandse naam voor sauerkraut?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Rode kool"
+    },
+    {
+     "id": "b",
+     "text": "Zuurkool"
+    },
+    {
+     "id": "c",
+     "text": "Spruitjes"
+    },
+    {
+     "id": "d",
+     "text": "Witte kool"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Zuurkool is gefermenteerde witte kool.",
+   "category": "Eten & drinken",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Vaak bij stamppot."
+  },
+  {
+   "text": "Welk land wordt vaak gezien als de oorsprong van sushi?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Japan"
+    },
+    {
+     "id": "b",
+     "text": "China"
+    },
+    {
+     "id": "c",
+     "text": "Korea"
+    },
+    {
+     "id": "d",
+     "text": "Thailand"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Sushi ontwikkelde zich in Japan tot de bekende vorm met rijst en vis.",
+   "category": "Eten & drinken",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Een eilandstaat in Oost-Azië."
+  },
+  {
+   "text": "Waarvan wordt traditionele pesto alla genovese vooral gemaakt?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Peterselie"
+    },
+    {
+     "id": "b",
+     "text": "Koriander"
+    },
+    {
+     "id": "c",
+     "text": "Munt"
+    },
+    {
+     "id": "d",
+     "text": "Basilicum"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Pesto Genovese bevat basilicum, pijnboompitten, kaas, knoflook en olie.",
+   "category": "Eten & drinken",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Groene blaadjes en pijnboompitten."
+  },
+  {
+   "text": "Welk fruit zit in een klassieke tarte Tatin?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Peer"
+    },
+    {
+     "id": "b",
+     "text": "Pruim"
+    },
+    {
+     "id": "c",
+     "text": "Appel"
+    },
+    {
+     "id": "d",
+     "text": "Perzik"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Tarte Tatin is een gekaramelliseerde appeltaart die ondersteboven wordt gebakken.",
+   "category": "Eten & drinken",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Een omgekeerde Franse taart."
+  },
+  {
+   "text": "Welke sterke drank is de basis van een mojito?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Wodka"
+    },
+    {
+     "id": "b",
+     "text": "Gin"
+    },
+    {
+     "id": "c",
+     "text": "Rum"
+    },
+    {
+     "id": "d",
+     "text": "Tequila"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Een mojito bevat rum, munt, limoen, suiker en bruiswater.",
+   "category": "Eten & drinken",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Uit Cuba."
+  },
+  {
+   "text": "Welke kaas is de belangrijkste basis voor fondue suisse?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Cheddar"
+    },
+    {
+     "id": "b",
+     "text": "Emmentaler"
+    },
+    {
+     "id": "c",
+     "text": "Gouda"
+    },
+    {
+     "id": "d",
+     "text": "Brie"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Zwitserse kaasfondue bevat meestal Gruyère en Emmentaler.",
+   "category": "Eten & drinken",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Vaak gemengd met Gruyère."
+  },
+  {
+   "text": "Uit welke boon wordt tofu gemaakt?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Sojaboon"
+    },
+    {
+     "id": "b",
+     "text": "Kidneyboon"
+    },
+    {
+     "id": "c",
+     "text": "Witte boon"
+    },
+    {
+     "id": "d",
+     "text": "Koffieboon"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Tofu is gestremde sojamelk.",
+   "category": "Eten & drinken",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Een veelgebruikte vleesvervanger."
+  },
+  {
+   "text": "Welke smaak hoort níet bij de vijf basissmaken: zoet, zuur, zout, bitter, umami?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Zoet"
+    },
+    {
+     "id": "b",
+     "text": "Zout"
+    },
+    {
+     "id": "c",
+     "text": "Umami"
+    },
+    {
+     "id": "d",
+     "text": "Pittig"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Pittig is een prikkel/pijnsensatie, geen basissmaak.",
+   "category": "Eten & drinken",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Denk aan een textuur."
+  },
+  {
+   "text": "Welke Nederlandse snack bestaat uit ragout met een krokant korstje?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Frikandel"
+    },
+    {
+     "id": "b",
+     "text": "Kaassoufflé"
+    },
+    {
+     "id": "c",
+     "text": "Loempia"
+    },
+    {
+     "id": "d",
+     "text": "Kroket"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Een kroket heeft een ragoutvulling en gepaneerde, gefrituurde buitenkant.",
+   "category": "Eten & drinken",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Uit de muur te halen."
+  },
+  {
+   "text": "Wat is de langste rivier van Europa?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De Donau"
+    },
+    {
+     "id": "b",
+     "text": "De Rijn"
+    },
+    {
+     "id": "c",
+     "text": "De Wolga"
+    },
+    {
+     "id": "d",
+     "text": "De Dnjepr"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Wolga stroomt volledig door Rusland.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Hij mondt uit in de Kaspische Zee."
+  },
+  {
+   "text": "Welke hoofdstad ligt aan de rivier de Theems?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Parijs"
+    },
+    {
+     "id": "b",
+     "text": "Londen"
+    },
+    {
+     "id": "c",
+     "text": "Dublin"
+    },
+    {
+     "id": "d",
+     "text": "Edinburgh"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Theems loopt door Londen.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Big Ben staat er."
+  },
+  {
+   "text": "Welk land heeft de meeste inwoners ter wereld?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "India"
+    },
+    {
+     "id": "b",
+     "text": "China"
+    },
+    {
+     "id": "c",
+     "text": "Verenigde Staten"
+    },
+    {
+     "id": "d",
+     "text": "Indonesië"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "India heeft sinds 2023 de grootste bevolking ter wereld.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Het ligt in Zuid-Azië."
+  },
+  {
+   "text": "In welk gebergte ligt de Mount Everest?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De Himalaya"
+    },
+    {
+     "id": "b",
+     "text": "De Alpen"
+    },
+    {
+     "id": "c",
+     "text": "De Andes"
+    },
+    {
+     "id": "d",
+     "text": "De Kaukasus"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Everest is de hoogste berg boven zeeniveau.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Tussen Nepal en China."
+  },
+  {
+   "text": "Welke woestijn is de grootste hete woestijn ter wereld?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De Gobi"
+    },
+    {
+     "id": "b",
+     "text": "De Kalahari"
+    },
+    {
+     "id": "c",
+     "text": "De Arabische Woestijn"
+    },
+    {
+     "id": "d",
+     "text": "De Sahara"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Antarctica is groter als poolwoestijn; de Sahara is de grootste hete woestijn.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Noord-Afrika."
+  },
+  {
+   "text": "Wat is de hoofdstad van Canada?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Vancouver"
+    },
+    {
+     "id": "b",
+     "text": "Calgary"
+    },
+    {
+     "id": "c",
+     "text": "Ottawa"
+    },
+    {
+     "id": "d",
+     "text": "Winnipeg"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Ottawa is de federale hoofdstad van Canada.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Niet Toronto of Montréal."
+  },
+  {
+   "text": "Welke zee ligt tussen Europa en Afrika?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De Noordzee"
+    },
+    {
+     "id": "b",
+     "text": "De Middellandse Zee"
+    },
+    {
+     "id": "c",
+     "text": "De Zwarte Zee"
+    },
+    {
+     "id": "d",
+     "text": "De Rode Zee"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Deze zee verbindt via de Straat van Gibraltar met de Atlantische Oceaan.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "De naam verwijst naar het midden van de aarde."
+  },
+  {
+   "text": "Op welk continent ligt Suriname?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Afrika"
+    },
+    {
+     "id": "b",
+     "text": "Zuid-Amerika"
+    },
+    {
+     "id": "c",
+     "text": "Azië"
+    },
+    {
+     "id": "d",
+     "text": "Europa"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Suriname ligt aan de noordkust van Zuid-Amerika.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Het spreekt Nederlands."
+  },
+  {
+   "text": "Welke rivier stroomt door Parijs?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De Seine"
+    },
+    {
+     "id": "b",
+     "text": "De Rijn"
+    },
+    {
+     "id": "c",
+     "text": "De Loire"
+    },
+    {
+     "id": "d",
+     "text": "De Maas"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Seine loopt door Parijs naar Het Kanaal.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Vier letters."
+  },
+  {
+   "text": "Wat is de hoofdstad van Australië?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Perth"
+    },
+    {
+     "id": "b",
+     "text": "Brisbane"
+    },
+    {
+     "id": "c",
+     "text": "Adelaide"
+    },
+    {
+     "id": "d",
+     "text": "Canberra"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Canberra werd als compromis tussen Sydney en Melbourne gekozen.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Niet Sydney of Melbourne."
+  },
+  {
+   "text": "Welk land heeft de vorm van een lange smalle strook langs de westkust van Zuid-Amerika?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Peru"
+    },
+    {
+     "id": "b",
+     "text": "Argentinië"
+    },
+    {
+     "id": "c",
+     "text": "Chili"
+    },
+    {
+     "id": "d",
+     "text": "Colombia"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Chili strekt zich langs de Andes en de Stille Oceaan uit.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Santiago is de hoofdstad."
+  },
+  {
+   "text": "Welke Nederlandse provincie heeft Leeuwarden als hoofdstad?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Groningen"
+    },
+    {
+     "id": "b",
+     "text": "Drenthe"
+    },
+    {
+     "id": "c",
+     "text": "Fryslân (Friesland)"
+    },
+    {
+     "id": "d",
+     "text": "Flevoland"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Leeuwarden is de Friese hoofdstad.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Bekend om schaatsen en een eigen taal."
+  },
+  {
+   "text": "Welke oceaan ligt tussen Afrika, Azië en Australië?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De Atlantische Oceaan"
+    },
+    {
+     "id": "b",
+     "text": "De Indische Oceaan"
+    },
+    {
+     "id": "c",
+     "text": "De Stille Oceaan"
+    },
+    {
+     "id": "d",
+     "text": "De Zuidelijke IJszee"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De Indische Oceaan ligt ten zuiden van Azië.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Hij is genoemd naar een land."
+  },
+  {
+   "text": "In welk land ligt de stad Marrakesh?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Marokko"
+    },
+    {
+     "id": "b",
+     "text": "Tunesië"
+    },
+    {
+     "id": "c",
+     "text": "Egypte"
+    },
+    {
+     "id": "d",
+     "text": "Algerije"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Marrakesh is een van de bekendste steden van Marokko.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Noordwest-Afrika."
+  },
+  {
+   "text": "Welke hoofdstad ligt het hoogst ter wereld, op meer dan 3.500 meter?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Quito"
+    },
+    {
+     "id": "b",
+     "text": "Bogotá"
+    },
+    {
+     "id": "c",
+     "text": "Lima"
+    },
+    {
+     "id": "d",
+     "text": "La Paz"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "La Paz is de bestuurlijke hoofdstad en ligt zeer hoog in de Andes.",
+   "category": "Aardrijkskunde",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Bolivia."
+  },
+  {
+   "text": "Wie schreef Romeo en Julia?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Charles Dickens"
+    },
+    {
+     "id": "b",
+     "text": "Christopher Marlowe"
+    },
+    {
+     "id": "c",
+     "text": "Oscar Wilde"
+    },
+    {
+     "id": "d",
+     "text": "William Shakespeare"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Shakespeare schreef de tragedie rond 1595.",
+   "category": "Literatuur",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Engelse toneelschrijver."
+  },
+  {
+   "text": "Welke Nederlandse schrijver schreef De ontdekking van de hemel?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Gerard Reve"
+    },
+    {
+     "id": "b",
+     "text": "Willem Frederik Hermans"
+    },
+    {
+     "id": "c",
+     "text": "Harry Mulisch"
+    },
+    {
+     "id": "d",
+     "text": "Hella Haasse"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De roman verscheen in 1992.",
+   "category": "Literatuur",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Ook bekend als essayist en televisiepersoonlijkheid."
+  },
+  {
+   "text": "Wie schilderde De Nachtwacht?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Johannes Vermeer"
+    },
+    {
+     "id": "b",
+     "text": "Rembrandt van Rijn"
+    },
+    {
+     "id": "c",
+     "text": "Frans Hals"
+    },
+    {
+     "id": "d",
+     "text": "Jan Steen"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Rembrandt voltooide het groepsportret in 1642.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Een Amsterdamse meester uit de Gouden Eeuw."
+  },
+  {
+   "text": "Welke detective woont op Baker Street 221B?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Sherlock Holmes"
+    },
+    {
+     "id": "b",
+     "text": "Hercule Poirot"
+    },
+    {
+     "id": "c",
+     "text": "Miss Marple"
+    },
+    {
+     "id": "d",
+     "text": "Philip Marlowe"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Het personage werd gecreëerd door Arthur Conan Doyle.",
+   "category": "Literatuur",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Zijn vriend heet Watson."
+  },
+  {
+   "text": "Wie schreef Pippi Langkous?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Astrid Lindgren"
+    },
+    {
+     "id": "b",
+     "text": "Selma Lagerlöf"
+    },
+    {
+     "id": "c",
+     "text": "Tove Jansson"
+    },
+    {
+     "id": "d",
+     "text": "Roald Dahl"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Lindgren schreef de verhalen over Pippi in de jaren 40.",
+   "category": "Literatuur",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Zweedse kinderboekenschrijfster."
+  },
+  {
+   "text": "Wat is een synoniem?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Een woord met tegengestelde betekenis"
+    },
+    {
+     "id": "b",
+     "text": "Een woord met dezelfde klank maar een andere betekenis"
+    },
+    {
+     "id": "c",
+     "text": "Een woord uit een vreemde taal"
+    },
+    {
+     "id": "d",
+     "text": "Een woord met (ongeveer) dezelfde betekenis"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Bijvoorbeeld auto en wagen.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Het tegenovergestelde heet een antoniem."
+  },
+  {
+   "text": "Wie schreef Max Havelaar?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Louis Couperus"
+    },
+    {
+     "id": "b",
+     "text": "Willem Bilderdijk"
+    },
+    {
+     "id": "c",
+     "text": "Multatuli"
+    },
+    {
+     "id": "d",
+     "text": "Piet Paaltjens"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Eduard Douwes Dekker schreef de koloniale aanklacht in 1860.",
+   "category": "Literatuur",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Schreef onder een Latijns pseudoniem."
+  },
+  {
+   "text": "Welke kunstenaar sneed een deel van zijn oor af?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Pablo Picasso"
+    },
+    {
+     "id": "b",
+     "text": "Vincent van Gogh"
+    },
+    {
+     "id": "c",
+     "text": "Claude Monet"
+    },
+    {
+     "id": "d",
+     "text": "Edvard Munch"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Van Gogh raakte zijn oor gewond in Arles in 1888.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Schilderde zonnebloemen."
+  },
+  {
+   "text": "Hoe heet de eerste zin van een boek?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De proloog"
+    },
+    {
+     "id": "b",
+     "text": "De openingszin"
+    },
+    {
+     "id": "c",
+     "text": "Het voorwoord"
+    },
+    {
+     "id": "d",
+     "text": "De inleiding"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De openingszin zet vaak toon, perspectief en stijl.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Niet de titel."
+  },
+  {
+   "text": "Welke Griekse dichter schreef De Odyssee?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Homerus"
+    },
+    {
+     "id": "b",
+     "text": "Vergilius"
+    },
+    {
+     "id": "c",
+     "text": "Sophocles"
+    },
+    {
+     "id": "d",
+     "text": "Plato"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Homerus is de traditionele auteur van beide epen.",
+   "category": "Literatuur",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Ook de Ilias wordt aan hem toegeschreven."
+  },
+  {
+   "text": "Wie schreef de Harry Potter-boeken?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Roald Dahl"
+    },
+    {
+     "id": "b",
+     "text": "J.R.R. Tolkien"
+    },
+    {
+     "id": "c",
+     "text": "C.S. Lewis"
+    },
+    {
+     "id": "d",
+     "text": "J.K. Rowling"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Rowling schreef de zevendelige fantasyreeks.",
+   "category": "Literatuur",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Initialen J.K."
+  },
+  {
+   "text": "Welke schilderstijl hoort bij Claude Monet?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Kubisme"
+    },
+    {
+     "id": "b",
+     "text": "Surrealisme"
+    },
+    {
+     "id": "c",
+     "text": "Impressionisme"
+    },
+    {
+     "id": "d",
+     "text": "Expressionisme"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Monet was een sleutelfiguur van het impressionisme.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Licht en losse penseelstreken."
+  },
+  {
+   "text": "Wat is een haiku?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Een gedicht van veertien regels"
+    },
+    {
+     "id": "b",
+     "text": "Een Japans toneelstuk"
+    },
+    {
+     "id": "c",
+     "text": "Een kort gedicht van 5-7-5 lettergrepen"
+    },
+    {
+     "id": "d",
+     "text": "Een lang verhalend gedicht"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "De klassieke Japanse vorm telt doorgaans 17 lettergrepen.",
+   "category": "Taal & spreekwoorden",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Japanse dichtvorm met drie regels."
+  },
+  {
+   "text": "Wie is de auteur van 1984?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Aldous Huxley"
+    },
+    {
+     "id": "b",
+     "text": "George Orwell"
+    },
+    {
+     "id": "c",
+     "text": "Ray Bradbury"
+    },
+    {
+     "id": "d",
+     "text": "H.G. Wells"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Orwell publiceerde de dystopische roman in 1949.",
+   "category": "Literatuur",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Hij schreef ook Animal Farm."
+  },
+  {
+   "text": "Welke Nederlandse schilder maakte Meisje met de parel?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Johannes Vermeer"
+    },
+    {
+     "id": "b",
+     "text": "Rembrandt van Rijn"
+    },
+    {
+     "id": "c",
+     "text": "Frans Hals"
+    },
+    {
+     "id": "d",
+     "text": "Jan Steen"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Vermeer schilderde dit beroemde portret rond 1665.",
+   "category": "Kunst & cultuur",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Hij werkte in Delft."
+  },
+  {
+   "text": "Wat is de chemische formule van water?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "H₂O₂"
+    },
+    {
+     "id": "b",
+     "text": "CO₂"
+    },
+    {
+     "id": "c",
+     "text": "NaCl"
+    },
+    {
+     "id": "d",
+     "text": "H₂O"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Een watermolecuul bestaat uit twee waterstof- en één zuurstofatoom.",
+   "category": "Wetenschap",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Twee waterstofatomen."
+  },
+  {
+   "text": "Welk gas nemen planten op bij fotosynthese?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Zuurstof (O₂)"
+    },
+    {
+     "id": "b",
+     "text": "Stikstof (N₂)"
+    },
+    {
+     "id": "c",
+     "text": "Waterstof (H₂)"
+    },
+    {
+     "id": "d",
+     "text": "Koolstofdioxide (CO₂)"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Planten gebruiken CO₂ en water om met licht suikers te maken.",
+   "category": "Wetenschap",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Mensen ademen het uit."
+  },
+  {
+   "text": "Hoe heet de kracht die voorwerpen naar de aarde trekt?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Magnetisme"
+    },
+    {
+     "id": "b",
+     "text": "Wrijving"
+    },
+    {
+     "id": "c",
+     "text": "Zwaartekracht"
+    },
+    {
+     "id": "d",
+     "text": "Centrifugaalkracht"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Zwaartekracht trekt massa's naar elkaar toe.",
+   "category": "Wetenschap",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Newton had er een verhaal over."
+  },
+  {
+   "text": "Welk element heeft symbool Au?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Zilver"
+    },
+    {
+     "id": "b",
+     "text": "Goud"
+    },
+    {
+     "id": "c",
+     "text": "Aluminium"
+    },
+    {
+     "id": "d",
+     "text": "Koper"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Au komt van het Latijnse aurum.",
+   "category": "Wetenschap",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Een edelmetaal."
+  },
+  {
+   "text": "Hoeveel botten heeft een volwassen mens meestal?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "206"
+    },
+    {
+     "id": "b",
+     "text": "186"
+    },
+    {
+     "id": "c",
+     "text": "226"
+    },
+    {
+     "id": "d",
+     "text": "256"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Baby's hebben meer losse botten; veel groeien later samen.",
+   "category": "Wetenschap",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Net iets meer dan tweehonderd."
+  },
+  {
+   "text": "Welke planeet is bekend om zijn opvallende ringen?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Saturnus"
+    },
+    {
+     "id": "b",
+     "text": "Jupiter"
+    },
+    {
+     "id": "c",
+     "text": "Mars"
+    },
+    {
+     "id": "d",
+     "text": "Venus"
+    }
+   ],
+   "correct": [
+    "a"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Saturnus heeft ringen van ijs- en gesteentedeeltjes.",
+   "category": "Wetenschap",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "De zesde planeet vanaf de zon."
+  },
+  {
+   "text": "Wat meet een thermometer?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Luchtvochtigheid"
+    },
+    {
+     "id": "b",
+     "text": "Windsnelheid"
+    },
+    {
+     "id": "c",
+     "text": "Gewicht"
+    },
+    {
+     "id": "d",
+     "text": "Temperatuur"
+    }
+   ],
+   "correct": [
+    "d"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Een thermometer geeft aan hoe warm of koud iets is.",
+   "category": "Wetenschap",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Niet luchtdruk."
+  },
+  {
+   "text": "Welk dier is het snelste landdier?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "De leeuw"
+    },
+    {
+     "id": "b",
+     "text": "De luipaard"
+    },
+    {
+     "id": "c",
+     "text": "De cheeta"
+    },
+    {
+     "id": "d",
+     "text": "De windhond"
+    }
+   ],
+   "correct": [
+    "c"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Een cheeta kan korte sprints van rond 100 km/u halen.",
+   "category": "Natuur & dieren",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Gevlekt roofdier."
+  },
+  {
+   "text": "Wat is de hardste natuurlijke stof op aarde?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Robijn"
+    },
+    {
+     "id": "b",
+     "text": "Diamant"
+    },
+    {
+     "id": "c",
+     "text": "Kwarts"
+    },
+    {
+     "id": "d",
+     "text": "Smaragd"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Diamant staat bovenaan de hardheidsschaal van Mohs.",
+   "category": "Wetenschap",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "Een edelsteen."
+  },
+  {
+   "text": "Welke wetenschapper formuleerde de relativiteitstheorie?",
+   "type": "MC",
+   "options": [
+    {
+     "id": "a",
+     "text": "Isaac Newton"
+    },
+    {
+     "id": "b",
+     "text": "Albert Einstein"
+    },
+    {
+     "id": "c",
+     "text": "Galileo Galilei"
+    },
+    {
+     "id": "d",
+     "text": "Niels Bohr"
+    }
+   ],
+   "correct": [
+    "b"
+   ],
+   "points": 10,
+   "seconds": 30,
+   "explanation": "Einstein publiceerde de speciale relativiteitstheorie in 1905.",
+   "category": "Wetenschap",
+   "tags": [
+    "vragenset-100",
+    "meerkeuze"
+   ],
+   "source": "Eigen vragenset (100 vragen)",
+   "hint": "E = mc²."
+  }
+ ]
+}
