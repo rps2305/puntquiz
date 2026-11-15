@@ -125,7 +125,7 @@
    ]
   },
   {
-   "text": "Welk passagiersvliegtuig is dit?",
+   "text": "Welk passagiersvliegtuig van Airbus is dit?",
    "type": "MC",
    "options": [
     {
@@ -330,7 +330,7 @@
    ]
   },
   {
-   "text": "Welk vliegtuig is dit?",
+   "text": "Welk pionierstoestel uit 1903 is dit?",
    "type": "MC",
    "options": [
     {
@@ -371,7 +371,7 @@
    ]
   },
   {
-   "text": "Welk vliegtuig is dit?",
+   "text": "Welk legendarisch toestel is dit?",
    "type": "MC",
    "options": [
     {
