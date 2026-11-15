@@ -120,10 +120,26 @@
         <p class="muted" style="margin: 0">De quiz kan pas eindigen als alle beeldrondes onthuld zijn.</p>
       </div>
 
+      <!-- Presenter overview: check every question with its image, sound or video, and the right answer, in advance. -->
+      <details v-if="view.outline?.length" class="card">
+        <summary style="cursor: pointer"><strong>Alle vragen bekijken</strong> <span class="muted">(met afbeelding, geluid en video)</span></summary>
+        <div class="stack" style="margin-top: 12px">
+          <section v-for="r in view.outline" :key="r.number">
+            <h3 style="margin-bottom: 6px">Ronde {{ r.number }}: {{ r.title }}<span v-if="r.kind === 'PICTURE'" class="pill gold" style="margin-left: 8px">beeldronde</span></h3>
+            <div v-for="q in r.questions" :key="q.id" style="border-bottom: 1px solid var(--border); padding: 8px 0" :style="q.id === live.questionId ? 'background: var(--surface-2); border-radius: var(--r-sm); padding: 8px' : ''">
+              <div class="row"><strong class="grow">{{ q.number }}. {{ q.text }}</strong><span v-if="q.id === live.questionId" class="pill gold">nu</span></div>
+              <div class="muted">Juist: <span style="color: var(--success); font-weight: 800">{{ q.answer }}</span></div>
+              <MediaPeek :items="q.media" />
+            </div>
+          </section>
+        </div>
+      </details>
+
       <div v-if="view.revealed.length" class="card stack">
         <h3>Onthuld</h3>
         <div v-for="r in view.revealed" :key="r.question.id">
           <strong>{{ r.question.text }}</strong>
+          <MediaPeek :items="r.question.media ?? []" />
           <div class="row">
             <span class="muted grow">Juist: <template v-if="r.question.type === 'MUSIC'">{{ r.question.music?.artist[0] }} – {{ r.question.music?.title[0] }}</template><template v-else>{{ r.question.options.filter((o) => r.question.correct?.includes(o.id)).map((o) => o.text).join(', ') || r.question.correct?.join(' / ') }}</template></span>
             <button v-if="r.question.type === 'MC' || r.question.type === 'MULTI'" class="ghost small" @click="startFix(r.question)">Antwoord corrigeren</button>

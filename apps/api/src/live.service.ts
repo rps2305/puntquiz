@@ -941,6 +941,7 @@ export class LiveService {
     const flatQ = flatten(quiz).find((f) => f.q.id === base.live.questionId)
     return {
       ...base,
+      outline: this.outline(quiz),
       answered,
       online: this.presence.online(quizId),
       currentCorrect: flatQ ? (flatQ.q.correct as unknown as string[]) : null,
@@ -949,6 +950,31 @@ export class LiveService {
       powerUpsUsed: await this.powerUpsUsed(quizId, base.live.questionId),
       pictureProgress: await this.pictureProgress(quizId, base.pictures.map((p) => p.questions.map((q) => q.id)).flat()),
     }
+  }
+
+  /** Every round and question with media and the right answer in words (presenter only). */
+  private outline(quiz: FullQuiz): HostLiveView['outline'] {
+    return [...quiz.rounds]
+      .sort((a, b) => a.number - b.number)
+      .map((r) => ({
+        number: r.number,
+        title: r.title,
+        kind: r.kind,
+        questions: [...r.questions]
+          .sort((a, b) => a.number - b.number)
+          .map((q) => {
+            const dto = toQuestionDto(q, true)
+            const opts = (q.options as unknown as { id: string; text: string }[]) ?? []
+            const correct = (q.correct as unknown as string[]) ?? []
+            const music = q.type === 'MUSIC' ? (q.config as unknown as { artist?: string[]; title?: string[]; year?: number | null } | null) : null
+            const answer = music
+              ? `${[music.artist?.[0], music.title?.[0]].filter(Boolean).join(' – ')}${music.year ? ` (${music.year})` : ''}`
+              : q.type === 'OPEN'
+                ? correct.join(' / ')
+                : correct.map((id) => opts.find((o) => o.id === id)?.text ?? id).join(', ')
+            return { id: q.id, number: q.number, text: q.text, type: q.type, media: dto.media ?? [], answer }
+          }),
+      }))
   }
 
   private async pictureProgress(quizId: string, questionIds: string[]): Promise<Record<string, number> | null> {

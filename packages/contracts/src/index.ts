@@ -263,7 +263,25 @@ export interface StandingsDto {
   gradedQuestions: number
 }
 
+/** Presenter-only overview of the whole quiz, so media and answers can be checked in advance. */
+export interface OutlineQuestionDto {
+  id: string
+  number: number
+  text: string
+  type: QuestionType
+  media: MediaDto[]
+  /** The right answer(s) in words. */
+  answer: string
+}
+export interface OutlineRoundDto {
+  number: number
+  title: string
+  kind: RoundKind
+  questions: OutlineQuestionDto[]
+}
+
 export interface HostLiveView extends PlayerLiveView {
+  outline: OutlineRoundDto[]
   answered: number
   online: number
   currentCorrect: string[] | null
