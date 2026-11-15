@@ -17,8 +17,9 @@ type Opts = { id: string; text: string }[]
 export class BankService {
   constructor(private prisma: PrismaService) {}
 
+  /** Everyone, admins included, works in their own question bank (an admin who also owns copies would otherwise see every question twice). */
   private scope(req: AuthedRequest): Prisma.BankQuestionWhereInput {
-    return req.user.isAdmin ? {} : { ownerId: req.user.id }
+    return { ownerId: req.user.id }
   }
 
   async usage(ids: string[]): Promise<Map<string, BankUsage>> {
