@@ -44,6 +44,8 @@ services:
       LOCAL_AUTH: ${LOCAL_AUTH:-true}
       # required (default): new accounts must ask an admin before they can build/present quizzes. open: every registered user may.
       HOST_APPROVAL: ${HOST_APPROVAL:-required}
+      # true (default): all presenters share one question bank; false: a private bank per user
+      BANK_SHARED: ${BANK_SHARED:-true}
       SMTP_HOST: ${SMTP_HOST:-}
       SMTP_PORT: ${SMTP_PORT:-465}
       SMTP_USER: ${SMTP_USER:-}

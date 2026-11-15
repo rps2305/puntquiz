@@ -7,3 +7,9 @@ export function mayHost(u: { isGuest: boolean; isAdmin: boolean; canHost: boolea
   if (u.isGuest) return false
   return u.isAdmin || u.canHost || mode === 'open'
 }
+
+/**
+ * `true` (default): presenters share one question bank (they are all approved by an admin). `false`: every user has their own
+ * bank (used by tests/e2e.mjs, where fresh users need an empty bank).
+ */
+export const BANK_SHARED = process.env.BANK_SHARED !== 'false'

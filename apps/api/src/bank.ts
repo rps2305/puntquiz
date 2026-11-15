@@ -1,3 +1,4 @@
+import { BANK_SHARED } from './hosting'
 import { BadRequestException, Body, Controller, Delete, ForbiddenException, Get, Injectable, NotFoundException, Param, Post, Put, Query, Req, Res, UseGuards } from '@nestjs/common'
 import type { Response } from 'express'
 import { Prisma } from '@prisma/client'
@@ -17,9 +18,9 @@ type Opts = { id: string; text: string }[]
 export class BankService {
   constructor(private prisma: PrismaService) {}
 
-  /** Everyone, admins included, works in their own question bank (an admin who also owns copies would otherwise see every question twice). */
+  /** One shared bank for all presenters (BANK_SHARED, default), or a private bank per user. The creator stays in `ownerId`. */
   private scope(req: AuthedRequest): Prisma.BankQuestionWhereInput {
-    return { ownerId: req.user.id }
+    return BANK_SHARED ? {} : { ownerId: req.user.id }
   }
 
   async usage(ids: string[]): Promise<Map<string, BankUsage>> {
@@ -114,7 +115,7 @@ export class BankService {
 
   /** Insert items, skipping ones whose normalised text already exists for this owner (or earlier in the batch). */
   async insertMany(ownerId: string, items: BankInput[]) {
-    const existing = new Set((await this.prisma.bankQuestion.findMany({ where: { ownerId }, select: { text: true } })).map((e) => normalizeText(e.text)))
+    const existing = new Set((await this.prisma.bankQuestion.findMany({ where: BANK_SHARED ? {} : { ownerId }, select: { text: true } })).map((e) => normalizeText(e.text)))
     const fresh: BankInput[] = []
     let duplicates = 0
     for (const it of items) {
@@ -161,7 +162,7 @@ export class BankService {
     const quiz = await this.prisma.quiz.findUnique({ where: { id: quizId }, include: { rounds: { include: { questions: true } } } })
     if (!quiz) throw new NotFoundException('Quiz not found')
     if (quiz.hostId !== req.user.id && !req.user.isAdmin) throw new ForbiddenException('Not your quiz')
-    const existing = await this.prisma.bankQuestion.findMany({ where: { ownerId: req.user.id }, select: { id: true, text: true } })
+    const existing = await this.prisma.bankQuestion.findMany({ where: BANK_SHARED ? {} : { ownerId: req.user.id }, select: { id: true, text: true } })
     const byText = new Map(existing.map((e) => [normalizeText(e.text), e.id]))
     let added = 0
     let linked = 0
