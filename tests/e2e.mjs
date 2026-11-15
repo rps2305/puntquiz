@@ -107,6 +107,31 @@ for (let i = 0; i < 6; i++) {
   await c.req('POST', `/play/${quiz.joinCode}/join`)
   players.push(c)
 }
+// ---- Chat with the presenter ----
+{
+  const stranger = new Client('stranger'); await stranger.req('POST', '/auth/guest', { name: 'Buitenstaander' })
+  await fail(stranger.req('POST', `/live/${quiz.id}/chat`, { text: 'hoi' }), 403)
+  await fail(stranger.req('GET', `/live/${quiz.id}/chat`), 403)
+  await players[0].req('POST', `/live/${quiz.id}/chat`, { text: '  Kan de vraag nog   een keer?  ' })
+  await fail(players[0].req('POST', `/live/${quiz.id}/chat`, { text: '' }), 400)
+  await fail(players[0].req('POST', `/live/${quiz.id}/chat`, { text: 'x'.repeat(301) }), 400)
+  let hostChat = await host.req('GET', `/live/${quiz.id}/chat?host=1`)
+  assert.equal(hostChat.messages.length, 1); assert.equal(hostChat.messages[0].text, 'Kan de vraag nog een keer?'); assert.equal(hostChat.messages[0].from, 'Speler 0')
+  assert.equal((await players[1].req('GET', `/live/${quiz.id}/chat`)).messages.length, 0, 'other players never see it')
+  assert.equal((await players[0].req('GET', `/live/${quiz.id}/chat`)).messages.length, 1)
+  await fail(players[1].req('GET', `/live/${quiz.id}/chat?host=1`), 403)
+  const p0 = hostChat.messages[0].fromId
+  await host.req('POST', `/live/${quiz.id}/chat`, { text: 'Ja, zo meteen.', to: p0 })
+  await host.req('POST', `/live/${quiz.id}/chat`, { text: 'Nog 5 minuten pauze!' })
+  assert.equal((await players[0].req('GET', `/live/${quiz.id}/chat`)).messages.length, 3, 'author sees own + private reply + broadcast')
+  assert.equal((await players[1].req('GET', `/live/${quiz.id}/chat`)).messages.length, 1, 'others only see the broadcast')
+  await players[2].req('POST', `/live/${quiz.id}/chat`, { text: 'een' }); await players[2].req('POST', `/live/${quiz.id}/chat`, { text: 'twee' }); await players[2].req('POST', `/live/${quiz.id}/chat`, { text: 'drie' })
+  await fail(players[2].req('POST', `/live/${quiz.id}/chat`, { text: 'vier' }), 400)
+  hostChat = await host.req('GET', `/live/${quiz.id}/chat?host=1`)
+  await host.req('DELETE', `/live/${quiz.id}/chat/${hostChat.messages[0].id}`)
+  assert.equal((await players[0].req('GET', `/live/${quiz.id}/chat`)).messages.length, 2, 'deleted message is gone')
+  console.log('chat checks OK')
+}
 await players[0].req('POST', `/live/${quiz.id}/teams`, { name: 'Alfa' })
 await players[3].req('POST', `/live/${quiz.id}/teams`, { name: 'Beta' })
 await fail(players[4].req('POST', `/live/${quiz.id}/teams`, { name: 'Alfa' }), 409)

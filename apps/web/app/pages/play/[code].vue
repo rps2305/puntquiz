@@ -185,6 +185,7 @@
 
       <details v-if="live.phase !== 'LOBBY'"><summary>Spelregels</summary><Rules :quiz="view.quiz" :has-open="view.quiz.hasOpenQuestions" :has-picture="view.quiz.rounds.some((r) => r.kind === 'PICTURE')" /></details>
     </template>
+    <ChatPanel v-if="view && quizId" :quiz-id="quizId" :tick="chatTick" />
   </main>
 </template>
 <script setup lang="ts">
@@ -201,7 +202,7 @@ async function setMail(enabled: boolean) {
   try { await api(`/live/${quizId.value}/email-pref`, { method: 'POST', body: { enabled } }); await L.refresh() } catch (e: any) { err.value = e.message; await L.refresh() }
 }
 const L = useLive(() => quizId.value, false)
-const { view, standings, connected, error, pendingNotice, remainingMs, serverNow } = L
+const { view, standings, connected, error, pendingNotice, remainingMs, serverNow, chatTick } = L
 // Extra Time lets one owner keep answering after the shared timer ran out (the server enforces it).
 const extraUntil = computed(() => view.value?.powerUps?.extraUntil ?? null)
 const extraActive = computed(() => live.value.phase === 'QUESTION_CLOSED' && !!extraUntil.value && serverNow.value < extraUntil.value)

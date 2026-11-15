@@ -90,6 +90,10 @@ export class QuizGateway implements OnGatewayConnection, OnGatewayDisconnect {
   emitHostRefresh(quizId: string) {
     this.server.to(`host:${quizId}`).emit(SOCKET_EVENTS.answered, { presenceChanged: true })
   }
+  /** Chat: "refetch" nudge, to the presenter only (player message) or to everyone in the quiz (presenter message). */
+  emitChat(quizId: string, toHostOnly: boolean) {
+    this.server.to(toHostOnly ? `host:${quizId}` : `quiz:${quizId}`).emit(SOCKET_EVENTS.chat, {})
+  }
   emitAnswered(quizId: string, answered: number) {
     this.server.to(`host:${quizId}`).emit(SOCKET_EVENTS.answered, { answered })
   }

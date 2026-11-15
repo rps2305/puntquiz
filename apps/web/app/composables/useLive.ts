@@ -20,6 +20,8 @@ export function useLive(getId: () => string, host = false) {
   const now = ref(Date.now())
   const offset = ref(0)
   const pendingNotice = ref(false)
+  /** Bumped when the server says the chat changed: chat components refetch. */
+  const chatTick = ref(0)
   let socket: Socket | null = null
   let tick: ReturnType<typeof setInterval> | null = null
   let poll: ReturnType<typeof setInterval> | null = null
@@ -94,6 +96,7 @@ export function useLive(getId: () => string, host = false) {
     })
     socket.on('disconnect', () => (connected.value = false))
     socket.on('quiz:changed', scheduleRefresh)
+    socket.on('quiz:chat', () => chatTick.value++)
     socket.on('quiz:answered', (m: { answered?: number; presenceChanged?: boolean }) => {
       if (m.presenceChanged) return scheduleRefresh()
       if (view.value && typeof m.answered === 'number') view.value.answered = m.answered
@@ -136,7 +139,7 @@ export function useLive(getId: () => string, host = false) {
   }
 
   onBeforeUnmount(disconnect)
-  return { view, standings, connected, error, remainingMs, serverNow, pendingNotice, connect, refresh, answer, action }
+  return { view, standings, connected, error, remainingMs, serverNow, pendingNotice, chatTick, connect, refresh, answer, action }
 }
 
 export function fmtTime(ms: number) {

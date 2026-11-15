@@ -83,6 +83,7 @@ model Quiz {
   teams         Team[]
   participations Participation[]
   audit         AuditLog[]
+  chat          ChatMessage[]
 }
 
 model Round {
@@ -177,6 +178,21 @@ model AuditLog {
   action    String
   data      Json?
   createdAt DateTime @default(now())
+
+  @@index([quizId, createdAt])
+}
+
+/// Chat between players and the presenter during a quiz: player -> presenter, or presenter -> one player / everyone.
+model ChatMessage {
+  id         String   @id @default(uuid())
+  quizId     String
+  quiz       Quiz     @relation(fields: [quizId], references: [id], onDelete: Cascade)
+  authorId   String
+  fromHost   Boolean  @default(false)
+  /// Presenter messages: the addressed player, or null for everyone.
+  toUserId   String?
+  body       String
+  createdAt  DateTime @default(now())
 
   @@index([quizId, createdAt])
 }

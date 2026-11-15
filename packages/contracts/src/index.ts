@@ -315,6 +315,7 @@ export const SOCKET_EVENTS = {
   answered: 'quiz:answered',
   join: 'quiz:join',
   answer: 'quiz:answer',
+  chat: 'quiz:chat',
 } as const
 
 export interface BankUsage {
@@ -342,3 +343,18 @@ export interface BankQuestionDto {
   config?: MusicConfigDto | null
   usage: BankUsage
 }
+
+export interface ChatMessageDto {
+  id: string
+  at: string
+  fromHost: boolean
+  fromId: string
+  /** Display name of the author. */
+  from: string
+  /** Presenter messages: the addressed player's id (null = everyone). */
+  toId: string | null
+  to: string | null
+  text: string
+  mine: boolean
+}
+export const CHAT_MAX_LENGTH = 300

@@ -120,6 +120,40 @@
         <p class="muted" style="margin: 0">De quiz kan pas eindigen als alle beeldrondes onthuld zijn.</p>
       </div>
 
+      <!-- Chat with the players -->
+      <details class="card" :open="chatOpen" @toggle="chatOpen = ($event.target as HTMLDetailsElement).open">
+        <summary style="cursor: pointer">
+          <strong>💬 Berichten van spelers</strong>
+          <span v-if="newFromPlayers" class="pill gold" style="margin-left: 8px">{{ newFromPlayers }} nieuw</span>
+          <span v-else class="muted"> ({{ playerMessages.length }})</span>
+        </summary>
+        <div class="stack" style="margin-top: 12px">
+          <p v-if="chat.error.value" class="err" role="alert">{{ chat.error.value }}</p>
+          <p v-if="!chat.messages.value.length" class="muted" style="margin: 0">Nog geen berichten. Spelers kunnen je tijdens de quiz een bericht sturen.</p>
+          <div v-for="m in chat.messages.value" :key="m.id" class="row" style="border-bottom: 1px solid var(--border); padding-bottom: 8px; align-items: flex-start">
+            <div class="grow" style="overflow-wrap: anywhere">
+              <strong>{{ m.fromHost ? 'Jij' : m.from }}</strong>
+              <span v-if="m.fromHost" class="muted"> → {{ m.to ?? 'iedereen' }}</span>
+              <span class="muted mono" style="margin-left: 6px">{{ new Date(m.at).toLocaleTimeString('nl-NL', { hour: '2-digit', minute: '2-digit' }) }}</span><br />
+              {{ m.text }}
+            </div>
+            <button v-if="!m.fromHost" class="ghost small" @click="replyTo = m.fromId; replyName = m.from">Antwoord</button>
+            <button class="ghost small" aria-label="Bericht verwijderen" @click="chat.remove(m.id)">✕</button>
+          </div>
+          <form class="stack" @submit.prevent="sendChat">
+            <div class="row">
+              <span class="muted grow">Aan: <strong>{{ replyTo ? replyName : 'alle spelers' }}</strong></span>
+              <button v-if="replyTo" type="button" class="ghost small" @click="replyTo = null">Aan iedereen</button>
+            </div>
+            <div class="row" style="flex-wrap: nowrap">
+              <label for="hostchat" class="sr-only">Bericht</label>
+              <input id="hostchat" v-model="chatText" class="grow" maxlength="300" placeholder="Typ een bericht…" autocomplete="off" />
+              <button :disabled="chat.busy.value || !chatText.trim()">Verstuur</button>
+            </div>
+          </form>
+        </div>
+      </details>
+
       <!-- Presenter overview: check every question with its image, sound or video, and the right answer, in advance. -->
       <details v-if="view.outline?.length" class="card">
         <summary style="cursor: pointer"><strong>Alle vragen bekijken</strong> <span class="muted">(met afbeelding, geluid en video)</span></summary>
@@ -178,7 +212,23 @@ const route = useRoute()
 const { user, loaded } = useAuth()
 const id = route.params.id as string
 const L = useLive(() => id, true)
-const { view, connected, error, remainingMs } = L
+const chat = useChat(() => id, true)
+const chatOpen = ref(false)
+const chatText = ref('')
+const replyTo = ref<string | null>(null)
+const replyName = ref('')
+const seenCount = ref(0)
+const playerMessages = computed(() => chat.messages.value.filter((m) => !m.fromHost))
+const newFromPlayers = computed(() => (chatOpen.value ? 0 : Math.max(0, playerMessages.value.length - seenCount.value)))
+watch(chatOpen, (o) => { if (o) seenCount.value = playerMessages.value.length })
+watch(() => chat.messages.value.length, () => { if (chatOpen.value) seenCount.value = playerMessages.value.length })
+async function sendChat() {
+  const t = chatText.value.trim()
+  if (!t) return
+  if (await chat.send(t, replyTo.value)) { chatText.value = ''; replyTo.value = null }
+}
+const { view, connected, error, remainingMs, chatTick } = L
+watch(chatTick, () => chat.load())
 const err = ref('')
 const busy = ref(false)
 const warn = ref<string[] | null>(null)
@@ -238,6 +288,7 @@ async function init() {
   origin.value = location.origin
   try {
     await L.connect()
+    await chat.load()
     const code = view.value?.quiz.joinCode
     if (code) qr.value = await QRCode.toDataURL(`${location.origin}/play/${code}`, { margin: 1, width: 440 })
   } catch (e: any) { err.value = e.message }

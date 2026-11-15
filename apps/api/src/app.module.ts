@@ -7,6 +7,7 @@ import { QuizGateway } from './gateway'
 import { LiveController } from './live.controller'
 import { LiveService } from './live.service'
 import { PresenceService } from './presence.service'
+import { ChatController } from './chat'
 import { MediaController } from './media.controller'
 import { MailService } from './mail.service'
 import { PrismaService } from './prisma.service'
@@ -28,7 +29,7 @@ class HealthController {
 }
 
 @Module({
-  controllers: [AdminController, AuthController, QuizzesController, BankController, MediaController, LiveController, HealthController],
+  controllers: [ChatController, AdminController, AuthController, QuizzesController, BankController, MediaController, LiveController, HealthController],
   providers: [RetentionService, PrismaService, MailService, RedisService, AuthService, AuthGuard, HostGuard, QuizzesService, BankService, LiveService, QuizGateway, PresenceService],
 })
 export class AppModule implements OnModuleInit {

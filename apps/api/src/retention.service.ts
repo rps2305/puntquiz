@@ -46,6 +46,7 @@ export class RetentionService implements OnModuleInit, OnModuleDestroy {
       await this.prisma.$transaction([
         this.prisma.grade.deleteMany({ where: { quizId } }),
         this.prisma.powerUpUse.deleteMany({ where: { quizId } }),
+        this.prisma.chatMessage.deleteMany({ where: { quizId } }),
         this.prisma.auditLog.deleteMany({ where: { quizId } }),
         this.prisma.participation.deleteMany({ where: { quizId } }), // answers cascade
         this.prisma.team.deleteMany({ where: { quizId } }),
