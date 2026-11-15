@@ -1,94 +1,102 @@
 # PuntQuiz
 
-**Real-time pub quiz where every player answers on their own phone, also in a team.**
+**Realtime pubquiz waarbij elke speler op de eigen telefoon antwoordt, ook in een team.**
 *"Elke speler telt, ook in een team."*
 
-A hobby project by Ronald Punt (Puntuale). It runs live at <https://puntquiz.puntuale.nl>. The interface and texts are in Dutch; the code and docs are in English.
+Een hobbyproject van Ronald Punt (Puntuale). Draait live op <https://puntquiz.puntuale.nl>. Voorlopig is het project geheel Nederlands: de app, de documentatie en de afspraken. Meertaligheid en eigen styling staan op de [roadmap](#roadmap).
 
 <p>
-  <img src="apps/web/public/spelregels/meerkeuze.jpg" alt="Multiple-choice question on a phone" width="22%">
-  <img src="apps/web/public/spelregels/beeldronde.jpg" alt="Picture round" width="22%">
-  <img src="apps/web/public/spelregels/tussenstand.jpg" alt="Standings" width="22%">
-  <img src="apps/web/public/spelregels/eindstand.jpg" alt="Final standings" width="22%">
+  <img src="apps/web/public/spelregels/meerkeuze.jpg" alt="Meerkeuzevraag op een telefoon" width="22%">
+  <img src="apps/web/public/spelregels/beeldronde.jpg" alt="Beeldronde" width="22%">
+  <img src="apps/web/public/spelregels/tussenstand.jpg" alt="Tussenstand" width="22%">
+  <img src="apps/web/public/spelregels/eindstand.jpg" alt="Eindstand" width="22%">
 </p>
 
-## Why
+## Waarom
 
-Most pub-quiz apps give one phone to a whole team. PuntQuiz lets everyone log in and answer for themselves. In team mode the team's answer is the majority vote of the players who answered, and the team score is an aggregate over individual participations. A quizmaster runs the quiz from a presenter screen; players join with a code or QR.
+De meeste pubquiz-apps geven één telefoon aan een heel team. Bij PuntQuiz logt iedereen in en antwoordt voor zichzelf. In teammodus is het teamantwoord de meerderheid van de stemmen van de spelers die hebben geantwoord, en de teamscore is een optelling over de individuele deelnames. Een quizmaster bedient de quiz vanaf een presentatorscherm; spelers doen mee met een code of QR-code.
 
-## Features
+## Functies
 
-- **Quiz building:** rounds and questions, reusable question bank (CSV, XLSX and JSON import/export), categories, hints and explanations.
-- **Question types:** multiple choice, true/false, multiple answers, open text (exact match, otherwise anonymous peer review with quizmaster override), music questions (artist, title, year scored separately).
-- **Media:** images, uploaded audio and YouTube clips; picture rounds that stay answerable during the next 1 to 3 rounds.
-- **Play modes:** individual or team; reveal per round or per question; standings halfway and at the end; ties share a rank.
-- **Power-ups:** 50/50, double, double risk, extra time and hint (pooled per team in team mode).
-- **Server-authoritative:** timers and scoring live on the server; the client timer is display-only. Answers are buffered offline and re-sent within a 60 second grace period.
-- **Printable answer forms and answer key**, for quizzes with paper as well as phones.
-- **E-mail (opt-in):** welcome mail, round results and final standings in house style.
-- **Accounts:** guests, or Authentik (OIDC) with optional social logins and MFA.
-- **PWA:** installable, with an offline page. Live data is never cached.
+- **Quiz bouwen:** rondes en vragen, een herbruikbare vragenbank (import en export als CSV, XLSX en JSON), categorieën, hints en toelichtingen.
+- **Vraagtypen:** meerkeuze, waar/onwaar, meerdere antwoorden, open vragen (exacte match, anders anonieme peer-review met correctie door de quizmaster) en muziekvragen (artiest, titel en jaar scoren los).
+- **Media:** afbeeldingen, geüploade audio en YouTube-fragmenten; beeldrondes die nog 1 tot 3 rondes lang beantwoord kunnen worden.
+- **Spelvormen:** individueel of in een team; onthullen per ronde of per vraag; tussenstand halverwege en eindstand; gelijke scores delen een plek.
+- **Power-ups:** 50/50, verdubbelaar, dubbel risico, extra tijd en hint (bij teams gezamenlijk).
+- **Server bepaalt alles:** timers en scores staan op de server; de klok op je telefoon is alleen weergave. Antwoorden worden offline bewaard en binnen 60 seconden alsnog verstuurd.
+- **Afdrukbare antwoordformulieren** en antwoordsleutel, voor quizzen met papier naast de telefoon.
+- **E-mail (opt-in):** welkomstmail, rondeuitslagen en eindstand in huisstijl.
+- **Accounts:** gast, of Authentik (OIDC) met optioneel sociale logins en MFA.
+- **PWA:** te installeren, met een offlinepagina. Live gegevens worden nooit gecachet.
 
-## Stack
+## Techniek
 
-| Part | Tech |
+| Onderdeel | Technologie |
 | --- | --- |
 | `apps/web` | Nuxt 4 (SPA), Vue 3, TypeScript |
-| `apps/api` | NestJS 11, Prisma 6, PostgreSQL, Redis, Socket.IO (sockets only say "refetch"; actions go through REST) |
-| `packages/contracts` | Shared TypeScript types between web and api |
-| `infra/authentik` | Authentik blueprint (OIDC provider, flows, branding) and the Dutch recovery mail template |
-| Runtime | One Docker Compose stack behind Traefik |
+| `apps/api` | NestJS 11, Prisma 6, PostgreSQL, Redis, Socket.IO (sockets zeggen alleen "haal opnieuw op"; acties lopen via REST) |
+| `packages/contracts` | Gedeelde TypeScript-types voor web en api |
+| `infra/authentik` | Authentik-blueprint (OIDC, flows, huisstijl) en het Nederlandse herstelmail-sjabloon |
+| Draaiomgeving | Eén Docker Compose-stack achter Traefik |
 
-The product and technical spec is `PuntQuiz - Consolidated Product Reference.md`: mission, roles, mechanics, scoring, architecture and, in Appendix C, what is built and what is not.
+De product- en techniekspecificatie is `PuntQuiz - Consolidated Product Reference.md`: doel, rollen, spelregels, scores, architectuur en, in Appendix C, wat er gebouwd is en wat niet.
 
-## Run it locally
+## Lokaal draaien
 
-You need Docker (with Compose) and Node 22 for the test scripts.
+Je hebt Docker (met Compose) nodig, en Node 22 voor de testscripts.
 
 ```bash
 docker compose up -d --build
 ```
 
-Then open <http://localhost:8088>. Locally you can play as a guest or with a local password account; sign-in through Authentik is at <http://auth.localhost:8088>. The first account you create becomes the quizmaster/admin.
+Open daarna <http://localhost:8088>. Lokaal kun je meedoen als gast of met een lokaal wachtwoordaccount; inloggen via Authentik is op <http://auth.localhost:8088>. Het eerste account dat je aanmaakt wordt quizmaster/beheerder.
 
-Settings (SMTP for mail, social login keys, secrets) come from a `.env` file that is not in the repo. `docker-compose.yml` lists the variable names; without them everything still works, only mail and social login are off.
+Instellingen (SMTP voor mail, sleutels voor sociale logins, geheimen) komen uit een `.env`-bestand dat niet in de repo staat. `docker-compose.yml` noemt de variabelen; zonder werkt alles nog steeds, alleen mail en sociale logins staan dan uit.
 
 ```bash
-npm ci                          # once, for tests and linting
-npm test                        # unit tests (api)
-node tests/e2e.mjs              # API end-to-end test against the running stack
-node tests/sw.test.mjs          # service worker rules
+npm ci                          # eenmalig, voor tests en linting
+npm test                        # unittests (api)
+node tests/e2e.mjs              # end-to-endtest van de API tegen de draaiende stack
+node tests/sw.test.mjs          # regels van de service worker
 npm run lint
 npm run typecheck
-npm run design                  # Impeccable design checks on the web sources
+npm run design                  # Impeccable-ontwerpcontrole op de webbronnen
 ```
 
-Run the e2e test against a local stack only: against a real server it leaves test data behind.
+Draai de e2e-test alleen tegen een lokale stack: tegen een echte server laat hij testgegevens achter.
 
-## Project layout
+## Mappen
 
 ```
-apps/api            NestJS API, live engine, Prisma schema and migrations
-apps/web            Nuxt app (pages, components, composables, public assets)
-packages/contracts  shared types
-infra/authentik     Authentik blueprint and mail template
-tests               e2e, service worker test, fixtures
-scripts             deploy script
-assets              favicon set, avatars, landing artwork sources
+apps/api            NestJS-API, live-engine, Prisma-schema en migraties
+apps/web            Nuxt-app (pagina's, componenten, composables, publieke bestanden)
+packages/contracts  gedeelde types
+infra/authentik     Authentik-blueprint en mailsjabloon
+tests               e2e, service worker-test, testbestanden
+scripts             deploy-script
+assets              favicon-set, avatars, bronnen van de landingspagina
 ```
 
-## Deploy
+## Uitrollen
 
-`scripts/deploy.sh` rsyncs the project to a server and runs `docker compose up`. The server address, SSH key and directory are read from `scripts/deploy.local.env` (not in the repo; copy `scripts/deploy.local.env.example`). Production secrets live only in that server's `.env`.
+`scripts/deploy.sh` synchroniseert het project naar een server en draait daar `docker compose up`. Serveradres, SSH-sleutel en map komen uit `scripts/deploy.local.env` (niet in de repo; kopieer `scripts/deploy.local.env.example`). De productiegeheimen staan alleen in de `.env` op die server.
 
 ## Status
 
-This is a working hobby project, not a product with a roadmap or support. Not built yet: account self-service export and delete, Sign in with Apple, push notifications, offline app shell, and more; see Appendix C of the reference for the honest list.
+Een werkend hobbyproject, geen product met ondersteuning. Wat nog niet gebouwd is staat eerlijk in Appendix C van de specificatie.
 
-## Contributing
+## Roadmap
 
-Issues and pull requests are welcome, in English or Dutch. Read [CONTRIBUTING.md](CONTRIBUTING.md) first.
+Geen beloftes of planning, wel de richting:
 
-## License
+- **Meertaligheid:** de app, de mails en de teksten zijn nu alleen Nederlands. Later meerdere talen, met de taal per speler of per quiz.
+- **Eigen styling:** nu is er één huisstijl (licht en donker). Later eigen thema's, bijvoorbeeld per quiz of organisatie, met eigen kleuren en logo.
+- **Nog niet gebouwd:** zelf je account exporteren en verwijderen, inloggen met Apple, pushmeldingen, een offline app-schil.
+
+## Meedoen
+
+Issues en pull requests zijn welkom, in het Nederlands. Lees eerst [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Licentie
 
 [MIT](LICENSE) © 2026 Ronald Punt (Puntuale).
